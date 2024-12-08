@@ -21,10 +21,39 @@ for i, line in enumerate(lines):
         data.append([parts[0]] + [department] + parts[1:])
 
 # Convert the processed data to a DataFrame
-df_affiliation = pd.DataFrame(data, columns=["Affiliation", " Department", "Record Count", "% of 281"])
+df_affiliation = pd.DataFrame(data, columns=["Affiliation", "Department", "Record Count", "% of 281"])
 df_affiliation['Record Count'] = pd.to_numeric(df_affiliation['Record Count'], downcast='integer', errors='coerce')
-unique_affiliations = df_affiliation['Affiliation'].unique()
-unique_affiliations_count = [sum(df_affiliation[df_affiliation["Affiliation"] == a]['Record Count']) for a in unique_affiliations]
+
+df_affiliation["Concat_Affiliation"] = df_affiliation["Affiliation"] + " " + df_affiliation["Department"]
+new_affiliations = []
+new_departsments = []
+for j, name in enumerate(df_affiliation["Concat_Affiliation"]):
+    parts = name.split(" ")
+    found = False
+    for i, part in enumerate(parts):
+        if part in ["Center","Division", "College", "School", "Faculty", "Academy", "Department", 'Shunde', 'Institute', 'State']:
+            affiliation = " ".join(parts[:i])
+            department = " ".join(parts[i:])
+            new_affiliations.append(affiliation)
+            new_departsments.append(department)
+            # print(affiliation)
+            # print(department)
+            # print(" ")
+            found=True
+            break
+    if not found:
+        new_affiliations.append(df_affiliation["Affiliation"][j])
+        new_departsments.append(df_affiliation["Department"][j])
+        print("Not Rearranged:" )
+        print(df_affiliation["Affiliation"][j])
+        print(df_affiliation["Department"][j])
+        print(" ")
+
+df_affiliation["Affiliation_new"] = new_affiliations
+df_affiliation["Department_new"] = new_departsments
+
+unique_affiliations = df_affiliation['Affiliation_new'].unique()
+unique_affiliations_count = [sum(df_affiliation[df_affiliation["Affiliation_new"] == a]['Record Count']) for a in unique_affiliations]
 
 df_affiliation_unique = pd.DataFrame(
     {'Affiliation': unique_affiliations,
@@ -67,9 +96,9 @@ df_years['Record Count'] = pd.to_numeric(df_years['Record Count'], downcast='int
 df_years.sort_values("Publication Years", inplace=True, ascending=True)
 # df_years.sort_values("Record count", inplace=True)
 # Display the DataFrame
-print(df_affiliation.head())
-print(df_countries.head())
-print(df_years.head())
+# print(df_affiliation.head())
+# print(df_countries.head())
+# print(df_years.head())
 
 ax = df_affiliation_unique.plot.bar(x="Affiliation", y="Record Count")
 affiliation_plot_path = os.path.join(dirname, r"graphs/affiliation with departments")
