@@ -1,0 +1,44 @@
+AUSTRALIA                              2	     0.712
+AUSTRIA                                1	     0.356
+BANGLADESH                             1	     0.356
+BELGIUM                               18	     6.406
+BRAZIL                                 1	     0.356
+BRUNEI                                 1	     0.356
+CANADA                                 9	     3.203
+CHILE                                  1	     0.356
+CROATIA                                1	     0.356
+CZECH REPUBLIC                         1	     0.356
+ENGLAND                               14	     4.982
+ETHIOPIA                               1	     0.356
+FINLAND                                2	     0.712
+FRANCE                                 3	     1.068
+GERMANY                               19	     6.762
+GREECE                                 1	     0.356
+INDIA                                 20	     7.117
+IRAN                                   4	     1.423
+IRAQ                                   1	     0.356
+ISRAEL                                 1	     0.356
+ITALY                                  7	     2.491
+JAPAN                                  3	     1.068
+LATVIA                                 1	     0.356
+LUXEMBOURG                             1	     0.356
+MALAYSIA                               7	     2.491
+NETHERLANDS                           21	     7.473
+NORWAY                                 2	     0.712
+PEOPLES R CHINA                      118	    41.993
+POLAND                                 3	     1.068
+QATAR                                  2	     0.712
+ROMANIA                                3	     1.068
+RUSSIA                                 4	     1.423
+SAUDI ARABIA                           3	     1.068
+SERBIA                                 1	     0.356
+SINGAPORE                              7	     2.491
+SOUTH AFRICA                           1	     0.356
+SOUTH KOREA                           13	     4.626
+SPAIN                                  6	     2.135
+SWEDEN                                 3	     1.068
+TAIWAN                                 6	     2.135
+THAILAND                               3	     1.068
+U ARAB EMIRATES                        2	     0.712
+USA                                   45	    16.014
+WALES                                  2	     0.712

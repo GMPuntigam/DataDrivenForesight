@@ -1,0 +1,606 @@
+Sun Yat Sen                            9	     3.203
+University School Of Chemistry               	          
+Beijing University                     7	     2.491
+Of Chemical Technology College Of Materials Science And Engineering               	          
+Nanjing University                     6	     2.135
+Of Science And Technology School Of Chemistry And Chemical Engineering               	          
+Ghent University                       5	     1.779
+Faculty Of Engineering And Architecture               	          
+Beijing University                     4	     1.423
+Of Chemical Technology College Of Chemical Engineering               	          
+National University                    4	     1.423
+Of Singapore College Of Design And Engineering               	          
+State Key Laboratory                   4	     1.423
+Of Chemical Resource Engineering               	          
+State Key Laboratory                   4	     1.423
+Of Organic Inorganic Composites               	          
+Chongqing University                   3	     1.068
+Faculty Of Engineering                  	          
+Chongqing University                   3	     1.068
+School Of Electrical Engineering               	          
+Delft University Of                    3	     1.068
+Technology Faculty Of Aerospace Engineering               	          
+Delft University Of                    3	     1.068
+Technology Faculty Of Applied Sciences               	          
+Donghua University                     3	     1.068
+College Of Materials Science And Engineering               	          
+Donghua University                     3	     1.068
+State Key Laboratory For Modification Of Chemical Fibers And Polymer Materials               	          
+Ghent University                       3	     1.068
+Faculty Of Sciences                     	          
+Ghent University                       3	     1.068
+Magnel Laboratory For Concrete Research               	          
+Jilin University                       3	     1.068
+College Of Chemistry                    	          
+Polytechnic Of Milan                   3	     1.068
+Department Of Aerospace Sciences And Technologies               	          
+South China                            3	     1.068
+University Of Technology School Of Materials Science And Engineering               	          
+Tianjin University                     3	     1.068
+School Of Materials Science And Engineering               	          
+University Of Bath                     3	     1.068
+Faculty Of Engineering And Design               	          
+Chongqing University                   2	     0.712
+State Key Laboratory Of Power Transmission Equipment And System Security And New Technology               	          
+Delft University Of                    2	     0.712
+Technology Department Chemical Engineering               	          
+Ghent University                       2	     0.712
+Department Of Organic Chemistry               	          
+Ghent University                       2	     0.712
+Department Of Structural Engineering               	          
+Harbin Institute Of                    2	     0.712
+Technology School Of Chemistry And Chemical Engineering               	          
+Korea University                       2	     0.712
+College Of Engineering                  	          
+Nanyang                                2	     0.712
+Technological University College Of Engineering               	          
+Nanyang                                2	     0.712
+Technological University School Of Mechanical And Aerospace Engineering               	          
+National University                    2	     0.712
+Of Singapore Department Of Materials Science And Engineering               	          
+National University                    2	     0.712
+Of Singapore Department Of Mechanical Engineering               	          
+Polytechnique                          2	     0.712
+Montreal Department Of Chemical Engineering               	          
+Shandong University                    2	     0.712
+School Of Materials Science And Engineering               	          
+South China                            2	     0.712
+University Of Technology National Engineering Research Center Of Novel Equipment For Polymer Processing               	          
+Southeast University                   2	     0.712
+Department Of Civil Engineering Materials               	          
+Southeast University                   2	     0.712
+Jiangsu Key Laboratory Of Construction Materials               	          
+Southeast University                   2	     0.712
+School Of Materials Science And Engineering               	          
+State Key Laboratory                   2	     0.712
+Of Supramolecular Structure And Materials               	          
+Texas A M University                   2	     0.712
+College Of Engineering                  	          
+The Hong Kong                          2	     0.712
+Polytechnic University Faculty Of Applied Sciences And Textiles               	          
+The University Of                      2	     0.712
+Tennessee Knoxville College Of Arts And Sciences               	          
+The University Of                      2	     0.712
+Tennessee Knoxville Department Of Chemistry               	          
+The University Of                      2	     0.712
+Tokyo Graduate School Of Engineering Faculty Of Engineering               	          
+The University Of                      2	     0.712
+Tokyo Graduate School Of Engineering Faculty Of Engineering Department Of Materials Engineering               	          
+Tianjin University                     2	     0.712
+School Of Chemical Engineering And Technology               	          
+Universiti Sains                       2	     0.712
+Malaysia Engineering Campus Seri Ampangan               	          
+Universiti Sains                       2	     0.712
+Malaysia School Of Materials And Mineral Resources Engineering               	          
+University Of                          2	     0.712
+Alberta Department Of Chemical And Materials Engineering               	          
+University Of                          2	     0.712
+Alberta Faculty Of Engineering               	          
+University Of Bath                     2	     0.712
+Department Of Mechanical Engineering               	          
+University Of                          2	     0.712
+California Los Angeles Henry Samueli School Of Engineering               	          
+University Of Oulu                     2	     0.712
+Faculty Of Information Technology And Electrical Engineering               	          
+University Of                          2	     0.712
+Science And Technology Beijing Institute For Advanced Material And Technology               	          
+University Of                          2	     0.712
+Science And Technology Beijing School Of Materials Science And Engineering               	          
+University Of                          2	     0.712
+Science And Technology Of China Chinese Academy Of Sciences Key Laboratory Of Soft Chemistry               	          
+University Of                          2	     0.712
+Science And Technology Of China Department Of Polymer Science And Engineering               	          
+University Of                          2	     0.712
+Science And Technology Of China Hefei National Laboratory For Physical Sciences At The Microscale               	          
+University Of                          2	     0.712
+Science And Technology Of China School Of Chemistry And Materials Science               	          
+University Of                          2	     0.712
+Southern California Sonny Astani Department Of Civil And Environmental Engineering               	          
+University Of                          2	     0.712
+Southern California Viterbi School Of Engineering               	          
+Vub Faculty Of                         2	     0.712
+Engineering                             	          
+Aristotle University                   1	     0.356
+Of Thessaloniki Faculty Of Sciences               	          
+Aristotle University                   1	     0.356
+Of Thessaloniki School Of Chemistry               	          
+Beijing Institute Of                   1	     0.356
+Technology Advanced Research Institute Of Multidisciplinary Science               	          
+Beijing Institute Of                   1	     0.356
+Technology School Of Materials Science And Engineering               	          
+Beijing Jiaotong                       1	     0.356
+University School Of Science               	          
+Beijing University                     1	     0.356
+Of Technology College Of Material Science And Engineering               	          
+Bournemouth                            1	     0.356
+University Department Of Design Engineering               	          
+Bournemouth                            1	     0.356
+University Faculty Of Science And Technology               	          
+Cardiff University                     1	     0.356
+College Of Physical Sciences And Engineering               	          
+Cardiff University                     1	     0.356
+School Of Engineering                   	          
+Carnegie Mellon                        1	     0.356
+University Department Of Chemistry               	          
+Carnegie Mellon                        1	     0.356
+University Mellon College Of Science               	          
+Charles University                     1	     0.356
+Department Of Inorganic Chemistry               	          
+Charles University                     1	     0.356
+Faculty Of Science                      	          
+Charles University                     1	     0.356
+Prague Chemistry Section                	          
+Chemnitz University                    1	     0.356
+Of Technology Institute Of Chemistry               	          
+Chongqing Jiaotong                     1	     0.356
+University School Of Civil Engineering               	          
+Concordia University                   1	     0.356
+Department Of Chemistry And Biochemistry               	          
+Concordia University                   1	     0.356
+Faculty Of Arts And Science               	          
+Dalian University Of                   1	     0.356
+Technology Department Of Engineering Mechanics               	          
+Dalian University Of                   1	     0.356
+Technology Faculty Of Electronic Information And Electrical Engineering               	          
+Dalian University Of                   1	     0.356
+Technology Faculty Of Vehicle Engineering And Mechanics               	          
+Dalian University Of                   1	     0.356
+Technology State Key Laboratory For Structural Analysis Of Industrial Equipment               	          
+Delft University Of                    1	     0.356
+Technology Department Of Biotechnology               	          
+Fudan University                       1	     0.356
+Department Of Optical Science And Engineering               	          
+Fudan University                       1	     0.356
+School Of Information Science And Engineering               	          
+Ghent University                       1	     0.356
+Department Of Materials Textiles And Chemical Engineering               	          
+Guangdong Hongkong                     1	     0.356
+Macau Institute Of Cns Regeneration               	          
+Hanyang University                     1	     0.356
+College Of Engineering                  	          
+Hanyang University                     1	     0.356
+College Of Engineering Department Of Chemical Engineering               	          
+Hanyang University                     1	     0.356
+College Of Engineering Sciences               	          
+Hanyang University                     1	     0.356
+Department Of Materials Science And Chemical Engineering               	          
+Harbin Institute Of                    1	     0.356
+Technology School Of Materials Science And Engineering               	          
+Harbin Institute Of                    1	     0.356
+Technology State Key Laboratory Of Advanced Welding And Joining               	          
+Hebrew University Of                   1	     0.356
+Jerusalem Faculty Of Science               	          
+Hebrew University Of                   1	     0.356
+Jerusalem Institute Of Chemistry               	          
+Hebrew University Of                   1	     0.356
+Jerusalem The Harvey M Krueger Family Center For Nanoscience And Nanotechnology               	          
+Imperial College                       1	     0.356
+London Department Of Materials               	          
+Imperial College                       1	     0.356
+London Department Of Mathematics               	          
+Imperial College                       1	     0.356
+London Faculty Of Engineering               	          
+Imperial College                       1	     0.356
+London Faculty Of Natural Sciences               	          
+Indian Institute Of                    1	     0.356
+Science Centre For Nano Science And Engineering               	          
+Indian Institute Of                    1	     0.356
+Science Division Of Interdisciplinary Sciences               	          
+Indian Institute Of                    1	     0.356
+Technology Kanpur Department Of Mechanical Engineering               	          
+Indian Institute Of                    1	     0.356
+Technology Roorkee Department Of Polymer And Process Engineering               	          
+Iowa State                             1	     0.356
+University College Of Engineering               	          
+Isfahan University                     1	     0.356
+Of Technology Faculty Of Chemical Engineering               	          
+James Franck                           1	     0.356
+Institute                               	          
+Jilin University                       1	     0.356
+Laboratory Of Theoretical And Computational Chemistry               	          
+Jinan University                       1	     0.356
+College Of Life Science And Technology               	          
+Jinan University                       1	     0.356
+Department Of Biomedical Engineering               	          
+Johns Hopkins                          1	     0.356
+University Department Of Chemistry               	          
+Johns Hopkins                          1	     0.356
+University Thomas C Jenkins Department Of Biophysics               	          
+Johns Hopkins                          1	     0.356
+University Zanvyl Krieger School Of Arts And Sciences               	          
+Karlsruhe Institut                     1	     0.356
+Of Technology Sector I Biology Chemistry And Process Engineering               	          
+Karlsruhe Institute                    1	     0.356
+Of Technology Department Of Technical Chemistry And Polymer Chemistry               	          
+Karlsruhe Institute                    1	     0.356
+Of Technology Faculty Of Chemistry And Biosciences               	          
+Kasetsart University                   1	     0.356
+Department Of Materials Science               	          
+Kasetsart University                   1	     0.356
+Faculty Of Science                      	          
+Key Laboratory Of                      1	     0.356
+Carbon Fiber And Functional Polymers Of Ministry Of Education               	          
+Key Laboratory Of                      1	     0.356
+Synthetic And Natural Functional Molecular Chemistry Of Ministry Of Education               	          
+King Abdulaziz                         1	     0.356
+University Faculty Of Engineering               	          
+Korea Advanced                         1	     0.356
+Institute Of Science And Technology College Of Engineering               	          
+Korea Advanced                         1	     0.356
+Institute Of Science And Technology Department Of Materials Science Engineering               	          
+Korea Advanced                         1	     0.356
+Institute Of Science And Technology Department Of Mechanical Engineering               	          
+Korea University                       1	     0.356
+Department Of Materials Science And Engineering               	          
+Korea University                       1	     0.356
+School Of Mechanical Engineering               	          
+Ku Leuven Department                   1	     0.356
+Of Civil Engineering                    	          
+Ku Leuven Faculty Of                   1	     0.356
+Engineering                             	          
+Ku Leuven Science                      1	     0.356
+Engineering And Technology Group               	          
+Kyungpook National                     1	     0.356
+University College Of It Engineering               	          
+Kyungpook National                     1	     0.356
+University School Of Dentistry               	          
+Kyungpook National                     1	     0.356
+University School Of Electronics Engineering               	          
+Liverpool John                         1	     0.356
+Moores University Faculty Of Engineering And Technology               	          
+Liverpool John                         1	     0.356
+Moores University School Of Civil Engineering And Built Environment               	          
+Lowa State                             1	     0.356
+University Department Of Materials Science And Engineering               	          
+Mcgill University                      1	     0.356
+Department Of Chemistry                 	          
+Mcgill University                      1	     0.356
+Faculty Of Science                      	          
+Monash University                      1	     0.356
+Department Of Civil Engineering               	          
+Monash University                      1	     0.356
+Faculty Of Engineering                  	          
+N 1 Institute For                      1	     0.356
+Health                                  	          
+Nanjing Tech                           1	     0.356
+University College Of Chemical Engineering               	          
+Nanjing Tech                           1	     0.356
+University State Key Laboratory Of Materials Oriented Chemical Engineering               	          
+Nanjing University                     1	     0.356
+Of Aeronautics And Astronautics College Of Economics And Management               	          
+Nanjing University                     1	     0.356
+Of Science And Technology Herbert Gleiter Institute Of Nanoscience               	          
+Nanjing University                     1	     0.356
+Of Science And Technology School Of Materials Science And Engineering               	          
+Nankai University                      1	     0.356
+College Of Chemistry                    	          
+Nankai University                      1	     0.356
+Department Of Chemistry                 	          
+Nankai University                      1	     0.356
+Institute Of Elemento Organic Chemistry               	          
+Nankai University                      1	     0.356
+State Key Laboratory Of Elemento Organic Chemistry               	          
+Nanyang                                1	     0.356
+Technological University School Of Civil And Environmental Engineering               	          
+National Energy                        1	     0.356
+University Institute Of Energy Infrastructure               	          
+National Sun Yat Sen                   1	     0.356
+University College Of Engineering               	          
+National Sun Yat Sen                   1	     0.356
+University Department Of Mechanical And Electro Mechanical Engineering               	          
+National Taiwan                        1	     0.356
+University Advanced Research Center For Green Materials Science And Technology               	          
+National Taiwan                        1	     0.356
+University College Of Engineering               	          
+National Taiwan                        1	     0.356
+University Department Of Chemical Engineering               	          
+National Taiwan                        1	     0.356
+University Institute Of Polymer Science And Engineering               	          
+National Taiwan                        1	     0.356
+University Of Science And Technology College Of Engineering               	          
+National Taiwan                        1	     0.356
+University Of Science And Technology Department Of Chemical Engineering               	          
+National Tsing Hua                     1	     0.356
+University College Of Engineering               	          
+National Tsing Hua                     1	     0.356
+University Department Of Materials Science And Engineering               	          
+National University                    1	     0.356
+Of Defense Technology College Of Aerospace Science And Engineering               	          
+National University                    1	     0.356
+Of Singapore Centre For Advanced 2d Materials               	          
+National University                    1	     0.356
+Of Singapore Centre For Nanotechnology Sustainability               	          
+National University                    1	     0.356
+Of Singapore Institute For Functional Intelligent Materials               	          
+Northwest University                   1	     0.356
+College Of Chemistry And Materials Science               	          
+Northwestern                           1	     0.356
+Polytechnical University School Of Materials Science And Engineering               	          
+Norwegian University                   1	     0.356
+Of Science And Technology Department Of Structural Engineering               	          
+Norwegian University                   1	     0.356
+Of Science And Technology Faculty Of Engineering               	          
+Panjab University                      1	     0.356
+Department Of Biophysics                	          
+Panjab University Dr                   1	     0.356
+S S Bhatnagar University Institute Of Chemical Engineering Technology               	          
+Panjab University                      1	     0.356
+Faculty Of Science                      	          
+Polytechnique                          1	     0.356
+Montreal                                	          
+Putra Malaysia                         1	     0.356
+University Institute Of Tropical Forestry And Forest Products               	          
+Putra Malaysia                         1	     0.356
+University Laboratory Of Biocomposite Technology               	          
+Putra University                       1	     0.356
+Malaysia Faculty Of Engineering               	          
+Qatar University                       1	     0.356
+College Of Arts And Sciences               	          
+Qatar University                       1	     0.356
+College Of Engineering                  	          
+Qatar University                       1	     0.356
+Department Of Chemical Engineering               	          
+Queensland                             1	     0.356
+University Of Technology Faculty Of Science               	          
+Queensland                             1	     0.356
+University Of Technology School Of Chemistry And Physics               	          
+Radboud University                     1	     0.356
+Nijmegen Medical Center                 	          
+Rice University                        1	     0.356
+Department Of Civil And Environmental Engineering               	          
+Rice University                        1	     0.356
+George R Brown School Of Engineering               	          
+Science University                     1	     0.356
+Of Malaysia School Of Housing Building And Planning               	          
+Shandong University                    1	     0.356
+Key Laboratory Of Collid And Interface Chemistry Ministry Of Education               	          
+Shandong University                    1	     0.356
+National Engineering Research Center For Colloidal Materials               	          
+Shandong University                    1	     0.356
+School Of Chemistry And Chemical Engineering               	          
+Shantou Central                        1	     0.356
+Hospital                                	          
+Shantou Central                        1	     0.356
+Hospital Department Of Emergency               	          
+Soochow University                     1	     0.356
+College Of Energy                       	          
+South China                            1	     0.356
+University Of Technology Guangdong Provincial Key Laboratory For Green Chemical Product Technology               	          
+South China                            1	     0.356
+University Of Technology School Of Chemistry And Chemical Engineering               	          
+South China                            1	     0.356
+University Of Technology School Of Mechanical And Automotive Engineering               	          
+Southeast University                   1	     0.356
+School Of Biological Sciences And Medical Engineering               	          
+Southeast University                   1	     0.356
+School Of Chemistry And Chemical Engineering               	          
+Southeast University                   1	     0.356
+School Of Energy And Environment               	          
+Southeast University                   1	     0.356
+State Key Laboratory Of Bioelectronics               	          
+Southwest Petroleum                    1	     0.356
+University Petroleum Engineering School               	          
+Stanford Medicine                      1	     0.356
+
+Stanford University                    1	     0.356
+Department Of Bioengineering               	          
+Stanford University                    1	     0.356
+School Of Engineering                   	          
+Stanford University                    1	     0.356
+School Of Medicine                      	          
+State Key Laboratory                   1	     0.356
+Of Advanced Technology For Materials Synthesis And Processing               	          
+State Key Laboratory                   1	     0.356
+Of Oil And Gas Reservoir Geology And Exploitation               	          
+State Key Laboratory                   1	     0.356
+Of Solidification Processing               	          
+Texas A M University                   1	     0.356
+Department Of Materials Science And Engineering               	          
+Texas A M University                   1	     0.356
+Zachry Department Of Civil And Environmental Engineering               	          
+The Hong Kong                          1	     0.356
+Polytechnic University Department Of Applied Biology And Chemical Technology               	          
+The Hong Kong                          1	     0.356
+Polytechnic University Institute Of Textiles And Clothing               	          
+The Hong Kong                          1	     0.356
+University Of Science And Technology Department Of Mechanical And Aerospace Engineering               	          
+The Hong Kong                          1	     0.356
+University Of Science And Technology School Of Engineering               	          
+The University Of                      1	     0.356
+British Columbia Department Of Chemical And Biological Engineering               	          
+The University Of                      1	     0.356
+British Columbia Department Of Chemistry               	          
+The University Of                      1	     0.356
+British Columbia Faculty Of Applied Science               	          
+The University Of                      1	     0.356
+British Columbia Faculty Of Science               	          
+The University Of                      1	     0.356
+Sheffield Department Of Automatic Control And Systems Engineering               	          
+The University Of                      1	     0.356
+Sheffield Faculty Of Engineering               	          
+The University Of                      1	     0.356
+Tennessee Knoxville Department Of Materials Science And Engineering               	          
+The University Of                      1	     0.356
+Tennessee Knoxville Tickle College Of Engineering               	          
+The University Of                      1	     0.356
+Texas At Dallas Department Of Mechanical Engineering               	          
+The University Of                      1	     0.356
+Texas At Dallas Erik Jonsson School Of Engineering And Computer Science               	          
+The University Of                      1	     0.356
+Tokyo Institute Of Industrial Science               	          
+The University Of                      1	     0.356
+Utah College Of Science                 	          
+The University Of                      1	     0.356
+Utah Department Of Chemistry               	          
+Tianjin University                     1	     0.356
+Department Of Biochemical Engineering               	          
+Tianjin University                     1	     0.356
+Department Of Chemistry                 	          
+Tianjin University                     1	     0.356
+School Of Pharmaceutical Science And Technology               	          
+Tianjin University                     1	     0.356
+School Of Science                       	          
+Tsinghua University                    1	     0.356
+Department Of Chemical Engineering               	          
+Tsinghua University                    1	     0.356
+Department Of Chemistry                 	          
+Tsinghua University                    1	     0.356
+Department Of Mechanical Engineering               	          
+Tsinghua University                    1	     0.356
+School Of Materials Science And Engineering               	          
+Tsinghua University                    1	     0.356
+School Of Mechanical Engineering               	          
+Tsinghua University                    1	     0.356
+School Of Sciences                      	          
+Tu Chemnitz Faculty                    1	     0.356
+Of Natural Sciences                     	          
+Tunku Abdul Rahman                     1	     0.356
+University Kuala Lumpur Campus               	          
+Tunku Abdul Rahman                     1	     0.356
+University Lee Kong Chian Faculty Of Engineering And Science               	          
+Universiti Putra                       1	     0.356
+Malaysia Department Of Aerospace Engineering               	          
+University Of                          1	     0.356
+Alberta Department Of Civil And Environmental Engineering               	          
+University Of Bath                     1	     0.356
+Department Of Chemical Engineering               	          
+University Of                          1	     0.356
+Birmingham College Of Engineering And Physical Sciences               	          
+University Of                          1	     0.356
+Birmingham School Of Chemistry               	          
+University Of                          1	     0.356
+California Irvine Department Of Chemistry               	          
+University Of                          1	     0.356
+California Los Angeles Department Of Materials Science And Engineering               	          
+University Of                          1	     0.356
+California Los Angeles Department Of Mechanical And Aerospace Engineering               	          
+University Of                          1	     0.356
+California San Diego Department Of Chemistry And Biochemistry               	          
+University Of                          1	     0.356
+California San Diego Division Of Physical Sciences               	          
+University Of                          1	     0.356
+Cambridge Department Of Engineering               	          
+University Of                          1	     0.356
+Cambridge School Of Technology               	          
+University Of                          1	     0.356
+Chicago Department Of Chemistry               	          
+University Of                          1	     0.356
+Chicago Division Of The Physical Sciences               	          
+University Of                          1	     0.356
+Cologne Department Of Chemistry               	          
+University Of                          1	     0.356
+Cologne Faculty Of Mathematics And Natural Sciences               	          
+University Of                          1	     0.356
+Connecticut Institute Of Materials Science               	          
+University Of                          1	     0.356
+Hamburg Department Of Chemistry               	          
+University Of                          1	     0.356
+Hamburg Faculty Of Mathematics Computer Science And Natural Sciences               	          
+University Of                          1	     0.356
+Hamburg Institute Of Technical And Macromolecular Chemistry               	          
+University Of                          1	     0.356
+Illinois Chicago College Of Engineering               	          
+University Of                          1	     0.356
+Illinois Chicago Department Of Mechanical And Industrial Engineering               	          
+University Of Kashan                   1	     0.356
+Faculty Of Chemistry                    	          
+University Of Kashan                   1	     0.356
+Institute Of Nanoscience And Nanotechnology               	          
+University Of                          1	     0.356
+Massachusetts Amherst College Of Natural Sciences               	          
+University Of                          1	     0.356
+Massachusetts Amherst Department Of Food Science               	          
+University Of Oxford                   1	     0.356
+Department Of Engineering Science               	          
+University Of Oxford                   1	     0.356
+Mathematical Physical And Life Sciences Division               	          
+University Of Oxford                   1	     0.356
+Solid Mechanics And Materials Engineering               	          
+University Of Pisa                     1	     0.356
+Department Of Chemistry And Industrial Chemistry               	          
+University Of                          1	     0.356
+Pittsburgh Department Of Chemical And Petroleum Engineering               	          
+University Of                          1	     0.356
+Pittsburgh Swanson School Of Engineering               	          
+University Of                          1	     0.356
+Reading Department Of Chemistry               	          
+University Of                          1	     0.356
+Reading School Of Chemistry Food And Pharmacy               	          
+University Of                          1	     0.356
+Science And Technology Beijing Shunde Graduate School               	          
+University Of South                    1	     0.356
+Carolina College Of Arts And Sciences               	          
+University Of South                    1	     0.356
+Carolina Department Of Chemistry And Biochemistry               	          
+University Of                          1	     0.356
+Technology Malaysia Department Of Materials Manufacturing And Industrial Engineering               	          
+University Of                          1	     0.356
+Technology Malaysia Faculty Of Science               	          
+University Of                          1	     0.356
+Technology Malaysia Institute For Smart Infrastructure And Innovative Construction               	          
+University Of                          1	     0.356
+Technology Malaysia School Of Civil Engineering               	          
+University Of                          1	     0.356
+Technology Malaysia School Of Mechanical Engineering               	          
+University Of The                      1	     0.356
+Chinese Academy Of Sciences College Of Material Sciences And Opto Electronic Technology               	          
+University Of                          1	     0.356
+Vermont College Of Engineering And Mathematical Sciences               	          
+University Of                          1	     0.356
+Vermont School Of Engineering               	          
+University Of                          1	     0.356
+Warwick Department Of Chemistry               	          
+University Of                          1	     0.356
+Warwick Faculty Of Science Engineering And Medicine               	          
+University Of                          1	     0.356
+Warwick International Institute For Nanocomposites Manufacturing               	          
+University Of                          1	     0.356
+Warwick School Of Engineering               	          
+Warsaw University                      1	     0.356
+Faculty Of Chemistry                    	          
+Wmg                                    1	     0.356
+
+Wuhan University Of                    1	     0.356
+Technology School Of Civil Engineering And Architecture               	          
+Wuhan University Of                    1	     0.356
+Technology School Of Materials Science And Engineering               	          
+Wuhan University Of                    1	     0.356
+Technology School Of Sciences               	          
+Wuhan University Of                    1	     0.356
+Technology State Key Laboratory Of Silicate Materials For Architectures               	          
+Xi An Jiaotong                         1	     0.356
+University School Of Materials Science And Engineering               	          
+Xi An Jiaotong                         1	     0.356
+University School Of Mechanical Engineering               	          
+Xi An Jiaotong                         1	     0.356
+University State Key Laboratory For Mechanical Behavior Of Materials               	          
+Xi An Technological                    1	     0.356
+University School Of Mechatronic Engineering               	          
+Yonsei University                      1	     0.356
+College Of Engineering                  	          
+Yonsei University                      1	     0.356
+College Of Science                      	          
+Yonsei University                      1	     0.356
+Department Of Physics                   	          
+Yonsei University                      1	     0.356
+School Of Electrical And Electronic Engineering               	          
