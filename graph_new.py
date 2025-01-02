@@ -83,12 +83,13 @@ plt.savefig(years_cululative_plot_path)
 
 
 # Plot countries/regions bar chart
+# data_countries_filtered.sort_values('Count', ascending=True, inplace=True)
 plt.figure(figsize=(10, 6))
-plt.bar(data_countries_filtered['Countries/Regions'], data_countries_filtered['Count'])
+plt.barh(data_countries_filtered['Countries/Regions'], data_countries_filtered['Count'])
 plt.title('Countries/Regions and Their Counts (Excluding Counts 4 and Below)')
 plt.xlabel('Countries/Regions')
 plt.ylabel('Count')
-plt.xticks(rotation=45, ha='right')
+# plt.xticks(rotation=45, ha='right')
 plt.tight_layout()
 ax = plt.gca()
 ax.grid(which='major', axis='y', linestyle='-')
