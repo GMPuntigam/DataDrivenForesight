@@ -15,7 +15,7 @@ data_populations["Name"] = data_populations["Name"].str.upper()
 materialstrings = ["cement", "polymer", "ceramic", "metal"]
 
 cutoffs_dict_upper = {"cement": 20, 
-                      "polymer": 75,
+                      "polymer": 60,
                       "ceramic": 8,
                       "metal": 30}
 
@@ -30,7 +30,7 @@ for materialstring in materialstrings:
     countries_population_plot_path = os.path.join(dirname, r'graphs/countries_population_' + materialstring)  # Replace with your local file path
     affiliations_plot_path = os.path.join(dirname, r'graphs/affiliation_' + materialstring +'')  # Replace with your local file path
     affiliations_low_plot_path = os.path.join(dirname, r'graphs/affiliation_' + materialstring +'_low')  # Replace with your local file path
-    affiliations_justnumbers_plot_path = os.path.join(dirname, r'graphs/affiliation_' + materialstring +'_justnumbers')  # Replace with your local file path
+    affiliations_histogram_plot_path = os.path.join(dirname, r'graphs/affiliation_' + materialstring +'_histogram')  # Replace with your local file path
     countries_plot_path = os.path.join(dirname, r'graphs/countries_' + materialstring +'')  # Replace with your local file path
     countries_count_per_population_plot_path = os.path.join(dirname, r'graphs/countries_count_' + materialstring +'_per_population')  # Replace with your local file path
     countries_justnumbers_plot_path = os.path.join(dirname, r'graphs/countries_' + materialstring +'_justnumbers')  # Replace with your local file path
@@ -48,7 +48,7 @@ for materialstring in materialstrings:
     count = sum([list(data_countries[data_countries["Countries/Regions"] == country]["Count"])[0] for country in ["SCOTLAND", "NORTH IRELAND", "ENGLAND", "WALES"]])
     data_countries.loc[len(data_countries)] = ["UNITED KINGDOM", count]
     data_countries = data_countries[~data_countries["Countries/Regions"].isin(uk_country_list)]
-
+    data_countries.sort_values("Count", inplace=True, ascending=False)
     # manually change names, following line for manual debugging
     # lookups = [country_name for country_name in data_countries['Countries/Regions'] if country_name not in list(data_populations["Name"])]
     #england, wales, scotland, north ireland not available, just uk
@@ -95,13 +95,25 @@ for materialstring in materialstrings:
     # Plot affiliations bar chart
     #-------------------------------
     plt.figure(figsize=(10, 6))
-    plt.barh(data_affiliations_filtered['Affiliations'], data_affiliations_filtered['Count'])
-    plt.title(f'Affiliations and Their Counts (Excluding Counts below {cutoffs_dict_upper[materialstring]})')
+    ax = plt.gca()
+    bars = plt.barh(data_affiliations_filtered['Affiliations'], data_affiliations_filtered['Count'])
+    plt.title(f'Institutes with most publications for {materialstring} materials') # (Excluding Counts below {cutoffs_dict_upper[materialstring]})
     plt.ylabel('Affiliations')
     plt.xlabel('Count')
-    ax = plt.gca()
     ax.grid(which='major', axis='x', linestyle='-')
     ax.set_axisbelow(True)
+    # Remove the default y-axis labels
+    ax.set_yticks([])
+
+    # Annotate each bar with its corresponding category label
+    for bar, label, count in zip(bars, data_affiliations_filtered['Affiliations'], data_affiliations_filtered['Count']):
+        y = bar.get_y() + bar.get_height() / 2  # Center the text vertically
+        available_space_percent = count/max(data_affiliations_filtered['Count']) 
+        if len(label)< 120*available_space_percent :
+            x = bar.get_x() + 0.01*max(data_affiliations_filtered['Count'])
+        else:
+            x = bar.get_x() + 0.01*max(data_affiliations_filtered['Count']) + count
+        ax.text(x, y, label, va='center', ha='left', color='Black', fontsize=8, weight='bold', backgroundcolor='none')
     plt.tight_layout()
     plt.savefig(affiliations_plot_path)
     plt.close()
@@ -123,32 +135,48 @@ for materialstring in materialstrings:
     plt.close()
 
     #-------------------------------
-    # Plot affiliations bar chart just numbers
+    # Plot affiliations histogram chart just numbers
     #-------------------------------
     plt.figure(figsize=(10, 6))
-    plt.plot(data_affiliations['Count'], data_affiliations['Affiliations'])
-    plt.title('Affiliations and Their Counts')
-    plt.ylabel('Affiliations, sorted by counts')
-    plt.xlabel('Count')
+    # plt.plot(data_affiliations['Count'], data_affiliations['Affiliations'])
+    bins = range(min(data_affiliations['Count']), max(data_affiliations['Count']) + 1, 1)
+    # bins= []
+    # for x in range(10,0,-1):
+    #     bins.append(data_affiliations['Count'][int(len(data_affiliations['Count'])*x/10) - 1])
+    #     unique_bins = set(bins)       # O(n) complexity
+    #     sorted_bins = sorted(unique_bins)
+    plt.hist(data_affiliations['Count'], bins=bins, edgecolor='none', color='skyblue', alpha=0.7)
+    # hist, bin_edges, _ = plt.hist(data_affiliations['Count'], bins=bins, edgecolor='black', color='skyblue', alpha=0.7)
+    plt.title(f'Histogram for number of publications per Institute for material type {materialstring}')
+    plt.ylabel('Number of Institues with Count')
+    plt.xlabel('Publication Count')
+    # bin_midpoints = (bin_edges[:-1] + bin_edges[1:]) / 2
+    # Set x-axis ticks to the bin midpoints
+    # plt.xticks(bin_midpoints, [f'{int(bin_edges[i])}-{int(bin_edges[i+1])}' for i in range(len(bin_edges)-1)])
+
+    # plt.minorticks_on()
     ax = plt.gca()
     ax.grid(which='major', axis='x', linestyle='-')
-    ax.set_yticklabels([])
+    # ax.set_yticklabels([])
     ax.set_axisbelow(True)
+    
     ax.tick_params(axis='y', which='major', color='black', width=1.5, length=0)
     ax.tick_params(axis='y', which='minor', color='black', width=1.5, length=0)
-    plt.axhline(y=len(data_affiliations_filtered), color='r', linestyle='-')
-    plt.axhline(y=len(data_affiliations) -len(data_affiliations_filtered_low), color='r', linestyle='-')
+    # plt.axvline(x=len(data_affiliations_filtered), color='r', linestyle='-')
+    # plt.axvline(x=len(data_affiliations) -len(data_affiliations_filtered_low), color='r', linestyle='-')
     plt.tight_layout()
-    plt.savefig(affiliations_justnumbers_plot_path)
+    plt.savefig(affiliations_histogram_plot_path)
     plt.close()
+
+
     #-------------------------------
     # Plot countries/regions bar chart
     #-------------------------------
     plt.figure(figsize=(10, 6))
     plt.barh(data_countries_filtered['Countries/Regions'], data_countries_filtered['Count'])
-    plt.title(f'Countries and Their Counts (Excluding Counts {cutoffs_dict_upper[materialstring]} and Below)')
+    plt.title(f'Publications per Country (Limited to more than {cutoffs_dict_upper[materialstring]} publications)')
     plt.ylabel('Countries')
-    plt.xlabel('Count')
+    plt.xlabel('Number of Publications')
     plt.tight_layout()
     ax = plt.gca()
     ax.grid(which='major', axis='x', linestyle='-')
@@ -167,7 +195,7 @@ for materialstring in materialstrings:
 
     plt.figure(figsize=(10, 6))
     plt.barh(data_countries_filtered['Countries/Regions'], populations_filtered)
-    plt.title(f'Countries and Their Populations (Excluding Counts {cutoffs_dict_upper[materialstring]} and Below)')
+    plt.title(f'Countries and Their Populations')
     plt.ylabel('Countries')
     plt.xlabel('Population')
     plt.tight_layout()
@@ -250,9 +278,9 @@ df_years_all.plot(x="Publication Years", y=materialstrings,
 #     plt.plot(df_years_all['Publication Years'], df_years_all[materialstring])
 x_tick_list = [min(df_years_all['Publication Years'])] + [x for x in df_years_all['Publication Years'] if x%5==0] + [max(df_years_all['Publication Years'])]
 x_tick_list = sorted(list(set(x_tick_list)))
-plt.title('Publication Years and Their Counts')
-plt.xlabel('Publication Years')
-plt.ylabel('Count')
+plt.title('Number of Publications per Year')
+plt.xlabel('Year')
+plt.ylabel('Publication Count')
 plt.xticks(x_tick_list)
 plt.minorticks_on()
 plt.tight_layout()
@@ -276,9 +304,9 @@ df_years_all.plot(x="Publication Years", y=materialstrings, kind="line", figsize
 
 x_tick_list = [min(df_years_all['Publication Years'])] + [x for x in df_years_all['Publication Years'] if x%5==0] + [max(df_years_all['Publication Years'])]
 x_tick_list = sorted(list(set(x_tick_list)))
-plt.title('Cumulative Publication Years and Their Counts')
-plt.xlabel('Publication Years')
-plt.ylabel('Cumulative Count')
+plt.title('Cumulative Number of Publications')
+plt.xlabel('Years')
+plt.ylabel('Cumulative Publication Count')
 plt.xticks(x_tick_list)
 plt.minorticks_on()
 plt.tight_layout()
