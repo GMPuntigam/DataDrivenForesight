@@ -90,7 +90,7 @@ plt.barh(countries_data['Countries (family)'], countries_data['Number of documen
 plt.ylabel('Country')
 plt.xlabel('Count')
 plt.title('Patent Families by Country')
-plt.xticks(rotation=45, ha='right')  # Rotate x-axis labels
+# plt.xticks(rotation=45, ha='right')  # Rotate x-axis labels
 plt.tight_layout()
 plt.grid(axis='x', linestyle='-', alpha=0.7)
 ax = plt.gca()

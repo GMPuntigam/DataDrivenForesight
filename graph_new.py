@@ -5,9 +5,12 @@ import os
 from matplotlib.ticker import MultipleLocator
 from matplotlib.lines import Line2D
 import numpy as np
+from matplotlib.ticker import MaxNLocator
 # Load the data files
 dirname = os.path.dirname(__file__)
 
+def round_up_to_next_50(n):
+        return math.ceil(n / 50) * 50
 
 populations_file = os.path.join(dirname, r'data/populations.xlsx')  # data from https://www.census.gov/data-tools/demo/idb/#/table?dashboard_page=country&COUNTRY_YR_ANIM=2025&menu=tableViz, January 2025
 data_populations = pd.read_excel(populations_file, header=1)
@@ -107,19 +110,20 @@ for materialstring in materialstrings:
     ax.set_axisbelow(True)
     # Remove the default y-axis labels
     ax.set_yticks([])
+   
 
     # Annotate each bar with its corresponding category label
     for bar, label, count in zip(bars, data_affiliations_filtered['Affiliations'], data_affiliations_filtered['Count']):
         y = bar.get_y() + bar.get_height() / 2  # Center the text vertically
         available_space_percent = count/max(data_affiliations_filtered['Count']) 
-        if len(label)< 120*available_space_percent :
-            x = bar.get_x() + 0.01*max(data_affiliations_filtered['Count'])
-        else:
-            x = bar.get_x() + 0.01*max(data_affiliations_filtered['Count']) + count
+        x = bar.get_x() + 0.01*max(data_affiliations_filtered['Count']) + count
         ax.text(x, y, label, va='center', ha='left', color='Black', fontsize=8, weight='bold', backgroundcolor='none')
     plt.tight_layout()
+ 
+    plt.xlim(0, round_up_to_next_50(max(data_affiliations_filtered['Count'])*1.4))
     plt.savefig(affiliations_plot_path)
     plt.close()
+    
 
     #-------------------------------
     # Plot affiliations bar chart low numbers
@@ -159,10 +163,11 @@ for materialstring in materialstrings:
 
     # plt.minorticks_on()
     ax = plt.gca()
-    ax.grid(which='major', axis='x', linestyle='-')
+    ax.grid(which='major', axis='both', linestyle='-')
     # ax.set_yticklabels([])
     ax.set_axisbelow(True)
-    
+    ax.yaxis.set_major_locator(MaxNLocator(integer=True))
+    ax.xaxis.set_major_locator(MaxNLocator(integer=True))
     ax.tick_params(axis='y', which='major', color='black', width=1.5, length=0)
     ax.tick_params(axis='y', which='minor', color='black', width=1.5, length=0)
     # plt.axvline(x=len(data_affiliations_filtered), color='r', linestyle='-')
@@ -274,12 +279,12 @@ years_cululative_plot_path = os.path.join(dirname, r'graphs/years_cumulative')
 
 # plt.figure(figsize=(10, 6))
 ax = df_years_all.plot(x="Publication Years", y=materialstrings,
-        kind="line", figsize=(10, 6))
+        kind="line", figsize=(10, 6), color=colors)
 
 
 # for materialstring in materialstrings:
 #     plt.plot(df_years_all['Publication Years'], df_years_all[materialstring])
-x_tick_list = [min(df_years_all['Publication Years'])] + [x for x in range(min(df_years_all['Publication Years']), max(df_years_all['Publication Years'] + 2)) if x%5==0] + [max(df_years_all['Publication Years'] + 2)]
+x_tick_list = [min(df_years_all['Publication Years'])] + [x for x in range(min(df_years_all['Publication Years']), max(df_years_all['Publication Years'])) if x%5==0] + [max(df_years_all['Publication Years'])]
 x_tick_list = sorted(list(set(x_tick_list)))
 plt.title('Number of Publications per Year')
 plt.xlabel('Year')
@@ -332,4 +337,36 @@ custom_line = Line2D([0], [0], color="grey", linestyle="--", label="forecast")
 plt.legend(handles=plt.gca().get_legend_handles_labels()[0] + [custom_line])
 
 plt.savefig(years_cululative_plot_path)
+plt.close()
+
+#-------------------------------
+# Plot affiliations histogram chart stacked
+#-------------------------------
+
+
+hist_data = []
+for materialstring in materialstrings:
+    affiliations_file = os.path.join(dirname, r'data/affiliations_' + materialstring +'_wos.xlsx')  
+    data_affiliations = pd.read_excel(affiliations_file)
+    # counts_of_counts = data_affiliations["Count"].value_counts()
+    hist_data.append(data_affiliations["Count"])
+#-------------------------------
+plt.figure(figsize=(10, 6))
+bins = range(min([hist_data[i].min() for i in range(len(hist_data))]), max([hist_data[i].max() for i in range(len(hist_data))]) + 1, 1)
+
+p = plt.hist(hist_data, bins=bins, edgecolor='none', color=colors, alpha=0.7, stacked=True, label=materialstrings)
+plt.title(f'Stacked histogram for number of publications per Institute for all material types')
+plt.legend(title="Materials")
+plt.ylabel('Number of Institues with Count')
+plt.xlabel('Publication Count')
+ax = plt.gca()
+ax.grid(which='major', axis='both', linestyle='-')
+ax.set_axisbelow(True)
+ax.yaxis.set_major_locator(MaxNLocator(integer=True))
+ax.xaxis.set_major_locator(MaxNLocator(integer=True))
+ax.tick_params(axis='y', which='major', color='black', width=1.5, length=0)
+ax.tick_params(axis='y', which='minor', color='black', width=1.5, length=0)
+plt.tight_layout()
+affiliations_histogram_stacked_plot_path = os.path.join(dirname, r'graphs/affiliation_histogram_stacked')
+plt.savefig(affiliations_histogram_stacked_plot_path)
 plt.close()
