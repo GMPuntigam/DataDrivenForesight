@@ -28,10 +28,17 @@ data_populations["Name"] = data_populations["Name"].str.upper()
 #data conversions
 wipo_data['Application Date'] = pd.to_datetime(wipo_data['Application Date'], format='%d.%m.%Y')
 wipo_data['Year'] = wipo_data['Application Date'].dt.year
+patents_administered_by_wipo = len(wipo_data[wipo_data['Country'] == "WO"])
+
+print(f"{patents_administered_by_wipo} patents administrated by WIPO")
+
 # Map ISO-2 country codes to full names
 country_mapping = dict(zip(data_populations['GENC'], data_populations['Name']))
 wipo_data['Country Full Name'] = wipo_data['Country'].map(country_mapping)
 countries_data['Countries (family)'] = countries_data['Countries (family)'].map(country_mapping)
+
+
+
 
 wipo_data_withdate = wipo_data.dropna(subset=['Year'])
 wipo_data_withdate['Year'] = wipo_data_withdate['Year'].astype(int)

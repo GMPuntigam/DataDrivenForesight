@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 import math
 import os
 from matplotlib.ticker import MultipleLocator
+from matplotlib.lines import Line2D
+import numpy as np
 # Load the data files
 dirname = os.path.dirname(__file__)
 
@@ -12,7 +14,8 @@ data_populations = pd.read_excel(populations_file, header=1)
 data_populations["Name"] = data_populations["Name"].str.upper()
 
 
-materialstrings = ["cement", "polymer", "ceramic", "metal"]
+materialstrings = ["polymer","metal","cement","ceramic"]
+colors = ["blue", "coral", "green", "red"]
 
 cutoffs_dict_upper = {"cement": 20, 
                       "polymer": 60,
@@ -241,9 +244,8 @@ for materialstring in materialstrings:
     plt.close()
 
 df_years_all = pd.DataFrame()
-
+predictions = {}
 for materialstring in materialstrings:
-    
     years_file = os.path.join(dirname, r'data/years_' + materialstring +'_wos.xlsx')  
     data_years = pd.read_excel(years_file)
     # Ensure "Publication Years" is the index for merging
@@ -253,11 +255,10 @@ for materialstring in materialstrings:
     data_years = data_years.rename(columns={"Counts": materialstring})
 
     # Merge with the result DataFrame, filling missing values with 0
-    df_years_all = df_years_all.join(data_years, how="outer", rsuffix=f"_{materialstring}").fillna(0) if not df_years_all.empty else data_years
+    df_years_all = df_years_all.join(data_years, how="outer", rsuffix=f"_{materialstring}").fillna(0) if not df_years_all.empty else data_years  
 
 # Reset index to include "Publication Years" as a column
 df_years_all = df_years_all.reset_index()
-
 
 #Remove 2025, unreliable data
 df_years_all = df_years_all[df_years_all["Publication Years"]!= 2025]
@@ -272,11 +273,13 @@ years_cululative_plot_path = os.path.join(dirname, r'graphs/years_cumulative')
 #-------------------------------
 
 # plt.figure(figsize=(10, 6))
-df_years_all.plot(x="Publication Years", y=materialstrings,
+ax = df_years_all.plot(x="Publication Years", y=materialstrings,
         kind="line", figsize=(10, 6))
+
+
 # for materialstring in materialstrings:
 #     plt.plot(df_years_all['Publication Years'], df_years_all[materialstring])
-x_tick_list = [min(df_years_all['Publication Years'])] + [x for x in df_years_all['Publication Years'] if x%5==0] + [max(df_years_all['Publication Years'])]
+x_tick_list = [min(df_years_all['Publication Years'])] + [x for x in range(min(df_years_all['Publication Years']), max(df_years_all['Publication Years'] + 2)) if x%5==0] + [max(df_years_all['Publication Years'] + 2)]
 x_tick_list = sorted(list(set(x_tick_list)))
 plt.title('Number of Publications per Year')
 plt.xlabel('Year')
@@ -284,7 +287,7 @@ plt.ylabel('Publication Count')
 plt.xticks(x_tick_list)
 plt.minorticks_on()
 plt.tight_layout()
-ax = plt.gca()
+# ax = plt.gca()
 ax.xaxis.set_minor_locator(MultipleLocator(1))
 ax.tick_params(axis='x', which='major', color='black', width=1.5, length=10)
 ax.tick_params(axis='x', which='minor', color='black', width=1.5, length=5)
@@ -298,11 +301,16 @@ plt.close()
 #-------------------------------
 
 df_years_all[materialstrings] = df_years_all[materialstrings].cumsum()
+for materialstring in materialstrings:
+    model = np.poly1d(np.polyfit(df_years_all.index, 
+                                df_years_all[materialstring], 2)) 
+    predictions[materialstring] = {"years": [2024, 2025, 2026], "counts": [list(df_years_all[materialstring])[-1], model(df_years_all.index[-1]+1), model(df_years_all.index[-1] +2)]}
+
 
 # Plot the cumulative values
-df_years_all.plot(x="Publication Years", y=materialstrings, kind="line", figsize=(10, 6))
+df_years_all.plot(x="Publication Years", y=materialstrings, kind="line", figsize=(10, 6), color=colors)
 
-x_tick_list = [min(df_years_all['Publication Years'])] + [x for x in df_years_all['Publication Years'] if x%5==0] + [max(df_years_all['Publication Years'])]
+x_tick_list = [min(df_years_all['Publication Years'])] + [x for x in range(min(df_years_all['Publication Years']), max(df_years_all['Publication Years'] + 2)) if x%5==0] + [max(df_years_all['Publication Years'] + 2)]
 x_tick_list = sorted(list(set(x_tick_list)))
 plt.title('Cumulative Number of Publications')
 plt.xlabel('Years')
@@ -316,5 +324,12 @@ ax.tick_params(axis='x', which='major', color='black', width=1.5, length=10)
 ax.tick_params(axis='x', which='minor', color='black', width=1.5, length=5)
 ax.grid(which='major', axis='y', linestyle='-')
 ax.set_axisbelow(True)
+for i,materialstring in enumerate(materialstrings):
+    plt.plot(predictions[materialstring]["years"], predictions[materialstring]["counts"], linestyle='dashed', color=colors[i])
+
+custom_line = Line2D([0], [0], color="grey", linestyle="--", label="forecast")
+# Add the legend, including the custom line
+plt.legend(handles=plt.gca().get_legend_handles_labels()[0] + [custom_line])
+
 plt.savefig(years_cululative_plot_path)
 plt.close()
