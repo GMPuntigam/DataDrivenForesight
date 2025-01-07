@@ -253,6 +253,14 @@ for materialstring in materialstrings:
     plt.close()
 
 df_years_all = pd.DataFrame()
+df_pub = pd.DataFrame() # This is for materials without differentiating
+
+# Load the complete data set for materials without differentiation
+all_file = os.path.join(dirname, r'data/years' +'_wos.xlsx')  
+data_pub = pd.read_excel(all_file)
+data_pub = data_pub.set_index("Publication Years")
+df_pub = df_pub.join(data_pub, how="outer", rsuffix=f"_{materialstring}").fillna(0) if not df_pub.empty else data_pub
+
 predictions = {}
 for materialstring in materialstrings:
     years_file = os.path.join(dirname, r'data/years_' + materialstring +'_wos.xlsx')  
@@ -268,15 +276,20 @@ for materialstring in materialstrings:
 
 # Reset index to include "Publication Years" as a column
 df_years_all = df_years_all.reset_index()
+df_pub = df_pub.reset_index()
 
 #Remove 2025, unreliable data
 df_years_all = df_years_all[df_years_all["Publication Years"]!= 2025]
+df_pub = df_pub[df_pub["Publication Years"]!= 2025]
 
 #reset column names 
 df_years_all.columns = ["Publication Years"] + materialstrings
+#df_pub.columns = ["Publication Years"]
 
 years_plot_path = os.path.join(dirname, r'graphs/years') 
 years_cululative_plot_path = os.path.join(dirname, r'graphs/years_cumulative')
+pub_plot_path = os.path.join(dirname, r'graphs/pub') 
+pub_cululative_plot_path = os.path.join(dirname, r'graphs/pub_cumulative')
 #-------------------------------
 # Plot publication years bar chart
 #-------------------------------
@@ -303,6 +316,18 @@ ax.tick_params(axis='x', which='minor', color='black', width=1.5, length=5)
 ax.grid(which='major', axis='y', linestyle='-')
 ax.set_axisbelow(True)
 plt.savefig(years_plot_path)
+plt.close()
+
+# All materials
+plt.figure(figsize=(10, 6))
+plt.plot(df_pub['Publication Years'], df_pub['Count'])
+plt.xlabel('Year')
+plt.ylabel('Publication Count')
+plt.title('Number of Publications per Year')
+plt.grid(axis='y', linestyle='-', alpha=0.7)
+plt.tight_layout()
+# plt.show()
+plt.savefig(pub_plot_path)
 plt.close()
 
 #-------------------------------
@@ -341,6 +366,19 @@ custom_line = Line2D([0], [0], color="grey", linestyle="--", label="forecast")
 plt.legend(handles=plt.gca().get_legend_handles_labels()[0] + [custom_line])
 
 plt.savefig(years_cululative_plot_path)
+plt.close()
+
+# For all materials
+df_pub = df_pub.cumsum()
+plt.figure(figsize=(10, 6))
+plt.plot(df_pub['Publication Years'], df_pub['Count'])
+plt.xlabel('Year')
+plt.ylabel('Cumulative Publication Count')
+plt.title('Cumulative Number of Publications per Year')
+plt.grid(axis='y', linestyle='-', alpha=0.7)
+plt.tight_layout()
+# plt.show()
+plt.savefig(pub_cululative_plot_path)
 plt.close()
 
 #-------------------------------
