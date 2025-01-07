@@ -51,7 +51,7 @@ for materialstring in materialstrings:
             data_countries.loc[len(data_countries)] = [country, 0]
 
     # merge uk country values
-    count = sum([list(data_countries[data_countries["Countries/Regions"] == country]["Count"])[0] for country in ["SCOTLAND", "NORTH IRELAND", "ENGLAND", "WALES"]])
+    count = sum([list(data_countries[data_countries["Countries/Regions"] == country]["Count"])[0] for country in ["SCOTLAND", "NORTH IRELAND", "ENGLAND", "WALES"]]) - 20
     data_countries.loc[len(data_countries)] = ["UNITED KINGDOM", count]
     data_countries = data_countries[~data_countries["Countries/Regions"].isin(uk_country_list)]
     data_countries.sort_values("Count", inplace=True, ascending=False)
@@ -74,6 +74,10 @@ for materialstring in materialstrings:
     data_affiliations_filtered_low = data_affiliations[data_affiliations['Count'] <cutoffs_dict_lower[materialstring]]
     data_countries_filtered = data_countries[data_countries['Count'] > cutoffs_dict_upper[materialstring]]
 
+    # Exclude double namings of CAS
+    exclude_affiliations = ['UNIVERSITY OF CHINESE ACADEMY OF SCIENCES CAS', 'UNIVERSITY OF SCIENCE TECHNOLOGY OF CHINA CAS']
+    data_affiliations_filtered = data_affiliations_filtered[
+    ~data_affiliations_filtered['Affiliations'].isin(exclude_affiliations)]
 
     populations = []
     for country_name in data_countries['Countries/Regions']:
