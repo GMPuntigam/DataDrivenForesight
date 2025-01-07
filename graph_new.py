@@ -19,6 +19,8 @@ data_populations["Name"] = data_populations["Name"].str.upper()
 
 materialstrings = ["polymer","metal","cement","ceramic"]
 colors = ["blue", "coral", "green", "red"]
+materialstring_to_color = {string: color for (color, string) in zip(colors, materialstrings)}
+
 
 cutoffs_dict_upper = {"cement": 20, 
                       "polymer": 60,
@@ -156,7 +158,7 @@ for materialstring in materialstrings:
     #     bins.append(data_affiliations['Count'][int(len(data_affiliations['Count'])*x/10) - 1])
     #     unique_bins = set(bins)       # O(n) complexity
     #     sorted_bins = sorted(unique_bins)
-    plt.hist(data_affiliations['Count'], bins=bins, edgecolor='none', color='skyblue', alpha=0.7)
+    plt.hist(data_affiliations['Count'], bins=bins, edgecolor='none', color=materialstring_to_color[materialstring], alpha=0.7)
     # hist, bin_edges, _ = plt.hist(data_affiliations['Count'], bins=bins, edgecolor='black', color='skyblue', alpha=0.7)
     plt.title(f'Histogram for number of publications per Institute for material type {materialstring}')
     plt.ylabel('Number of Institues with Count')
@@ -291,13 +293,14 @@ years_cululative_plot_path = os.path.join(dirname, r'graphs/years_cumulative')
 pub_plot_path = os.path.join(dirname, r'graphs/pub') 
 pub_cululative_plot_path = os.path.join(dirname, r'graphs/pub_cumulative')
 #-------------------------------
-# Plot publication years bar chart
+# Plot publication years line chart
 #-------------------------------
 
 # plt.figure(figsize=(10, 6))
-ax = df_years_all.plot(x="Publication Years", y=materialstrings,
-        kind="line", figsize=(10, 6), color=colors)
-
+ax = df_years_all[df_years_all["Publication Years"] != 2024].plot(x="Publication Years", y=materialstrings,
+        kind="line", figsize=(10, 6), color=colors, marker = 'o')
+for i, materialstring in enumerate(materialstrings):
+    plt.plot([2023, 2024], df_years_all[df_years_all["Publication Years"].isin([2023, 2024])][materialstring], linestyle='dashed', color=colors[i])
 
 # for materialstring in materialstrings:
 #     plt.plot(df_years_all['Publication Years'], df_years_all[materialstring])
@@ -320,7 +323,7 @@ plt.close()
 
 # All materials
 plt.figure(figsize=(10, 6))
-plt.plot(df_pub['Publication Years'], df_pub['Count'])
+plt.plot(df_pub['Publication Years'], df_pub['Count'], marker = 'o')
 plt.xlabel('Year')
 plt.ylabel('Publication Count')
 plt.title('Number of Publications per Year')
@@ -369,9 +372,11 @@ plt.savefig(years_cululative_plot_path)
 plt.close()
 
 # For all materials
-df_pub = df_pub.cumsum()
+df_pub = df_pub.sort_values('Publication Years')
+df_pub.reset_index(drop=True)
+df_pub['Count'] = df_pub['Count'].cumsum()
 plt.figure(figsize=(10, 6))
-plt.plot(df_pub['Publication Years'], df_pub['Count'])
+plt.plot(df_pub['Publication Years'], df_pub['Count'], marker = 'o')
 plt.xlabel('Year')
 plt.ylabel('Cumulative Publication Count')
 plt.title('Cumulative Number of Publications per Year')

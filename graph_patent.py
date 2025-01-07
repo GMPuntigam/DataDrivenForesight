@@ -45,7 +45,7 @@ wipo_data_withdate['Year'] = wipo_data_withdate['Year'].astype(int)
 # Plot 1: Number of patents per year
 patents_per_year = wipo_data_withdate.groupby('Year').size()
 plt.figure(figsize=(10, 6))
-ax = patents_per_year.plot(kind='line')
+ax = patents_per_year.plot(kind='line', marker = 'o')
 years = patents_per_year.index
 x_tick_list = [min(years)] + [x for x in years if x%5==0] + [max(years)]
 x_tick_list = sorted(set(x_tick_list))
@@ -101,7 +101,7 @@ plt.close()
 
 # Plot data for "Earliest publication date (family)"
 plt.figure(figsize=(10, 6))
-plt.plot(publication_data['Earliest publication date (family)'], publication_data['Number of documents'])
+plt.plot(publication_data['Earliest publication date (family)'], publication_data['Number of documents'], marker = 'o')
 plt.xlabel('Earliest Publication Date')
 plt.ylabel('Count')
 plt.title('Earliest Publication Date (Family)')
