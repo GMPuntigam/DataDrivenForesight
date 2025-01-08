@@ -6,6 +6,7 @@ from matplotlib.ticker import MultipleLocator
 from matplotlib.lines import Line2D
 import numpy as np
 from matplotlib.ticker import MaxNLocator
+from butterflychart import butterfly_chart
 # Load the data files
 dirname = os.path.dirname(__file__)
 
@@ -42,7 +43,7 @@ for materialstring in materialstrings:
     countries_plot_path = os.path.join(dirname, r'graphs/countries_' + materialstring +'')  # Replace with your local file path
     countries_count_per_population_plot_path = os.path.join(dirname, r'graphs/countries_count_' + materialstring +'_per_population')  # Replace with your local file path
     countries_justnumbers_plot_path = os.path.join(dirname, r'graphs/countries_' + materialstring +'_justnumbers')  # Replace with your local file path
-
+    butterfly_plot_path = os.path.join(dirname, r'graphs/butterfly_' + materialstring) 
 
     # Load the data into DataFrames
     data_affiliations = pd.read_excel(affiliations_file)
@@ -99,7 +100,6 @@ for materialstring in materialstrings:
             populations_filtered.append(int(str(list(data_populations[data_populations["Name"] == name_lookup_dict[country_name]]["Total Population"])[0]).replace('.','')))
         else:
             populations_filtered.append(0)
-            # print(f"Warning: Population data for {country_name} not available, set to 0")
 
     populations_filtered_scalefactor = [1/pop  if pop != 0 else 0 for pop in populations_filtered]
 
@@ -124,9 +124,8 @@ for materialstring in materialstrings:
         available_space_percent = count/max(data_affiliations_filtered['Count']) 
         x = bar.get_x() + 0.01*max(data_affiliations_filtered['Count']) + count
         ax.text(x, y, label, va='center', ha='left', color='Black', fontsize=8, weight='bold', backgroundcolor='none')
-    plt.tight_layout()
- 
     plt.xlim(0, round_up_to_next_50(max(data_affiliations_filtered['Count'])*1.4))
+    plt.tight_layout()
     plt.savefig(affiliations_plot_path)
     plt.close()
     
@@ -151,33 +150,25 @@ for materialstring in materialstrings:
     # Plot affiliations histogram chart just numbers
     #-------------------------------
     plt.figure(figsize=(10, 6))
-    # plt.plot(data_affiliations['Count'], data_affiliations['Affiliations'])
     bins = range(min(data_affiliations['Count']), max(data_affiliations['Count']) + 1, 1)
-    # bins= []
-    # for x in range(10,0,-1):
-    #     bins.append(data_affiliations['Count'][int(len(data_affiliations['Count'])*x/10) - 1])
-    #     unique_bins = set(bins)       # O(n) complexity
-    #     sorted_bins = sorted(unique_bins)
     plt.hist(data_affiliations['Count'], bins=bins, edgecolor='none', color=materialstring_to_color[materialstring], alpha=0.7)
-    # hist, bin_edges, _ = plt.hist(data_affiliations['Count'], bins=bins, edgecolor='black', color='skyblue', alpha=0.7)
-    plt.title(f'Histogram for number of publications per Institute for material type {materialstring}')
+    plt.title(f'Histogram for number of publications per Institute, material type {materialstring}')
     plt.ylabel('Number of Institues with Count')
     plt.xlabel('Publication Count')
-    # bin_midpoints = (bin_edges[:-1] + bin_edges[1:]) / 2
-    # Set x-axis ticks to the bin midpoints
-    # plt.xticks(bin_midpoints, [f'{int(bin_edges[i])}-{int(bin_edges[i+1])}' for i in range(len(bin_edges)-1)])
-
-    # plt.minorticks_on()
     ax = plt.gca()
     ax.grid(which='major', axis='both', linestyle='-')
-    # ax.set_yticklabels([])
     ax.set_axisbelow(True)
     ax.yaxis.set_major_locator(MaxNLocator(integer=True))
     ax.xaxis.set_major_locator(MaxNLocator(integer=True))
     ax.tick_params(axis='y', which='major', color='black', width=1.5, length=0)
     ax.tick_params(axis='y', which='minor', color='black', width=1.5, length=0)
-    # plt.axvline(x=len(data_affiliations_filtered), color='r', linestyle='-')
-    # plt.axvline(x=len(data_affiliations) -len(data_affiliations_filtered_low), color='r', linestyle='-')
+    current_ticks = ax.get_xticks()
+    current_labels = [tick.get_text() for tick in ax.get_xticklabels()]  # Retrieve the current labels
+
+    # Adjust tick positions by adding 0.5
+    new_ticks = [tick + 0.5 for tick in current_ticks]
+    plt.xticks([1.5] + new_ticks, ["1"] + current_labels)
+    ax.set_xlim(1, ax.get_xlim()[1])
     plt.tight_layout()
     plt.savefig(affiliations_histogram_plot_path)
     plt.close()
@@ -194,9 +185,6 @@ for materialstring in materialstrings:
     plt.tight_layout()
     ax = plt.gca()
     ax.grid(which='major', axis='x', linestyle='-')
-    # ax2 = ax.twiny()
-    # ax2.plot(populations_filtered, data_countries_filtered['Countries/Regions'], color ="red")
-    # ax2.set_xlim(ax.get_xlim())
     ax.set_axisbelow(True)
     plt.savefig(countries_plot_path)
     plt.close()
@@ -212,13 +200,28 @@ for materialstring in materialstrings:
     plt.title(f'Countries and Their Populations')
     plt.ylabel('Countries')
     plt.xlabel('Population')
-    plt.tight_layout()
     ax = plt.gca()
     ax.grid(which='major', axis='x', linestyle='-')
     ax.set_axisbelow(True)
     plt.savefig(countries_population_plot_path)
     plt.close()
 
+    #-------------------------------
+    # Plot butterflychart
+    #-------------------------------
+
+    data = pd.DataFrame({
+    'Population': populations_filtered,
+    'Publications devided by Population': scaled_counts
+    }, index=data_countries_filtered['Countries/Regions'])
+    butterfly_chart(
+    data,
+    figsize=(20, 6),
+    wspace=0.25,
+    title=f'Countries Publication Count per Population (Excluding Counts {cutoffs_dict_upper[materialstring]} and Below)'
+    )
+    plt.savefig(butterfly_plot_path)
+    plt.close()
     #-------------------------------
     # Plot countries/regions scaled by population bar chart
     #-------------------------------
@@ -413,6 +416,13 @@ ax.yaxis.set_major_locator(MaxNLocator(integer=True))
 ax.xaxis.set_major_locator(MaxNLocator(integer=True))
 ax.tick_params(axis='y', which='major', color='black', width=1.5, length=0)
 ax.tick_params(axis='y', which='minor', color='black', width=1.5, length=0)
+current_ticks = ax.get_xticks()
+current_labels = [tick.get_text() for tick in ax.get_xticklabels()]  # Retrieve the current labels
+
+# Adjust tick positions by adding 0.5
+new_ticks = [tick + 0.5 for tick in current_ticks]
+plt.xticks([1.5] + new_ticks, ["1"] + current_labels)
+ax.set_xlim(1, ax.get_xlim()[1])
 plt.tight_layout()
 affiliations_histogram_stacked_plot_path = os.path.join(dirname, r'graphs/affiliation_histogram_stacked')
 plt.savefig(affiliations_histogram_stacked_plot_path)
