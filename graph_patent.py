@@ -9,7 +9,7 @@ dirname = os.path.dirname(__file__)
 
 countries_file = os.path.join(dirname, 'data', 'PatentSearch', 'Espacenet', 'Polymer_countries.xlsx')
 years_file = os.path.join(dirname, 'data', 'PatentSearch', 'Espacenet', 'Polymer_years.xlsx')
-wipo_file = os.path.join(dirname, 'data', 'PatentSearch', 'WIPO', 'patents_wipo_raw.xls')
+wipo_file = os.path.join(dirname, 'data', 'PatentSearch', 'WIPO', 'patents_wipo_polymer.xls')
 
 graph_path_wipo_years = os.path.join(dirname, r'graphs/wipo_years')
 graph_path_wipo_countries = os.path.join(dirname, r'graphs/wipo_countries')
