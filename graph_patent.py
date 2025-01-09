@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import os
 from matplotlib.ticker import MultipleLocator
 import matplotlib.ticker as ticker
+from matplotlib.lines import Line2D
 #
 # Load the data files
 dirname = os.path.dirname(__file__)
@@ -15,6 +16,7 @@ graph_path_wipo_years = os.path.join(dirname, r'graphs/wipo_years')
 graph_path_wipo_countries = os.path.join(dirname, r'graphs/wipo_countries')
 graph_path_countries_Espacenet = os.path.join(dirname, r'graphs/countries_Espacenet')
 graph_path_years_Espacenet = os.path.join(dirname, r'graphs/years_Espacenet')
+graph_path_publication_and_patent = os.path.join(dirname, r'graphs/pulications_and_patents')
 
 countries_data = pd.read_excel(countries_file)
 publication_data = pd.read_excel(years_file)
@@ -34,79 +36,109 @@ print(f"{patents_administered_by_wipo} patents administrated by WIPO")
 
 # Map ISO-2 country codes to full names
 country_mapping = dict(zip(data_populations['GENC'], data_populations['Name']))
+country_mapping['KR'] = "SOUTH KOREA"
 wipo_data['Country Full Name'] = wipo_data['Country'].map(country_mapping)
 countries_data['Countries (family)'] = countries_data['Countries (family)'].map(country_mapping)
 
 
 
 
-wipo_data_withdate = wipo_data.dropna(subset=['Year'])
-wipo_data_withdate['Year'] = wipo_data_withdate['Year'].astype(int)
-# Plot 1: Number of patents per year
-patents_per_year = wipo_data_withdate.groupby('Year').size()
-plt.figure(figsize=(10, 6))
-ax = patents_per_year.plot(kind='line', marker = 'o')
-years = patents_per_year.index
-x_tick_list = [min(years)] + [x for x in years if x%5==0] + [max(years)]
-x_tick_list = sorted(set(x_tick_list))
+# wipo_data_withdate = wipo_data.dropna(subset=['Year'])
+# wipo_data_withdate['Year'] = wipo_data_withdate['Year'].astype(int)
+# # Plot 1: Number of patents per year
+# patents_per_year = wipo_data_withdate.groupby('Year').size()
+# plt.figure(figsize=(10, 6))
+# ax = patents_per_year.plot(kind='line', marker = 'o')
+# years = patents_per_year.index
+# x_tick_list = [min(years)] + [x for x in years if x%5==0] + [max(years)]
+# x_tick_list = sorted(set(x_tick_list))
 
-plt.xticks(x_tick_list, labels=x_tick_list, rotation=0)
-plt.gca().xaxis.set_minor_locator(ticker.MultipleLocator(1)) 
-ax.tick_params(axis='x', which='major', color='black', width=1.5, length=10)
-ax.tick_params(axis='x', which='minor', color='black', width=1.5, length=5)
-ax.grid(which='major', axis='y', linestyle='-')
-ax.set_axisbelow(True)
+# plt.xticks(x_tick_list, labels=x_tick_list, rotation=0)
+# plt.gca().xaxis.set_minor_locator(ticker.MultipleLocator(1)) 
+# ax.tick_params(axis='x', which='major', color='black', width=1.5, length=10)
+# ax.tick_params(axis='x', which='minor', color='black', width=1.5, length=5)
+# ax.grid(which='major', axis='y', linestyle='-')
+# ax.set_axisbelow(True)
 
 
-plt.title('Number of Patents Published Per Year')
-plt.xlabel('Year')
-plt.ylabel('Number of Patents')
-# plt.xticks(x_tick_list)
-plt.minorticks_on()
-plt.tight_layout()
-# plt.show()
-plt.savefig(graph_path_wipo_years)
-plt.close()
+# plt.title('Number of Patents Published Per Year')
+# plt.xlabel('Year')
+# plt.ylabel('Number of Patents')
+# # plt.xticks(x_tick_list)
+# plt.minorticks_on()
+# plt.tight_layout()
+# # plt.show()
+# plt.savefig(graph_path_wipo_years)
+# plt.close()
 
-# Plot 2: Number of patents per country
-patents_per_country = wipo_data['Country Full Name'].value_counts()
-plt.figure(figsize=(10, 6))
-patents_per_country.plot(kind='barh')
-plt.title('Number of Patents Published Per Country')
-plt.xlabel('Number of Patents')
-plt.ylabel('Country')
-plt.tight_layout()
-ax = plt.gca()
-ax.grid(which='major', axis='x', linestyle='-')
-ax.set_axisbelow(True)
-# plt.show()
-plt.savefig(graph_path_wipo_countries)
-plt.close()
+# # Plot 2: Number of patents per country
+# patents_per_country = wipo_data['Country Full Name'].value_counts()
+# plt.figure(figsize=(10, 6))
+# patents_per_country.plot(kind='barh')
+# plt.title('Number of Patents Published Per Country')
+# plt.xlabel('Number of Patents')
+# plt.ylabel('Country')
+# plt.tight_layout()
+# ax = plt.gca()
+# ax.grid(which='major', axis='x', linestyle='-')
+# ax.set_axisbelow(True)
+# # plt.show()
+# plt.savefig(graph_path_wipo_countries)
+# plt.close()
 
 # Plot data for "Countries (family)"
 plt.figure(figsize=(10, 6))
 countries_data = countries_data.dropna(subset=['Countries (family)'])
-plt.barh(countries_data['Countries (family)'], countries_data['Number of documents'])
+countries_data = countries_data[countries_data['Number of documents'] > 1]
+bars = plt.barh(countries_data['Countries (family)'], countries_data['Number of documents'])
 plt.ylabel('Country')
 plt.xlabel('Count')
-plt.title('Patent Families by Country')
+plt.title('Patent Families by Country (Only > 1)')
 # plt.xticks(rotation=45, ha='right')  # Rotate x-axis labels
 plt.tight_layout()
-plt.grid(axis='x', linestyle='-', alpha=0.7)
+plt.grid(axis='x', linestyle='-', alpha=0.9, which="major")
+plt.grid(axis='x', linestyle='--', alpha=0.7, which="minor")
 ax = plt.gca()
+ax.set_xscale('log')
 ax.set_axisbelow(True)
+
+for bar, count in zip(bars, countries_data['Number of documents']):
+        y = bar.get_y() + bar.get_height() / 2  # Center the text vertically
+        available_space_percent = count/max(countries_data['Number of documents']) 
+        x = bar.get_x() + count*1.05
+        ax.text(x, y, count, va='center', ha='left', color='Black', fontsize=8, weight='bold', backgroundcolor='none')
+
 # plt.show()
 plt.savefig(graph_path_countries_Espacenet)
 plt.close()
 
 # Plot data for "Earliest publication date (family)"
 plt.figure(figsize=(10, 6))
-plt.plot(publication_data['Earliest publication date (family)'], publication_data['Number of documents'], marker = 'o')
+plt.plot(publication_data['Earliest publication date (family)'], publication_data['Number of documents'], marker = 'o', color="C0")
 plt.xlabel('Earliest Publication Date')
 plt.ylabel('Count')
 plt.title('Earliest Publication Date (Family)')
 plt.grid(axis='y', linestyle='-', alpha=0.7)
+ax = plt.gca()
+
+years = range(min(publication_data['Earliest publication date (family)']), max(publication_data['Earliest publication date (family)']) + 2)
+x_tick_list = [min(years)] + [x for x in years if x%5==0] + [max(years)]
+x_tick_list = sorted(set(x_tick_list))
+
+plt.xticks(x_tick_list, labels=x_tick_list, rotation=0)
+plt.gca().xaxis.set_minor_locator(ticker.MultipleLocator(1)) 
+ax.set_xlim(1980, 2025)
 plt.tight_layout()
 # plt.show()
 plt.savefig(graph_path_years_Espacenet)
+
+years_file = os.path.join(dirname, r'data/years_polymer_wos.xlsx')  
+data_years = pd.read_excel(years_file)
+data_years = data_years[data_years["Publication Years"]!= 2025]
+plt.plot(data_years["Publication Years"], data_years["Count"], marker = 'o', color="C1")
+handle_patents = Line2D([0], [0], color="C0", linestyle="-", label="Patents")
+handle_pub = Line2D([0], [0], color="C1", linestyle="-", label="Publications")
+plt.legend(handles = [handle_pub, handle_patents])
+plt.xlabel('(Earliest) Publication Date')
+plt.savefig(graph_path_publication_and_patent)
 plt.close()

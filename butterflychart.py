@@ -25,12 +25,18 @@ def butterfly_chart(
     y = range(len(x1))
     labels = data.index.tolist()
 
-    ax1.barh(y=y, width=x1, color='tab:blue', zorder=3)
+    bars = ax1.barh(y=y, width=x1, color='tab:blue', zorder=3)
+    
     ax1.invert_xaxis()
     ax1.set_title(l1)
     ax1.grid(which='major', axis='x', linestyle='-')
     ax1.set_axisbelow(True)
-    ax2.barh(y=y, width=x2, color='tab:blue', zorder=3)
+    bars2 = ax2.barh(y=y, width=x2, color='tab:blue', zorder=3)
+    for bar, label in zip(bars2, labels):
+        if label == "INDIA":
+            bar.set_color('red')
+        if label in ["BELGIUM","NETHERLANDS","SINGAPORE"]:
+            bar.set_color('coral')
     ax2.set_title(l2)
     ax2.grid(which='major', axis='x', linestyle='-')
     ax2.set_axisbelow(True)

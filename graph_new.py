@@ -19,12 +19,12 @@ data_populations["Name"] = data_populations["Name"].str.upper()
 
 
 materialstrings = ["polymer","metal","cement","ceramic"]
-colors = ["blue", "coral", "green", "red"]
+colors = ["C0", "C1", "C2", "C3"]
 materialstring_to_color = {string: color for (color, string) in zip(colors, materialstrings)}
 
 
 cutoffs_dict_upper = {"cement": 20, 
-                      "polymer": 60,
+                      "polymer": 80,
                       "ceramic": 8,
                       "metal": 30}
 
@@ -42,7 +42,6 @@ for materialstring in materialstrings:
     affiliations_histogram_plot_path = os.path.join(dirname, r'graphs/affiliation_' + materialstring +'_histogram')  # Replace with your local file path
     countries_plot_path = os.path.join(dirname, r'graphs/countries_' + materialstring +'')  # Replace with your local file path
     countries_count_per_population_plot_path = os.path.join(dirname, r'graphs/countries_count_' + materialstring +'_per_population')  # Replace with your local file path
-    countries_justnumbers_plot_path = os.path.join(dirname, r'graphs/countries_' + materialstring +'_justnumbers')  # Replace with your local file path
     butterfly_plot_path = os.path.join(dirname, r'graphs/butterfly_' + materialstring) 
 
     # Load the data into DataFrames
@@ -241,21 +240,21 @@ for materialstring in materialstrings:
     #-------------------------------
     # Plot countries/regions bar chart just numbers
     #-------------------------------
-    plt.figure(figsize=(10, 6))
-    plt.plot(data_countries['Count'], data_countries['Countries/Regions'])
-    plt.title('Publication counts per country')
-    plt.ylabel('Countries')
-    plt.xlabel('Count')
-    plt.tight_layout()
-    ax = plt.gca()
-    ax.grid(which='major', axis='x', linestyle='-')
-    ax2 = ax.twiny()
-    ax2.plot(populations, data_countries['Countries/Regions'], color ="red")
-    # ax2.set_xlim(ax.get_xlim())
-    ax.set_yticklabels([])
-    ax.set_axisbelow(True)
-    plt.savefig(countries_justnumbers_plot_path)
-    plt.close()
+    # plt.figure(figsize=(10, 6))
+    # plt.plot(data_countries['Count'], data_countries['Countries/Regions'])
+    # plt.title('Publication counts per country')
+    # plt.ylabel('Countries')
+    # plt.xlabel('Count')
+    # plt.tight_layout()
+    # ax = plt.gca()
+    # ax.grid(which='major', axis='x', linestyle='-')
+    # ax2 = ax.twiny()
+    # ax2.plot(populations, data_countries['Countries/Regions'], color ="red")
+    # # ax2.set_xlim(ax.get_xlim())
+    # ax.set_yticklabels([])
+    # ax.set_axisbelow(True)
+    # plt.savefig(countries_justnumbers_plot_path)
+    # plt.close()
 
 df_years_all = pd.DataFrame()
 df_pub = pd.DataFrame() # This is for materials without differentiating
@@ -315,7 +314,7 @@ plt.ylabel('Publication Count')
 plt.xticks(x_tick_list)
 plt.minorticks_on()
 plt.tight_layout()
-# ax = plt.gca()
+ax.set_xlim(1980, 2024)
 ax.xaxis.set_minor_locator(MultipleLocator(1))
 ax.tick_params(axis='x', which='major', color='black', width=1.5, length=10)
 ax.tick_params(axis='x', which='minor', color='black', width=1.5, length=5)
@@ -331,6 +330,15 @@ plt.xlabel('Year')
 plt.ylabel('Publication Count')
 plt.title('Number of Publications per Year')
 plt.grid(axis='y', linestyle='-', alpha=0.7)
+years = range(min(df_pub['Publication Years']), max(df_pub['Publication Years']) + 2)
+x_tick_list = [min(years)] + [x for x in years if x%5==0] + [max(years)]
+x_tick_list = sorted(set(x_tick_list))
+
+plt.xticks(x_tick_list, labels=x_tick_list, rotation=0)
+ax = plt.gca()
+ax.xaxis.set_minor_locator(MultipleLocator(1)) 
+ax.set_xlim(1980, 2025)
+
 plt.tight_layout()
 # plt.show()
 plt.savefig(pub_plot_path)
@@ -340,17 +348,25 @@ plt.close()
 # Plot publication years bar chart cumulative
 #-------------------------------
 
+# def func(x, a, b, c):
+#     return a * np.exp(b * x) + c
+
+# def func_render(x, a, b, c):
+#     return a*0.8 * np.exp(b * x) + c
+# from scipy.optimize import curve_fit
+
 df_years_all[materialstrings] = df_years_all[materialstrings].cumsum()
 for materialstring in materialstrings:
+    # popt, pcov = curve_fit(func, df_years_all.index, df_years_all[materialstring])
     model = np.poly1d(np.polyfit(df_years_all.index, 
-                                df_years_all[materialstring], 2)) 
-    predictions[materialstring] = {"years": [2024, 2025, 2026], "counts": [list(df_years_all[materialstring])[-1], model(df_years_all.index[-1]+1), model(df_years_all.index[-1] +2)]}
-
+                                df_years_all[materialstring], 4)) 
+    predictions[materialstring] = {"years": [2024, 2025, 2026, 2027], "counts": [list(df_years_all[materialstring])[-1], model(df_years_all.index[-1]+1), model(df_years_all.index[-1]+2), model(df_years_all.index[-1] +3)]}
+    # predictions[materialstring] = {"years": [2024, 2025, 2026, 2027], "counts": [list(df_years_all[materialstring])[-1], func_render(df_years_all.index[-1]+1, *popt), func_render(df_years_all.index[-1]+2, *popt), func_render(df_years_all.index[-1] +3, *popt)]}
 
 # Plot the cumulative values
 df_years_all.plot(x="Publication Years", y=materialstrings, kind="line", figsize=(10, 6), color=colors)
 
-x_tick_list = [min(df_years_all['Publication Years'])] + [x for x in range(min(df_years_all['Publication Years']), max(df_years_all['Publication Years'] + 2)) if x%5==0] + [max(df_years_all['Publication Years'] + 2)]
+x_tick_list = [min(df_years_all['Publication Years'])] + [x for x in range(min(df_years_all['Publication Years']), 2030) if x%5==0] + [2030]
 x_tick_list = sorted(list(set(x_tick_list)))
 plt.title('Cumulative Number of Publications')
 plt.xlabel('Years')
@@ -364,6 +380,8 @@ ax.tick_params(axis='x', which='major', color='black', width=1.5, length=10)
 ax.tick_params(axis='x', which='minor', color='black', width=1.5, length=5)
 ax.grid(which='major', axis='y', linestyle='-')
 ax.set_axisbelow(True)
+ax.set_xlim(1980, 2030)
+
 for i,materialstring in enumerate(materialstrings):
     plt.plot(predictions[materialstring]["years"], predictions[materialstring]["counts"], linestyle='dashed', color=colors[i])
 
@@ -384,6 +402,16 @@ plt.xlabel('Year')
 plt.ylabel('Cumulative Publication Count')
 plt.title('Cumulative Number of Publications per Year')
 plt.grid(axis='y', linestyle='-', alpha=0.7)
+
+years = range(min(df_pub['Publication Years']), max(df_pub['Publication Years']) + 2)
+x_tick_list = [min(years)] + [x for x in years if x%5==0] + [max(years)]
+x_tick_list = sorted(set(x_tick_list))
+
+plt.xticks(x_tick_list, labels=x_tick_list, rotation=0)
+ax = plt.gca()
+ax.xaxis.set_minor_locator(MultipleLocator(1)) 
+ax.set_xlim(1980, 2025)
+
 plt.tight_layout()
 # plt.show()
 plt.savefig(pub_cululative_plot_path)
