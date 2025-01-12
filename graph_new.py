@@ -122,7 +122,9 @@ for materialstring in materialstrings:
     # Remove the default y-axis labels
     ax.set_yticks([])
     color_bar_by_label(bars, data_affiliations_filtered['Affiliations'], "CHINESE ACADEMY OF SCIENCES", color="coral")
-
+    color_bar_by_label(bars, data_affiliations_filtered['Affiliations'], "University of Science Technology of China CAS".upper(), color="coral")
+    color_bar_by_label(bars, data_affiliations_filtered['Affiliations'], "University of Chinese Academy of Sciences CAS".upper(), color="coral")
+    
     # Annotate each bar with its corresponding category label
     for bar, label, count in zip(bars, data_affiliations_filtered['Affiliations'], data_affiliations_filtered['Count']):
         y = bar.get_y() + bar.get_height() / 2  # Center the text vertically
