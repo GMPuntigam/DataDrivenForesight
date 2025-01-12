@@ -13,6 +13,12 @@ dirname = os.path.dirname(__file__)
 def round_up_to_next_50(n):
         return math.ceil(n / 50) * 50
 
+def color_bar_by_label(bars, labels, label_to_color, color="coral"):
+    for bar, label in zip(bars, labels):
+        if label == label_to_color:
+            bar.set_color(color)
+
+
 populations_file = os.path.join(dirname, r'data/populations.xlsx')  # data from https://www.census.gov/data-tools/demo/idb/#/table?dashboard_page=country&COUNTRY_YR_ANIM=2025&menu=tableViz, January 2025
 data_populations = pd.read_excel(populations_file, header=1)
 data_populations["Name"] = data_populations["Name"].str.upper()
@@ -115,7 +121,7 @@ for materialstring in materialstrings:
     ax.set_axisbelow(True)
     # Remove the default y-axis labels
     ax.set_yticks([])
-   
+    color_bar_by_label(bars, data_affiliations_filtered['Affiliations'], "CHINESE ACADEMY OF SCIENCES", color="coral")
 
     # Annotate each bar with its corresponding category label
     for bar, label, count in zip(bars, data_affiliations_filtered['Affiliations'], data_affiliations_filtered['Count']):
@@ -177,7 +183,7 @@ for materialstring in materialstrings:
     # Plot countries/regions bar chart
     #-------------------------------
     plt.figure(figsize=(10, 6))
-    plt.barh(data_countries_filtered['Countries/Regions'], data_countries_filtered['Count'])
+    bars = plt.barh(data_countries_filtered['Countries/Regions'], data_countries_filtered['Count'])
     plt.title(f'Publications per Country (Limited to more than {cutoffs_dict_upper[materialstring]} publications)')
     plt.ylabel('Countries')
     plt.xlabel('Number of Publications')
@@ -185,6 +191,9 @@ for materialstring in materialstrings:
     ax = plt.gca()
     ax.grid(which='major', axis='x', linestyle='-')
     ax.set_axisbelow(True)
+    color_bar_by_label(bars, data_countries_filtered['Countries/Regions'], "PEOPLES R CHINA", color="coral")
+    color_bar_by_label(bars, data_countries_filtered['Countries/Regions'], "USA", color="coral")
+
     plt.savefig(countries_plot_path)
     plt.close()
     #-------------------------------

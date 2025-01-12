@@ -40,51 +40,10 @@ country_mapping['KR'] = "SOUTH KOREA"
 wipo_data['Country Full Name'] = wipo_data['Country'].map(country_mapping)
 countries_data['Countries (family)'] = countries_data['Countries (family)'].map(country_mapping)
 
-
-
-
-# wipo_data_withdate = wipo_data.dropna(subset=['Year'])
-# wipo_data_withdate['Year'] = wipo_data_withdate['Year'].astype(int)
-# # Plot 1: Number of patents per year
-# patents_per_year = wipo_data_withdate.groupby('Year').size()
-# plt.figure(figsize=(10, 6))
-# ax = patents_per_year.plot(kind='line', marker = 'o')
-# years = patents_per_year.index
-# x_tick_list = [min(years)] + [x for x in years if x%5==0] + [max(years)]
-# x_tick_list = sorted(set(x_tick_list))
-
-# plt.xticks(x_tick_list, labels=x_tick_list, rotation=0)
-# plt.gca().xaxis.set_minor_locator(ticker.MultipleLocator(1)) 
-# ax.tick_params(axis='x', which='major', color='black', width=1.5, length=10)
-# ax.tick_params(axis='x', which='minor', color='black', width=1.5, length=5)
-# ax.grid(which='major', axis='y', linestyle='-')
-# ax.set_axisbelow(True)
-
-
-# plt.title('Number of Patents Published Per Year')
-# plt.xlabel('Year')
-# plt.ylabel('Number of Patents')
-# # plt.xticks(x_tick_list)
-# plt.minorticks_on()
-# plt.tight_layout()
-# # plt.show()
-# plt.savefig(graph_path_wipo_years)
-# plt.close()
-
-# # Plot 2: Number of patents per country
-# patents_per_country = wipo_data['Country Full Name'].value_counts()
-# plt.figure(figsize=(10, 6))
-# patents_per_country.plot(kind='barh')
-# plt.title('Number of Patents Published Per Country')
-# plt.xlabel('Number of Patents')
-# plt.ylabel('Country')
-# plt.tight_layout()
-# ax = plt.gca()
-# ax.grid(which='major', axis='x', linestyle='-')
-# ax.set_axisbelow(True)
-# # plt.show()
-# plt.savefig(graph_path_wipo_countries)
-# plt.close()
+def color_bar_by_label(bars, labels, label_to_color, color="coral"):
+    for bar, label in zip(bars, labels):
+        if label == label_to_color:
+            bar.set_color(color)
 
 # Plot data for "Countries (family)"
 plt.figure(figsize=(10, 6))
@@ -107,6 +66,8 @@ for bar, count in zip(bars, countries_data['Number of documents']):
         available_space_percent = count/max(countries_data['Number of documents']) 
         x = bar.get_x() + count*1.05
         ax.text(x, y, count, va='center', ha='left', color='Black', fontsize=8, weight='bold', backgroundcolor='none')
+
+color_bar_by_label(bars, countries_data['Countries (family)'], "CHINA", color="coral")
 
 # plt.show()
 plt.savefig(graph_path_countries_Espacenet)
