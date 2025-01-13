@@ -1,0 +1,1766 @@
+Affiliations                                 	   Record Count	       % of 2,094
+
+GHENT UNIVERSITY                             	            119	     5.683
+SOUTHEAST UNIVERSITY CHINA                   	            107	     5.110
+SHENZHEN UNIVERSITY                          	             87	     4.155
+TONGJI UNIVERSITY                            	             79	     3.773
+DELFT UNIVERSITY OF TECHNOLOGY               	             78	     3.725
+POLYTECHNIC UNIVERSITY OF MILAN              	             57	     2.722
+WUHAN UNIVERSITY OF TECHNOLOGY               	             46	     2.197
+HARBIN INSTITUTE OF TECHNOLOGY               	             44	     2.101
+UNIVERSITY OF CAMBRIDGE                      	             43	     2.053
+UNIVERSITY OF MICHIGAN                       	             40	     1.910
+UNIVERSITY OF MICHIGAN SYSTEM                	             40	     1.910
+CARDIFF UNIVERSITY                           	             38	     1.815
+EGYPTIAN KNOWLEDGE BANK EKB                  	             32	     1.528
+NANYANG TECHNOLOGICAL UNIVERSITY             	             31	     1.480
+TORONTO METROPOLITAN UNIVERSITY              	             31	     1.480
+VRIJE UNIVERSITEIT BRUSSEL                   	             26	     1.242
+POLYTECHNIC UNIVERSITY OF TURIN              	             24	     1.146
+NATIONAL INSTITUTE OF TECHNOLOGY NIT SYSTEM  	             22	     1.051
+UNITED STATES DEPARTMENT OF ENERGY DOE       	             22	     1.051
+CHONGQING UNIVERSITY                         	             21	     1.003
+GAZI UNIVERSITY                              	             19	     0.907
+HANYANG UNIVERSITY                           	             19	     0.907
+CHANG AN UNIVERSITY                          	             18	     0.860
+HACETTEPE UNIVERSITY                         	             18	     0.860
+HOHAI UNIVERSITY                             	             18	     0.860
+KU LEUVEN                                    	             18	     0.860
+UNIVERSITAT POLITECNICA DE VALENCIA          	             18	     0.860
+CENTRAL SOUTH UNIVERSITY                     	             17	     0.812
+HONG KONG POLYTECHNIC UNIVERSITY             	             17	     0.812
+JIANGSU UNIVERSITY OF SCIENCE TECHNOLOGY     	             17	     0.812
+NATIONAL UNIVERSITY OF SCIENCES TECHNOLOGY PA	             17	     0.812
+KISTAN                                       	               	          
+SHANDONG UNIVERSITY                          	             17	     0.812
+UNIVERSITE LIBRE DE BRUXELLES                	             17	     0.812
+UNIVERSITY OF CALIFORNIA SYSTEM              	             17	     0.812
+UNIVERSITY OF TECHNOLOGY SYDNEY              	             17	     0.812
+UNIVERSITY OF TEXAS SYSTEM                   	             17	     0.812
+CONSEJO SUPERIOR DE INVESTIGACIONES CIENTIFIC	             16	     0.764
+AS CSIC                                      	               	          
+DALIAN UNIVERSITY OF TECHNOLOGY              	             16	     0.764
+PRINCE SATTAM BIN ABDULAZIZ UNIVERSITY       	             16	     0.764
+SHANDONG UNIVERSITY OF SCIENCE TECHNOLOGY    	             16	     0.764
+ZHEJIANG UNIVERSITY                          	             16	     0.764
+CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE 	             15	     0.716
+CNRS                                         	               	          
+GAZIANTEP UNIVERSITY                         	             15	     0.716
+TIANJIN UNIVERSITY                           	             15	     0.716
+UNIVERSITY OF BATH                           	             15	     0.716
+CHINA UNIVERSITY OF PETROLEUM                	             14	     0.669
+CHINESE ACADEMY OF SCIENCES                  	             14	     0.669
+QINGDAO UNIVERSITY OF TECHNOLOGY             	             14	     0.669
+SUNGKYUNKWAN UNIVERSITY SKKU                 	             14	     0.669
+NATIONAL CHENG KUNG UNIVERSITY               	             13	     0.621
+SOUTHWEST PETROLEUM UNIVERSITY               	             13	     0.621
+YONSEI UNIVERSITY                            	             13	     0.621
+FUZHOU UNIVERSITY                            	             12	     0.573
+HONG KONG UNIVERSITY OF SCIENCE TECHNOLOGY   	             12	     0.573
+KANGWON NATIONAL UNIVERSITY                  	             12	     0.573
+KOREA UNIVERSITY                             	             12	     0.573
+PACIFIC NORTHWEST NATIONAL LABORATORY        	             12	     0.573
+SIM VZW                                      	             12	     0.573
+UNIVERSITY OF ILLINOIS SYSTEM                	             12	     0.573
+UNIVERSITY OF ILLINOIS URBANA CHAMPAIGN      	             12	     0.573
+ZHENGZHOU UNIVERSITY                         	             12	     0.573
+BEIJING UNIVERSITY OF TECHNOLOGY             	             11	     0.525
+CSIC INSTITUTO DE CIENCIAS DE LA CONSTRUCCION	             11	     0.525
+EDUARDO TORROJA IETCC                        	               	          
+LOUISIANA STATE UNIVERSITY                   	             11	     0.525
+LOUISIANA STATE UNIVERSITY SYSTEM            	             11	     0.525
+NANJING UNIVERSITY OF SCIENCE TECHNOLOGY     	             11	     0.525
+NATIONAL UNIVERSITY OF SINGAPORE             	             11	     0.525
+OZYEGIN UNIVERSITY                           	             11	     0.525
+THAPAR INSTITUTE OF ENGINEERING TECHNOLOGY   	             11	     0.525
+UNIVERSITY OF CALIFORNIA LOS ANGELES         	             11	     0.525
+UNIVERSITY OF TOKYO                          	             11	     0.525
+YANGZHOU UNIVERSITY                          	             11	     0.525
+CHINA UNIVERSITY OF GEOSCIENCES              	             10	     0.478
+CZECH TECHNICAL UNIVERSITY PRAGUE            	             10	     0.478
+FUTURE UNIVERSITY IN EGYPT                   	             10	     0.478
+GACHON UNIVERSITY                            	             10	     0.478
+ISLAMIC AZAD UNIVERSITY                      	             10	     0.478
+LULEA UNIVERSITY OF TECHNOLOGY               	             10	     0.478
+MONASH UNIVERSITY                            	             10	     0.478
+NORWEGIAN UNIVERSITY OF SCIENCE TECHNOLOGY NT	             10	     0.478
+NU                                           	               	          
+PETER THE GREAT ST PETERSBURG POLYTECHNIC UNI	             10	     0.478
+VERSITY                                      	               	          
+SOUTH CHINA UNIVERSITY OF TECHNOLOGY         	             10	     0.478
+UNIVERSIDADE FEDERAL DO RIO DE JANEIRO       	             10	     0.478
+UNIVERSITI TEKNOLOGI MALAYSIA                	             10	     0.478
+UNIVERSITY OF BRADFORD                       	             10	     0.478
+UNIVERSITY OF TEXAS AUSTIN                   	             10	     0.478
+WESTERN UNIVERSITY UNIVERSITY OF WESTERN ONTA	             10	     0.478
+RIO                                          	               	          
+ANHUI UNIVERSITY OF TECHNOLOGY               	              9	     0.430
+HEBEI UNIVERSITY OF TECHNOLOGY               	              9	     0.430
+HENAN POLYTECHNIC UNIVERSITY                 	              9	     0.430
+IOWA STATE UNIVERSITY                        	              9	     0.430
+NORTHEASTERN UNIVERSITY CHINA                	              9	     0.430
+QATAR UNIVERSITY                             	              9	     0.430
+TECHNICAL UNIVERSITY OF DENMARK              	              9	     0.430
+TECHNISCHE UNIVERSITAT DRESDEN               	              9	     0.430
+UNIVERSITY OF HOUSTON                        	              9	     0.430
+UNIVERSITY OF HOUSTON SYSTEM                 	              9	     0.430
+UNIVERSITY OF QUEENSLAND                     	              9	     0.430
+UNIVERSITY OF TUN HUSSEIN ONN MALAYSIA       	              9	     0.430
+UNIVERSITY OF WISCONSIN SYSTEM               	              9	     0.430
+YUNNAN UNIVERSITY                            	              9	     0.430
+BROOKHAVEN NATIONAL LABORATORY               	              8	     0.382
+CHINA NATIONAL PETROLEUM CORPORATION         	              8	     0.382
+HOKKAIDO UNIVERSITY                          	              8	     0.382
+JADAVPUR UNIVERSITY                          	              8	     0.382
+KING FAHD UNIVERSITY OF PETROLEUM MINERALS   	              8	     0.382
+KING KHALID UNIVERSITY                       	              8	     0.382
+KOREA ADVANCED INSTITUTE OF SCIENCE TECHNOLOG	              8	     0.382
+Y KAIST                                      	               	          
+LOUISIANA TRANSPORTAT RES CTR                	              8	     0.382
+NATIONAL ENERGY TECHNOLOGY LABORATORY USA    	              8	     0.382
+SWISS FEDERAL INSTITUTES OF TECHNOLOGY DOMAIN	              8	     0.382
+UNIVERSITY OF AL QADISIYAH                   	              8	     0.382
+UNIVERSITY OF NOVI SAD                       	              8	     0.382
+UNIVERSITY OF WESTERN AUSTRALIA              	              8	     0.382
+UNIVERSITY OF WISCONSIN MADISON              	              8	     0.382
+COMSATS UNIVERSITY ISLAMABAD CUI             	              7	     0.334
+ECOLE CENTRALE DE NANTES                     	              7	     0.334
+GUANGZHOU UNIVERSITY                         	              7	     0.334
+HAIHE LAB SUSTAINABLE CHEM TRANSFORMAT       	              7	     0.334
+HELMHOLTZ ASSOCIATION                        	              7	     0.334
+KOREA CONFORM LABS                           	              7	     0.334
+LUBLIN UNIVERSITY OF TECHNOLOGY              	              7	     0.334
+MUGLA SITKI KOCMAN UNIVERSITY                	              7	     0.334
+NANCHANG UNIVERSITY                          	              7	     0.334
+NANTES UNIVERSITE                            	              7	     0.334
+NINGBO UNIVERSITY                            	              7	     0.334
+NORTHWESTERN UNIVERSITY                      	              7	     0.334
+ROYAL MELBOURNE INSTITUTE OF TECHNOLOGY RMIT 	              7	     0.334
+SATHYABAMA INSTITUTE OF SCIENCE TECHNOLOGY   	              7	     0.334
+SAVEETHA INSTITUTE OF MEDICAL TECHNICAL SCIEN	              7	     0.334
+CE                                           	               	          
+SEMYUNG UNIVERSITY                           	              7	     0.334
+SHANGHAI JIAO TONG UNIVERSITY                	              7	     0.334
+SHIJIAZHUANG TIEDAO UNIVERSITY               	              7	     0.334
+TAIYUAN UNIVERSITY OF TECHNOLOGY             	              7	     0.334
+UNIVERSITY OF JINAN                          	              7	     0.334
+UNIVERSITY OF MIAMI                          	              7	     0.334
+UNIVERSITY OF SOUTH AUSTRALIA                	              7	     0.334
+UNIVERSITY OF WAIKATO                        	              7	     0.334
+WASHINGTON STATE UNIVERSITY                  	              7	     0.334
+WUHAN TEXTILE UNIVERSITY                     	              7	     0.334
+XI AN UNIVERSITY OF TECHNOLOGY               	              7	     0.334
+AGH UNIVERSITY OF KRAKOW                     	              6	     0.287
+AMRITA VISHWA VIDYAPEETHAM                   	              6	     0.287
+AMRITA VISHWA VIDYAPEETHAM COIMBATORE        	              6	     0.287
+ARISTOTLE UNIVERSITY OF THESSALONIKI         	              6	     0.287
+BAUHAUS UNIVERSITAT WEIMAR                   	              6	     0.287
+BEIJING JIAOTONG UNIVERSITY                  	              6	     0.287
+BIRLA INSTITUTE OF TECHNOLOGY SCIENCE PILANI 	              6	     0.287
+BITS PILANI                                  	               	          
+CHINA INSTITUTE OF WATER RESOURCES HYDROPOWER	              6	     0.287
+RESEARCH                                     	               	          
+CHINA UNIVERSITY OF MINING TECHNOLOGY        	              6	     0.287
+CHONGQING JIAOTONG UNIVERSITY                	              6	     0.287
+CHONNAM NATIONAL UNIVERSITY                  	              6	     0.287
+CHUNGNAM NATIONAL UNIVERSITY                 	              6	     0.287
+CRACOW UNIVERSITY OF TECHNOLOGY              	              6	     0.287
+CURTIN UNIVERSITY                            	              6	     0.287
+DOKUZ EYLUL UNIVERSITY                       	              6	     0.287
+EGE UNIVERSITY                               	              6	     0.287
+HUAZHONG UNIVERSITY OF SCIENCE TECHNOLOGY    	              6	     0.287
+HUNAN UNIVERSITY                             	              6	     0.287
+INDIAN INSTITUTE OF TECHNOLOGY SYSTEM IIT SYS	              6	     0.287
+TEM                                          	               	          
+JIANGSU UNIVERSITY                           	              6	     0.287
+KING SAUD UNIVERSITY                         	              6	     0.287
+KIRIKKALE UNIVERSITY                         	              6	     0.287
+LEIBNIZ UNIVERSITY HANNOVER                  	              6	     0.287
+MCMASTER UNIVERSITY                          	              6	     0.287
+MONASH UNIVERSITY MALAYSIA                   	              6	     0.287
+NAJRAN UNIVERSITY                            	              6	     0.287
+NATIONAL CENTRE OF SCIENTIFIC RESEARCH DEMOKR	              6	     0.287
+ITOS                                         	               	          
+NORTHEAST FORESTRY UNIVERSITY CHINA          	              6	     0.287
+PENNSYLVANIA COMMONWEALTH SYSTEM OF HIGHER ED	              6	     0.287
+UCATION PCSHE                                	               	          
+POLYTECHNIQUE MONTREAL                       	              6	     0.287
+SAVEETHA SCHOOL OF ENGINEERING               	              6	     0.287
+SINTEF                                       	              6	     0.287
+SOUTHWEST JIAOTONG UNIVERSITY                	              6	     0.287
+SUN YAT SEN UNIVERSITY                       	              6	     0.287
+TECHNICAL UNIVERSITY OF CLUJ NAPOCA          	              6	     0.287
+TOHOKU UNIVERSITY                            	              6	     0.287
+UNIVERSIDADE FEDERAL DO PARANA               	              6	     0.287
+UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL    	              6	     0.287
+UNIVERSITE DE MONTREAL                       	              6	     0.287
+UNIVERSITY OF ADELAIDE                       	              6	     0.287
+UNIVERSITY OF LONDON                         	              6	     0.287
+UNIVERSITY OF SHERBROOKE                     	              6	     0.287
+UNIVERSITY OF SOUTHERN CALIFORNIA            	              6	     0.287
+UNIVERSITY OF TEXAS ARLINGTON                	              6	     0.287
+WESTERN SYDNEY UNIVERSITY                    	              6	     0.287
+ZAGAZIG UNIVERSITY                           	              6	     0.287
+CHOSUN UNIVERSITY                            	              5	     0.239
+CITY UNIVERSITY OF HONG KONG                 	              5	     0.239
+CNRS INSTITUTE FOR ENGINEERING SYSTEMS SCIENC	              5	     0.239
+ES INSIS                                     	               	          
+DREXEL UNIVERSITY                            	              5	     0.239
+ETH ZURICH                                   	              5	     0.239
+FUJIAN UNIVERSITY OF TECHNOLOGY              	              5	     0.239
+GUANGDONG LOW CARBON TECHNOL ENGN CTR BLDG MA	              5	     0.239
+T                                            	               	          
+HARVARD UNIVERSITY                           	              5	     0.239
+HUBEI UNIVERSITY OF TECHNOLOGY               	              5	     0.239
+KYOTO UNIVERSITY                             	              5	     0.239
+MUSTAFA KEMAL UNIVERSITY                     	              5	     0.239
+NANJING UNIVERSITY OF AERONAUTICS ASTRONAUTIC	              5	     0.239
+S                                            	               	          
+NORTHWESTERN POLYTECHNICAL UNIVERSITY        	              5	     0.239
+SEJONG UNIVERSITY                            	              5	     0.239
+SHANDONG UNIVERSITY OF AERONAUTICS           	              5	     0.239
+SHENZHEN INSTITUTE OF INFORMATION TECHNOLOGY 	              5	     0.239
+TSINGHUA UNIVERSITY                          	              5	     0.239
+ULSAN NATIONAL INSTITUTE OF SCIENCE TECHNOLOG	              5	     0.239
+Y UNIST                                      	               	          
+UNIVERSITE DE LILLE                          	              5	     0.239
+UNIVERSITI MALAYA                            	              5	     0.239
+UNIVERSITI PUTRA MALAYSIA                    	              5	     0.239
+UNIVERSITY OF BRITISH COLUMBIA               	              5	     0.239
+UNIVERSITY OF DERBY                          	              5	     0.239
+UNIVERSITY OF ENGINEERING TECHNOLOGY TAXILA  	              5	     0.239
+UNIVERSITY OF GLASGOW                        	              5	     0.239
+UNIVERSITY OF OTTAWA                         	              5	     0.239
+UNIVERSITY OF SCIENCE TECHNOLOGY BEIJING     	              5	     0.239
+UNIVERSITY OF SHANGHAI FOR SCIENCE TECHNOLOGY	              5	     0.239
+UNIVERSITY OF STUTTGART                      	              5	     0.239
+UNIVERSITY OF SYDNEY                         	              5	     0.239
+UNIVERSITY OF TECHNOLOGY IRAQ                	              5	     0.239
+UNIVERSITY OF VICTORIA                       	              5	     0.239
+WONKWANG UNIVERSITY                          	              5	     0.239
+WUHAN INSTITUTE OF ROCK SOIL MECHANICS CAS   	              5	     0.239
+ALIGARH MUSLIM UNIVERSITY                    	              4	     0.191
+BANDUNG STATE POLYTECHNIC                    	              4	     0.191
+BEIHANG UNIVERSITY                           	              4	     0.191
+CANKIRI KARATEKIN UNIVERSITY                 	              4	     0.191
+CAPITAL UNIVERSITY OF SCIENCE TECHNOLOGY     	              4	     0.191
+CHULALONGKORN UNIVERSITY                     	              4	     0.191
+CONSEJO NACIONAL DE INVESTIGACIONES CIENTIFIC	              4	     0.191
+AS Y TECNICAS CONICET                        	               	          
+EINDHOVEN UNIVERSITY OF TECHNOLOGY           	              4	     0.191
+GUANGDONG UNIVERSITY OF TECHNOLOGY           	              4	     0.191
+GUANGXI UNIVERSITY                           	              4	     0.191
+HONGIK UNIVERSITY                            	              4	     0.191
+HOUSING BUILDING NATIONAL RESEARCH CENTER HBR	              4	     0.191
+C                                            	               	          
+IMPERIAL COLLEGE LONDON                      	              4	     0.191
+JAWAHARLAL NEHRU TECHNOLOGICAL UNIVERSITY ANA	              4	     0.191
+NTAPUR                                       	               	          
+JOHANNES GUTENBERG UNIVERSITY OF MAINZ       	              4	     0.191
+KARLSRUHE INSTITUTE OF TECHNOLOGY            	              4	     0.191
+KITAMI INSTITUTE OF TECHNOLOGY               	              4	     0.191
+KONKUK UNIVERSITY                            	              4	     0.191
+KONYA TECHNICAL UNIVERSITY                   	              4	     0.191
+KOREA INSTITUTE OF CIVIL ENGINEERING BUILDING	              4	     0.191
+TECHNOLOGY KICT                              	               	          
+LOUGHBOROUGH UNIVERSITY                      	              4	     0.191
+MEHRAN UNIVERSITY ENGINEERING TECHNOLOGY     	              4	     0.191
+MIDDLE EAST TECHNICAL UNIVERSITY             	              4	     0.191
+MINIST ECOL ENVIRONM CHINA                   	              4	     0.191
+MINIST EDUC                                  	              4	     0.191
+MONTANA STATE UNIVERSITY BOZEMAN             	              4	     0.191
+MONTANA STATE UNIVERSITY SYSTEM              	              4	     0.191
+MOSCOW STATE UNIVERSITY OF CIVIL ENGINEERING 	              4	     0.191
+MURORAN INSTITUTE OF TECHNOLOGY              	              4	     0.191
+NATIONAL INSTITUTE OF TECHNOLOGY KARNATAKA   	              4	     0.191
+NATIONAL INSTITUTE OF TECHNOLOGY RAIPUR      	              4	     0.191
+NIGDE OMER HALISDEMIR UNIVERSITY             	              4	     0.191
+NORTHEAST FORESTRY UNIV                      	              4	     0.191
+POLISH ACADEMY OF SCIENCES                   	              4	     0.191
+PUKYONG NATIONAL UNIVERSITY                  	              4	     0.191
+PURDUE UNIVERSITY                            	              4	     0.191
+PURDUE UNIVERSITY SYSTEM                     	              4	     0.191
+QUEENS UNIVERSITY CANADA                     	              4	     0.191
+RIGA TECHNICAL UNIVERSITY                    	              4	     0.191
+SHANMUGHA ARTS SCIENCE TECHNOLOGY RESEARCH AC	              4	     0.191
+ADEMY SASTRA                                 	               	          
+SHENYANG JIANZHU UNIVERSITY                  	              4	     0.191
+SHIRAZ UNIVERSITY OF MEDICAL SCIENCE         	              4	     0.191
+SICHUAN UNIVERSITY                           	              4	     0.191
+SINOPEC                                      	              4	     0.191
+SKANSKA SVERIGE AB                           	              4	     0.191
+SOUTH URAL STATE UNIVERSITY                  	              4	     0.191
+SRM INSTITUTE OF SCIENCE TECHNOLOGY CHENNAI  	              4	     0.191
+STELLENBOSCH UNIVERSITY                      	              4	     0.191
+SUZHOU UNIVERSITY OF SCIENCE TECHNOLOGY      	              4	     0.191
+SWISS FEDERAL LABORATORIES FOR MATERIALS SCIE	              4	     0.191
+NCE TECHNOLOGY EMPA                          	               	          
+TEHRAN UNIVERSITY OF MEDICAL SCIENCES        	              4	     0.191
+TIANJIN UNIV SHAOXING                        	              4	     0.191
+TON DUC THANG UNIVERSITY                     	              4	     0.191
+UNIVERSIDAD DE CORDOBA                       	              4	     0.191
+UNIVERSIDADE CATOLICA DE PERNAMBUCO          	              4	     0.191
+UNIVERSIDADE DO MINHO                        	              4	     0.191
+UNIVERSIDADE FEDERAL DE MATO GROSSO DO SUL   	              4	     0.191
+UNIVERSIDADE FEDERAL DE PERNAMBUCO           	              4	     0.191
+UNIVERSITAT JAUME I                          	              4	     0.191
+UNIVERSITE DE RENNES                         	              4	     0.191
+UNIVERSITE PARIS SACLAY                      	              4	     0.191
+UNIVERSITI SAINS MALAYSIA                    	              4	     0.191
+UNIVERSITY COLLEGE LONDON                    	              4	     0.191
+UNIVERSITY OF BIRMINGHAM                     	              4	     0.191
+UNIVERSITY OF HERTFORDSHIRE                  	              4	     0.191
+UNIVERSITY OF SOUTHERN QUEENSLAND            	              4	     0.191
+UNIVERSITY SYSTEM OF GEORGIA                 	              4	     0.191
+VELLORE INSTITUTE OF TECHNOLOGY VIT          	              4	     0.191
+VILNIUS GEDIMINAS TECHNICAL UNIVERSITY       	              4	     0.191
+XI AN JIAOTONG UNIVERSITY                    	              4	     0.191
+XI AN UNIVERSITY OF ARCHITECTURE TECHNOLOGY  	              4	     0.191
+YOKOHAMA NATIONAL UNIVERSITY                 	              4	     0.191
+ZHEJIANG UNIVERSITY OF TECHNOLOGY            	              4	     0.191
+ACHARYA NAGARJUNA UNIVERSITY                 	              3	     0.143
+ADANA ALPARSLAN TURKES SCIENCE TECHNOLOGY UNI	              3	     0.143
+VERSITY                                      	               	          
+AL MUSTAQBAL UNIVERSITY COLLEGE              	              3	     0.143
+ANHUI JIANZHU UNIVERSITY                     	              3	     0.143
+BEIJING BLDG MAT ACAD SCI RES                	              3	     0.143
+BEIJING INSTITUTE OF TECHNOLOGY              	              3	     0.143
+BEN GURION UNIVERSITY                        	              3	     0.143
+BURSA TECHNICAL UNIVERSITY                   	              3	     0.143
+BURSA ULUDAG UNIV                            	              3	     0.143
+CHENGDU UNIVERSITY OF TECHNOLOGY             	              3	     0.143
+CHINA BLDG MAT ACAD                          	              3	     0.143
+CHINA CONSTRUCT IND ENERGY ENGN GRP CO LTD   	              3	     0.143
+CHINA THREE GORGES UNIVERSITY                	              3	     0.143
+CHUNG ANG UNIVERSITY                         	              3	     0.143
+CNPC ENGN TECHNOL R D CO LTD                 	              3	     0.143
+COUNCIL OF SCIENTIFIC INDUSTRIAL RESEARCH CSI	              3	     0.143
+R INDIA                                      	               	          
+CSIR STRUCTURAL ENGINEERING RESEARCH CENTER S	              3	     0.143
+ERC                                          	               	          
+CTR MINERAL TECHNOL CETEM                    	              3	     0.143
+CUGLA BV                                     	              3	     0.143
+CZECH ACADEMY OF SCIENCES                    	              3	     0.143
+DAQING DRILLING EXPLORAT ENGN CO             	              3	     0.143
+DUKE UNIVERSITY                              	              3	     0.143
+ECOLE DE TECHNOLOGIE SUPERIEURE CANADA       	              3	     0.143
+EGYPTIAN RUSSIAN UNIVERSITY                  	              3	     0.143
+ERBIL POLYTECHNIC UNIVERSITY                 	              3	     0.143
+FASA UNIV MED SCI                            	              3	     0.143
+FEDERATION UNIVERSITY AUSTRALIA              	              3	     0.143
+FIRAT UNIVERSITY                             	              3	     0.143
+G PULLA REDDY ENGN COLL                      	              3	     0.143
+GEORGIA INSTITUTE OF TECHNOLOGY              	              3	     0.143
+HAINAN UNIVERSITY                            	              3	     0.143
+HANGZHOU CITY UNIVERSITY                     	              3	     0.143
+HERIOT WATT UNIVERSITY                       	              3	     0.143
+IMT INSTITUT MINES TELECOM                   	              3	     0.143
+INST AVANCADO TECNOL INOVACAO                	              3	     0.143
+INSTITUTE OF FUNDAMENTAL TECHNOLOGICAL RESEAR	              3	     0.143
+CH OF THE POLISH ACADEMY OF SCIENCES         	               	          
+ISFAHAN UNIVERSITY OF TECHNOLOGY             	              3	     0.143
+JINAN STOMATOL HOSP                          	              3	     0.143
+KING ABDULAZIZ UNIVERSITY                    	              3	     0.143
+KING FAISAL UNIVERSITY                       	              3	     0.143
+KOREA NATIONAL UNIVERSITY OF TRANSPORTATION  	              3	     0.143
+KRYTON INT INC                               	              3	     0.143
+LANZHOU UNIVERSITY OF TECHNOLOGY             	              3	     0.143
+LE MANS UNIVERSITE                           	              3	     0.143
+LIVERPOOL JOHN MOORES UNIVERSITY             	              3	     0.143
+MANSOURA UNIVERSITY                          	              3	     0.143
+MICROPORE TECHNOL LTD                        	              3	     0.143
+MUNZUR UNIVERSITY                            	              3	     0.143
+NANJING TECH UNIVERSITY                      	              3	     0.143
+NATIONAL INSTITUTE OF TECHNOLOGY CALICUT     	              3	     0.143
+NATIONAL INSTITUTE OF TECHNOLOGY MEGHALAYA   	              3	     0.143
+NATIONAL RESEARCH CENTRE NRC                 	              3	     0.143
+NATIONAL TECHNICAL UNIVERSITY OF ATHENS      	              3	     0.143
+NED UNIVERSITY OF ENGINEERING TECHNOLOGY     	              3	     0.143
+NEWCASTLE UNIVERSITY UK                      	              3	     0.143
+NINGXIA UNIVERSITY                           	              3	     0.143
+NIRD URBAN INCERC CLUJ NAPOCA BRANCH         	              3	     0.143
+OKAN UNIVERSITY                              	              3	     0.143
+OKLAHOMA STATE UNIVERSITY STILLWATER         	              3	     0.143
+OKLAHOMA STATE UNIVERSITY SYSTEM             	              3	     0.143
+PENETRON ITALIA                              	              3	     0.143
+PENNSYLVANIA STATE UNIVERSITY                	              3	     0.143
+RAJALAKSHMI ENGINEERING COLLEGE              	              3	     0.143
+SAHAND UNIVERSITY OF TECHNOLOGY              	              3	     0.143
+SEBELAS MARET UNIVERSITY                     	              3	     0.143
+SHANDONG AGRICULTURAL UNIVERSITY             	              3	     0.143
+SHANXI SHENGKE MICROORGANISM BLDG MAT TECHNOL	              3	     0.143
+CO L                                         	               	          
+SHANXI UNIVERSITY                            	              3	     0.143
+SHENYANG RES INST                            	              3	     0.143
+STATE UNIVERSITY OF NEW YORK SUNY SYSTEM     	              3	     0.143
+STATE UNIVERSITY SYSTEM OF FLORIDA           	              3	     0.143
+STONY BROOK UNIVERSITY                       	              3	     0.143
+STRATEG INITIAT MAT SIM VZW                  	              3	     0.143
+TECHNICAL UNIVERSITY OF DARMSTADT            	              3	     0.143
+TECHNICAL UNIVERSITY OF MUNICH               	              3	     0.143
+TECHNION ISRAEL INSTITUTE OF TECHNOLOGY      	              3	     0.143
+TEXAS STATE UNIVERSITY SYSTEM                	              3	     0.143
+THAMMASAT UNIVERSITY                         	              3	     0.143
+UBT UNIVERSITY FOR BUSINESS TECHNOLOGY       	              3	     0.143
+UNIV GENOA UNIGE                             	              3	     0.143
+UNIVERSIDAD POLITECNICA DE MADRID            	              3	     0.143
+UNIVERSIDADE DE LISBOA                       	              3	     0.143
+UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO UFRP	              3	     0.143
+E                                            	               	          
+UNIVERSITA CA FOSCARI VENEZIA                	              3	     0.143
+UNIVERSITI MALAYSIA PERLIS                   	              3	     0.143
+UNIVERSITI TEKNOLOGI PETRONAS                	              3	     0.143
+UNIVERSITY OF ALBERTA                        	              3	     0.143
+UNIVERSITY OF BASQUE COUNTRY                 	              3	     0.143
+UNIVERSITY OF BUENOS AIRES                   	              3	     0.143
+UNIVERSITY OF COLOGNE                        	              3	     0.143
+UNIVERSITY OF COLORADO BOULDER               	              3	     0.143
+UNIVERSITY OF COLORADO SYSTEM                	              3	     0.143
+UNIVERSITY OF IOANNINA                       	              3	     0.143
+UNIVERSITY OF LEEDS                          	              3	     0.143
+UNIVERSITY OF LOUISIANA LAFAYETTE            	              3	     0.143
+UNIVERSITY OF MALTA                          	              3	     0.143
+UNIVERSITY OF MARYLAND BALTIMORE             	              3	     0.143
+UNIVERSITY OF MISSOURI SYSTEM                	              3	     0.143
+UNIVERSITY OF NEW SOUTH WALES SYDNEY         	              3	     0.143
+UNIVERSITY OF NEWCASTLE                      	              3	     0.143
+UNIVERSITY OF PITTSBURGH                     	              3	     0.143
+UNIVERSITY OF PLYMOUTH                       	              3	     0.143
+UNIVERSITY OF QUEBEC                         	              3	     0.143
+UNIVERSITY OF SURREY                         	              3	     0.143
+UNIVERSITY OF TORONTO                        	              3	     0.143
+UNIVERSITY OF TRENTO                         	              3	     0.143
+UNIVERSITY OF WOLLONGONG                     	              3	     0.143
+UNIVERSITY SYSTEM OF MARYLAND                	              3	     0.143
+UNIVERSITY SYSTEM OF OHIO                    	              3	     0.143
+UTRECHT UNIVERSITY                           	              3	     0.143
+VIETNAM NATIONAL UNIVERSITY HO CHI MINH CITY 	              3	     0.143
+VNUHCM SYSTEM                                	               	          
+VIGNAN S FOUNDATION FOR SCIENCE TECHNOLOGY RE	              3	     0.143
+SEARCH VFSTR                                 	               	          
+VIT VELLORE                                  	              3	     0.143
+VNU HCM UNIVERSITY OF TECHNOLOGY HCMUT       	              3	     0.143
+WARSAW UNIVERSITY OF LIFE SCIENCES           	              3	     0.143
+WARSAW UNIVERSITY OF TECHNOLOGY              	              3	     0.143
+AARHUS UNIVERSITY                            	              2	     0.096
+ABDULLAH GUL UNIVERSITY                      	              2	     0.096
+ADAMA SCIENCE TECHNOLOGY UNIVERSITY          	              2	     0.096
+AEDIFICAT INST FREIBURG                      	              2	     0.096
+AL JOUF UNIVERSITY                           	              2	     0.096
+AMERICAN UNIVERSITY OF SHARJAH               	              2	     0.096
+AMRAN UNIV                                   	              2	     0.096
+AQABA UNIV TECHNOL                           	              2	     0.096
+AZARBAIJAN SHAHID MADANI UNIVERSITY          	              2	     0.096
+BATMAN UNIVERSITY                            	              2	     0.096
+BEIJING UNIVERSITY OF CHEMICAL TECHNOLOGY    	              2	     0.096
+BIRLA INSTITUTE OF TECHNOLOGY MESRA          	              2	     0.096
+BOGOR AGRICULTURAL UNIVERSITY                	              2	     0.096
+BOUIRA UNIV                                  	              2	     0.096
+BOZOK UNIVERSITY                             	              2	     0.096
+BRAUNSCHWEIG UNIVERSITY OF TECHNOLOGY        	              2	     0.096
+BUZZI UNICEM SPA                             	              2	     0.096
+CAIRO UNIVERSITY                             	              2	     0.096
+CAPITAL MEDICAL UNIVERSITY                   	              2	     0.096
+CELAL BAYAR UNIVERSITY                       	              2	     0.096
+CHANGCHUN INSTITUTE OF APPLIED CHEMISTRY CAS 	              2	     0.096
+CHANGCHUN UNIVERSITY OF TECHNOLOGY           	              2	     0.096
+CHANGSHA UNIVERSITY OF SCIENCE TECHNOLOGY    	              2	     0.096
+CHENG SHIU UNIVERSITY                        	              2	     0.096
+CHENNAI INSTITUTE OF TECHNOLOGY              	              2	     0.096
+CHINA INSTITUTE OF ATOMIC ENERGY             	              2	     0.096
+CHINA STATE CONSTRUCTION ENGINEERING CORPORAT	              2	     0.096
+ION                                          	               	          
+CHONGQING THREE GORGES UNIVERSITY            	              2	     0.096
+CITY OSIJEK                                  	              2	     0.096
+CITY ST GEORGES UNIVERSITY OF LONDON         	              2	     0.096
+CITY UNIVERSITY OF LONDON                    	              2	     0.096
+CNOOC RES INST CO LTD                        	              2	     0.096
+COLUMBIA UNIVERSITY                          	              2	     0.096
+CONSTRUCT ENGN IT SERV CENITS CORP INC       	              2	     0.096
+COVENTRY UNIVERSITY                          	              2	     0.096
+CY CERGY PARIS UNIVERSITE                    	              2	     0.096
+DALHOUSIE UNIVERSITY                         	              2	     0.096
+DATTA MEGHE INSTITUTE OF HIGHER EDUCATION RES	              2	     0.096
+EARCH DEEMED TO BE UNIVERSITY                	               	          
+DE LA SALLE UNIVERSITY                       	              2	     0.096
+DELTA UNIVERSITY FOR SCIENCE TECHNOLOGY      	              2	     0.096
+EDITH COWAN UNIVERSITY                       	              2	     0.096
+EM DOUAI                                     	              2	     0.096
+FAR EASTERN FEDERAL UNIVERSITY               	              2	     0.096
+FBK CMM CENTRE FOR MATERIALS MICROSYSTEMS    	              2	     0.096
+FEDERAL INSTITUTE FOR MATERIALS RESEARCH TEST	              2	     0.096
+ING                                          	               	          
+FLORIDA A M UNIVERSITY                       	              2	     0.096
+FLORIDA STATE UNIVERSITY                     	              2	     0.096
+FONDAZIONE BRUNO KESSLER                     	              2	     0.096
+FRAUNHOFER GESELLSCHAFT                      	              2	     0.096
+FREDERICK RES CTR                            	              2	     0.096
+FREDERICK UNIV                               	              2	     0.096
+FRIEDRICH SCHILLER UNIVERSITY OF JENA        	              2	     0.096
+GELDO                                        	              2	     0.096
+GEOLOGICAL SURVEY OF DENMARK GREENLAND       	              2	     0.096
+GERMAN UNIVERSITY IN CAIRO                   	              2	     0.096
+GLA UNIVERSITY                               	              2	     0.096
+GOLDER ASSOCIATES                            	              2	     0.096
+GPR ENGN COLL                                	              2	     0.096
+GRAZ UNIVERSITY OF TECHNOLOGY                	              2	     0.096
+HAKIM SABZEVARI UNIV                         	              2	     0.096
+HANDAR ENGN CONTRACTING WLL                  	              2	     0.096
+HARBIN MEDICAL UNIVERSITY                    	              2	     0.096
+HASSELT UNIVERSITY                           	              2	     0.096
+HEIDELBERGCEMENT                             	              2	     0.096
+HOKKAIDO RES ORG                             	              2	     0.096
+IMT NORD EUROPE                              	              2	     0.096
+INDIAN INSTITUTE OF ENGINEERING SCIENCE TECHN	              2	     0.096
+OLOGY SHIBPUR IIEST                          	               	          
+INDIAN INSTITUTE OF TECHNOLOGY IIT BOMBAY    	              2	     0.096
+INDIAN INSTITUTE OF TECHNOLOGY IIT DELHI     	              2	     0.096
+INDIANA DEPT TRANSPORTAT                     	              2	     0.096
+INONU UNIVERSITY                             	              2	     0.096
+ISLAMIA UNIVERSITY OF BAHAWALPUR             	              2	     0.096
+ISLAMIC UNIVERSITY OF AL MADINAH             	              2	     0.096
+ISTANBUL UNIVERSITY CERRAHPASA               	              2	     0.096
+IUAV UNIVERSITY VENICE                       	              2	     0.096
+IZMIR INSTITUTE OF TECHNOLOGY                	              2	     0.096
+JAZAN UNIVERSITY                             	              2	     0.096
+JIANGSU EXPRESSWAY ENGN MAINTENANCE TECHNOL C	              2	     0.096
+O LT                                         	               	          
+JIANGSU KEY LAB CONSTRUCT MAT                	              2	     0.096
+JIANGSU TRAFF ENGN GRP CO LTD                	              2	     0.096
+JNTUA COLLEGE OF ENGINEERING ANANTAPUR       	              2	     0.096
+K N TOOSI UNIVERSITY OF TECHNOLOGY           	              2	     0.096
+KENYATTA UNIVERSITY                          	              2	     0.096
+KEY LAB BLDG STRUCT SEISM RESISTANCE XINJIANG	              2	     0.096
+KHON KAEN UNIVERSITY                         	              2	     0.096
+KHULNA UNIVERSITY                            	              2	     0.096
+KHULNA UNIVERSITY OF ENGINEERING TECHNOLOGY K	              2	     0.096
+UET                                          	               	          
+KOREA CONFORM LAB                            	              2	     0.096
+KOREA ELECTRIC POWER CORPORATION KEPCO       	              2	     0.096
+KUNMING UNIVERSITY OF SCIENCE TECHNOLOGY     	              2	     0.096
+KYUNGDONG UNIVERSITY                         	              2	     0.096
+LAFARGE                                      	              2	     0.096
+LIAONING TECHNICAL UNIVERSITY                	              2	     0.096
+LUSAS                                        	              2	     0.096
+MAJMAAH UNIVERSITY                           	              2	     0.096
+MALAVIYA NATIONAL INSTITUTE OF TECHNOLOGY JAI	              2	     0.096
+PUR                                          	               	          
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY MIT    	              2	     0.096
+MENOFIA UNIVERSITY                           	              2	     0.096
+MICHAEL OKPARA UNIV AGR                      	              2	     0.096
+MICHIGAN STATE UNIVERSITY                    	              2	     0.096
+MISR HIGHER INST ENGN TECH                   	              2	     0.096
+MONDIAL ADVISORY PTY LTD                     	              2	     0.096
+MUSTANSIRIYA UNIVERSITY                      	              2	     0.096
+NANJING FORESTRY UNIVERSITY                  	              2	     0.096
+NANJING INST ENVIRONM SCI                    	              2	     0.096
+NANJING UNIVERSITY                           	              2	     0.096
+NANOTECMARIN GMBH                            	              2	     0.096
+NATIONAL CENTRAL UNIVERSITY                  	              2	     0.096
+NATIONAL CHUNG HSING UNIVERSITY              	              2	     0.096
+NATIONAL INSTITUTE OF TECHNOLOGY SRINAGAR    	              2	     0.096
+NATIONAL NANOTECHNOLOGY CENTER NANOTEC       	              2	     0.096
+NATIONAL RESEARCH INNOVATION AGENCY OF INDONE	              2	     0.096
+SIA BRIN                                     	               	          
+NATIONAL SCIENCE TECHNOLOGY DEVELOPMENT AGENC	              2	     0.096
+Y THAILAND                                   	               	          
+NATIONAL TAIWAN UNIVERSITY                   	              2	     0.096
+NATIONAL UNIVERSITY OF SCIENCE TECHNOLOGY POL	              2	     0.096
+ITEHNICA BUCHAREST                           	               	          
+NATL ENVIRONM TECHNOL LAB                    	              2	     0.096
+NATL RES INNOVAT AGCY                        	              2	     0.096
+NAWROZ UNIVERSITY                            	              2	     0.096
+NEWJUST CO LTD                               	              2	     0.096
+NIRD URBAN INCERC                            	              2	     0.096
+NORTHWEST INSTITUTE OF NUCLEAR TECHNOLOGY CHI	              2	     0.096
+NA                                           	               	          
+NRDI URBAN INCERC CLUJ NAPOCA BRANCH         	              2	     0.096
+OAK RIDGE NATIONAL LABORATORY                	              2	     0.096
+OLLSCOIL NA GAILLIMHE UNIVERSITY OF GALWAY   	              2	     0.096
+PANIMALAR ENGN COLL                          	              2	     0.096
+PENNSYLVANIA STATE UNIVERSITY UNIVERSITY PARK	              2	     0.096
+PEOPLES FRIENDSHIP UNIVERSITY OF RUSSIA      	              2	     0.096
+PONTIFICIA UNIV CATOLICA RIO DE JANEIRO PUC R	              2	     0.096
+IO                                           	               	          
+PONTIFICIA UNIVERSIDAD CATOLICA DE CHILE     	              2	     0.096
+POZNAN UNIVERSITY OF TECHNOLOGY              	              2	     0.096
+PSG COLLEGE TECHNOLOGY                       	              2	     0.096
+PSG INST TECHNOL APPL RES                    	              2	     0.096
+QUEEN MARY UNIVERSITY LONDON                 	              2	     0.096
+RAJIV GANDHI TECHNOLOGICAL UNIVERSITY        	              2	     0.096
+RESEARCH CENTER JULICH                       	              2	     0.096
+ROMANIAN ACADEMY                             	              2	     0.096
+ROYAL INSTITUTE OF TECHNOLOGY                	              2	     0.096
+ROYAL SOC THAILAND                           	              2	     0.096
+RUSSIAN ACADEMY OF SCIENCES                  	              2	     0.096
+RWTH AACHEN UNIVERSITY                       	              2	     0.096
+SAINT PETERSBURG STATE UNIVERSITY            	              2	     0.096
+SAUDI ARAMCO                                 	              2	     0.096
+SEOUL NATIONAL UNIVERSITY SNU                	              2	     0.096
+SHAANXI UNIVERSITY OF SCIENCE TECHNOLOGY     	              2	     0.096
+SHAHID BAHONAR UNIVERSITY OF KERMAN SBUK     	              2	     0.096
+SHANDONG HISPEED GRP CO LTD                  	              2	     0.096
+SHANXI SHENGKE MICROORGANISM BLDG MAT TECHNOL	              2	     0.096
+CO                                           	               	          
+SHAOXING UNIVERSITY                          	              2	     0.096
+SHARAD PAWAR DENTAL COLLEGE HOSPITAL SPDC    	              2	     0.096
+SHRI JAGDISHPRASAD JHABARMAL TIBREWALA UNIV  	              2	     0.096
+SIAM CEMENT GROUP                            	              2	     0.096
+SINOPEC HENAN OILFIELD BRANCH CO             	              2	     0.096
+SKANSKA                                      	              2	     0.096
+SOUTH DAKOTA SCHOOL MINES TECHNOLOGY         	              2	     0.096
+SOUTHERN UNIVERSITY OF SCIENCE TECHNOLOGY    	              2	     0.096
+SOUTHWEST UNIVERSITY CHINA                   	              2	     0.096
+SRI KRISHNA COLL TECHNOL                     	              2	     0.096
+SRI RAMAKRISHNA ENGINEERING COLLEGE          	              2	     0.096
+ST JOSEPH ENGINEERING COLLEGE                	              2	     0.096
+STATE KEY LAB GREEN BLDG MAT                 	              2	     0.096
+SULTAN QABOOS UNIVERSITY                     	              2	     0.096
+SURANAREE UNIVERSITY OF TECHNOLOGY           	              2	     0.096
+SVR ENGN COLL                                	              2	     0.096
+SWEDISH COLL ENGN TECHNOL                    	              2	     0.096
+TAIHEIYO CEMENT CORPORATION                  	              2	     0.096
+TECHNICAL UNIVERSITY OF CIVIL ENGINEERING OF 	              2	     0.096
+BUCHAREST UTCB                               	               	          
+TECNALIA                                     	              2	     0.096
+TEXAS A M UNIVERSITY COLLEGE STATION         	              2	     0.096
+TEXAS A M UNIVERSITY SYSTEM                  	              2	     0.096
+TEXAS STATE UNIVERSITY SAN MARCOS            	              2	     0.096
+TOKYO UNIVERSITY OF SCIENCE                  	              2	     0.096
+U S ARMY CORPS OF ENGINEERS                  	              2	     0.096
+U S ARMY ENGINEER RESEARCH DEVELOPMENT CENTER	              2	     0.096
+ERDC                                         	               	          
+UCSI UNIVERSITY                              	              2	     0.096
+ULUDAG UNIVERSITY                            	              2	     0.096
+UNITED STATES ARMY                           	              2	     0.096
+UNITED STATES DEPARTMENT OF DEFENSE          	              2	     0.096
+UNIV EMBU                                    	              2	     0.096
+UNIV TRIPOLI                                 	              2	     0.096
+UNIVERSIDAD DE CASTILLA LA MANCHA            	              2	     0.096
+UNIVERSIDADE DE BRASILIA                     	              2	     0.096
+UNIVERSIDADE DE SAO PAULO                    	              2	     0.096
+UNIVERSIDADE ESTADUAL DE PONTA GROSSA        	              2	     0.096
+UNIVERSIDADE FEDERAL DE LAVRAS               	              2	     0.096
+UNIVERSIDADE FEDERAL DE SANTA CATARINA UFSC  	              2	     0.096
+UNIVERSITE DE CARTHAGE                       	              2	     0.096
+UNIVERSITE GUSTAVE EIFFEL                    	              2	     0.096
+UNIVERSITY NORTH CROATIA                     	              2	     0.096
+UNIVERSITY OF ANTWERP                        	              2	     0.096
+UNIVERSITY OF CALIFORNIA BERKELEY            	              2	     0.096
+UNIVERSITY OF CALIFORNIA DAVIS               	              2	     0.096
+UNIVERSITY OF CALIFORNIA IRVINE              	              2	     0.096
+UNIVERSITY OF CHINESE ACADEMY OF SCIENCES CAS	              2	     0.096
+UNIVERSITY OF COPENHAGEN                     	              2	     0.096
+UNIVERSITY OF DUNDEE                         	              2	     0.096
+UNIVERSITY OF EAST LONDON                    	              2	     0.096
+UNIVERSITY OF EASTERN PIEDMONT AMEDEO AVOGADR	              2	     0.096
+O                                            	               	          
+UNIVERSITY OF ENGINEERING TECHNOLOGY LAHORE  	              2	     0.096
+UNIVERSITY OF HONG KONG                      	              2	     0.096
+UNIVERSITY OF JJ STROSSMAYER OSIJEK          	              2	     0.096
+UNIVERSITY OF LOUISVILLE                     	              2	     0.096
+UNIVERSITY OF MACAU                          	              2	     0.096
+UNIVERSITY OF MELBOURNE                      	              2	     0.096
+UNIVERSITY OF MISSOURI COLUMBIA              	              2	     0.096
+UNIVERSITY OF MONS                           	              2	     0.096
+UNIVERSITY OF NAPLES FEDERICO II             	              2	     0.096
+UNIVERSITY OF NORTH SUMATRA                  	              2	     0.096
+UNIVERSITY OF PUNJAB                         	              2	     0.096
+UNIVERSITY OF QUEBEC MONTREAL                	              2	     0.096
+UNIVERSITY OF SADAT CITY                     	              2	     0.096
+UNIVERSITY OF SARGODHA                       	              2	     0.096
+UNIVERSITY OF SPLIT                          	              2	     0.096
+UNIVERSITY OF TEHRAN                         	              2	     0.096
+UNIVERSITY OF TULSA                          	              2	     0.096
+UNIVERSITY OF VALENCIA                       	              2	     0.096
+UNIVERSITY OF WEST LONDON                    	              2	     0.096
+UNIVERSITY OF ZAGREB                         	              2	     0.096
+UNIVERSITY ZANJAN                            	              2	     0.096
+VIRGINIA POLYTECHNIC INSTITUTE STATE UNIVERSI	              2	     0.096
+TY                                           	               	          
+VRIJE UNIVERSITEIT AMSTERDAM                 	              2	     0.096
+WEST POMERANIAN UNIVERSITY OF TECHNOLOGY     	              2	     0.096
+WOLLEGA UNIV                                 	              2	     0.096
+WORCESTER POLYTECHNIC INSTITUTE              	              2	     0.096
+WUHAN MET CONSTRUCT RES INST CO LTD MCC GRP  	              2	     0.096
+WUHAN UNIVERSITY                             	              2	     0.096
+WUHAN VODOLF NEW MAT CO LTD                  	              2	     0.096
+XINJIANG UNIVERSITY                          	              2	     0.096
+YANBIAN UNIVERSITY                           	              2	     0.096
+YUNNAN INST BLDG RES                         	              2	     0.096
+ZAKIR HUSAIN COLLEGE OF ENGINEERING TECHNOLOG	              2	     0.096
+Y                                            	               	          
+ZHEJIANG SCI TECH UNIVERSITY                 	              2	     0.096
+2 CEMENTING CO                               	              1	     0.048
+A STAR INSTITUTE OF MATERIALS RESEARCH ENGINE	              1	     0.048
+ERING IMRE                                   	               	          
+AAA COLL ENGN TECHNOL                        	              1	     0.048
+AALTO UNIVERSITY                             	              1	     0.048
+AARUPADAI VEEDU INSTITUTE OF TECHNOLOGY      	              1	     0.048
+ABENGOA RES                                  	              1	     0.048
+ABRAJ ENERGY SERV SAOC                       	              1	     0.048
+ABU DHABI UNIVERSITY                         	              1	     0.048
+ACAD AEROSP PROP TECHNOL                     	              1	     0.048
+ACAD GEN MIL                                 	              1	     0.048
+ACADEMIC CENTER FOR DENTISTRY AMSTERDAM      	              1	     0.048
+ACADEMY OF ROMANIAN SCIENTISTS AOSR          	              1	     0.048
+ACHIRA LABS PVT LTD                          	              1	     0.048
+ADAMSON UNIVERSITY                           	              1	     0.048
+ADIGRAT UNIV                                 	              1	     0.048
+ADITYA ENGINEERING COLLEGE SURAMPALEM        	              1	     0.048
+AERONAUT INST TECHNOL ITA                    	              1	     0.048
+AEROSP RES INST MAT PROC TECHNOL             	              1	     0.048
+AFE BABALOLA UNIV                            	              1	     0.048
+AFYON KOCATEPE UNIVERSITY                    	              1	     0.048
+AGENCY FOR SCIENCE TECHNOLOGY RESEARCH A STAR	              1	     0.048
+AL BALQA APPLIED UNIV                        	              1	     0.048
+AL IRAQIA UNIVERSITY                         	              1	     0.048
+AL MARGAB UNIV                               	              1	     0.048
+AL TAFILEH UNIV                              	              1	     0.048
+AL TURATH UNIVERSITY COLLEGE                 	              1	     0.048
+ALEXANDRIA UNIVERSITY                        	              1	     0.048
+ALFA BK UNIV                                 	              1	     0.048
+ALLIANCE GEOTECH                             	              1	     0.048
+AMERICAN UNIVERSITY OF THE MIDDLE EAST       	              1	     0.048
+AMGEN                                        	              1	     0.048
+ANDRA AGENCE NATL GEST DECHETS RADIOACT      	              1	     0.048
+ANF DEV                                      	              1	     0.048
+ANF TECHNOL LTD                              	              1	     0.048
+ANHUI LENCAQI BLDG MAT CO LTD                	              1	     0.048
+ANHUI UNIVERSITY OF SCIENCE TECHNOLOGY       	              1	     0.048
+ANKARA UNIVERSITY                            	              1	     0.048
+ANNA UNIVERSITY                              	              1	     0.048
+ANNAI VAILANKANNI COLL ENGN                  	              1	     0.048
+ANNAMACHARYA INST TECHNOL SCI                	              1	     0.048
+ANTEX WESTERN LTD ACM TECHNOL                	              1	     0.048
+ANURAG UNIV                                  	              1	     0.048
+APEX INST TECHNOL                            	              1	     0.048
+APPL ENVIRONM SCI LTD                        	              1	     0.048
+ARCHAEOL SURVEY INDIA                        	              1	     0.048
+ARIZONA STATE UNIVERSITY                     	              1	     0.048
+ARIZONA STATE UNIVERSITY TEMPE               	              1	     0.048
+ARMY ENGINEERING UNIVERSITY OF PLA           	              1	     0.048
+ASSOCIATED UNIT CSIC TECNALIA                	              1	     0.048
+ASWAN UNIVERSITY                             	              1	     0.048
+AUGUSTA UNIVERSITY                           	              1	     0.048
+AURAC CONSULTING CONSTRUCT                   	              1	     0.048
+AUSTRALIAN NUCLEAR SCIENCE TECHNOLOGY ORGANIS	              1	     0.048
+ATION                                        	               	          
+AUSTRALIAS NUCL SCI TECHNOL ORG              	              1	     0.048
+AUSTRIAN ACADEMY OF SCIENCES                 	              1	     0.048
+AUTON MAT INC                                	              1	     0.048
+AVECOM NV                                    	              1	     0.048
+AZERBAIJAN SATE UNIV ECON UNEC               	              1	     0.048
+B S ABDUR RAHMAN CRESCENT INSTITUTE OF SCIENC	              1	     0.048
+E TECHNOLOGY                                 	               	          
+BABOL NOSHIRVANI UNIVERSITY OF TECHNOLOGY    	              1	     0.048
+BAM                                          	              1	     0.048
+BANGLADESH UNIVERSITY OF ENGINEERING TECHNOLO	              1	     0.048
+GY BUET                                      	               	          
+BAOJI UNIVERSITY OF ARTS SCIENCES            	              1	     0.048
+BARKATULLAH UNIVERSITY                       	              1	     0.048
+BASF                                         	              1	     0.048
+BASQUE RES TECHNOL ALLIANCE BRTA PARQUE TECNO	              1	     0.048
+L                                            	               	          
+BEIJING ENGN RES CTR SYNTH APPLICAT WATERBORN	              1	     0.048
+E P                                          	               	          
+BEIJING INST HOUSING URBAN RURAL CONSTRUCT SC	              1	     0.048
+I                                            	               	          
+BEIJING INSTITUTE OF GRAPHIC COMMUNICATION   	              1	     0.048
+BEIJING ORIENTAL YUHANG WATERPROOF TECHNOL CO	              1	     0.048
+LTD                                          	               	          
+BEIJING ORIENTAL YUHONG WATERPROOF TECHNOL CO	              1	     0.048
+LTD                                          	               	          
+BEIJING ZHONGLU GAOKE HIGHWAY TECHNOL CO LTD 	              1	     0.048
+BELGOROD STATE TECHNOLOGICAL UNIVERSITY      	              1	     0.048
+BEN GURION UNIV NEGEV                        	              1	     0.048
+BENHA UNIVERSITY                             	              1	     0.048
+BESIX NV SA                                  	              1	     0.048
+BESPAK INNOVAT CTR                           	              1	     0.048
+BIOLITEC AG                                  	              1	     0.048
+BIOME LIVE ANALYT CTR                        	              1	     0.048
+BLDG INFORMAT MODEL INTELLIGENT CONSTRUCT TEC	              1	     0.048
+HNO                                          	               	          
+BLDG SCI GRP CO LTD                          	              1	     0.048
+BOISE STATE UNIVERSITY                       	              1	     0.048
+BOSTON CHILDREN S HOSPITAL                   	              1	     0.048
+BRANDENBURG UNIVERSITY OF TECHNOLOGY COTTBUS 	              1	     0.048
+BRAWIJAYA UNIVERSITY                         	              1	     0.048
+BRIGHAM WOMEN S HOSPITAL                     	              1	     0.048
+BRNO UNIVERSITY OF TECHNOLOGY                	              1	     0.048
+BROWN UNIVERSITY                             	              1	     0.048
+BRUNEL UNIVERSITY                            	              1	     0.048
+BULGARIAN ACADEMY OF SCIENCES                	              1	     0.048
+BUNDESANSTALT WASSERBAU BAW                  	              1	     0.048
+BYDGOSZCZ UNIVERSITY OF SCIENCE TECHNOLOGY   	              1	     0.048
+C CRETE TECHNOL LLC                          	              1	     0.048
+CAAC NEW ERA AIRPORT DESIGN RES INST CO LTD  	              1	     0.048
+CABO SANTO AGOSTINHO                         	              1	     0.048
+CALIFORNIA INSTITUTE OF TECHNOLOGY           	              1	     0.048
+CALUT CO HOLDING                             	              1	     0.048
+CANKAYA UNIVERSITY                           	              1	     0.048
+CARINTHIA UNIVERSITY OF APPLIED SCIENCES     	              1	     0.048
+CASE WESTERN RESERVE UNIVERSITY              	              1	     0.048
+CCCC FHEC HARBOR ENGN DESIGN CO LTD          	              1	     0.048
+CCCC FIRST HARBOR CONSULTANTS CO LTD         	              1	     0.048
+CCCC FIRST HIGHWAY CONSULTANTS CO LTD        	              1	     0.048
+CCCC FIRST HIGHWAY ENGN CO LTD               	              1	     0.048
+CCCC SECOND HARBOR ENGN CO LTD               	              1	     0.048
+CEA                                          	              1	     0.048
+CECOS UNIV                                   	              1	     0.048
+CECOS UNIV IT EMERGING SCI                   	              1	     0.048
+CEMENTOS LA CRUZ SL                          	              1	     0.048
+CENT LILLE                                   	              1	     0.048
+CENT RES DESIGN INST                         	              1	     0.048
+CENT RES INST BLDG CONSTRUCT CO LTD MCC      	              1	     0.048
+CENT SOUTHERN CHINA MUNICIPAL ENGN DESIGN RES	              1	     0.048
+CENTER FOR PHYSICAL SCIENCES TECHNOLOGY LITHU	              1	     0.048
+ANIA                                         	               	          
+CENTRE UNIVERSITAIRE AIN TEMOUCHENT          	              1	     0.048
+CEPT UNIVERSITY                              	              1	     0.048
+CERATIZIT LUXEMBOURG SARL                    	              1	     0.048
+CHANDIGARH UNIVERSITY                        	              1	     0.048
+CHANGCHUN SCITECH UNIV                       	              1	     0.048
+CHANGSHA INST MIN RES CO LTD                 	              1	     0.048
+CHARLES UNIVERSITY PRAGUE                    	              1	     0.048
+CHAUDHARY CHARAN SINGH UNIVERSITY            	              1	     0.048
+CHICAGO STATE UNIVERSITY                     	              1	     0.048
+CHINA ACAD RAILWAY SCI                       	              1	     0.048
+CHINA ACAD RAILWAY SCI CO LTD                	              1	     0.048
+CHINA COAL RES INST                          	              1	     0.048
+CHINA COAL TECHNOL ENGN GRP SHENYANG RES INST	              1	     0.048
+CHINA CONSTRUCT MAT IND                      	              1	     0.048
+CHINA CONSTRUCT PORT GRP CO LTD              	              1	     0.048
+CHINA CONSTRUCT SEVENTH ENGN DIV CORP LTD    	              1	     0.048
+CHINA CONSTRUCT THIRD ENGN BUR GRP CO LTD    	              1	     0.048
+CHINA CONSTRUCTION IND ENERGY ENGN GRP CO LTD	              1	     0.048
+CHINA EARTHQUAKE ADMINISTRATION              	              1	     0.048
+CHINA FORTUNE LAND DEV CO LTD                	              1	     0.048
+CHINA GEOLOGICAL SURVEY                      	              1	     0.048
+CHINA MEDICAL UNIVERSITY TAIWAN              	              1	     0.048
+CHINA NATIONAL OFFSHORE OIL CORPORATION CNOOC	              1	     0.048
+CHINA NATL PETR CORP ENGN TECHNOL R D CO LTD 	              1	     0.048
+CHINA NATL SPACE ADM                         	              1	     0.048
+CHINA NUCLEAR POWER ENGINEERING CO LTD       	              1	     0.048
+CHINA PHARMACEUTICAL UNIVERSITY              	              1	     0.048
+CHINA PORTUGAL BELT RD JOINT LAB SPACE SEA TE	              1	     0.048
+C                                            	               	          
+CHINA RAILWAY ERYUAN ENGN GRP CO LTD         	              1	     0.048
+CHINA RAILWAY SIYUAN SURVEY DESIGN GRP CO LTD	              1	     0.048
+CHINA RAILWAY TUNNEL CONSULTANTS CO LTD      	              1	     0.048
+CHINA RAILWAY URBAN CONSTRUCT                	              1	     0.048
+CHINA THREE GORGES CORPORATION               	              1	     0.048
+CHINA UNITED CEMENT GRP CO                   	              1	     0.048
+CHINA WEST CONSTRUCT GRP CO LTD              	              1	     0.048
+CHINA WEST CONSTRUCT HUNAN GRP CO LTD        	              1	     0.048
+CHINESE ACADEMY OF ENGINEERING PHYSICS       	              1	     0.048
+CHINESE ACADEMY OF GEOLOGICAL SCIENCES       	              1	     0.048
+CHITTAGONG UNIVERSITY OF ENGINEERING TECHNOLO	              1	     0.048
+GY CUET                                      	               	          
+CHONGQING INSTITUTE OF ENGINEERING           	              1	     0.048
+CHONGQING UNIVERSITY OF SCIENCE TECHNOLOGY   	              1	     0.048
+CHONGQING VOCATIONAL INSTITUTE OF ENGINEERING	              1	     0.048
+CHU STRASBOURG                               	              1	     0.048
+CHUNGBUK NATIONAL UNIVERSITY                 	              1	     0.048
+CINTECX                                      	              1	     0.048
+CITY UNIV SCI INFORMAT TECHNOL               	              1	     0.048
+CIVIL ENVIRONM ENGN DEPT                     	              1	     0.048
+CJS TECHNOL INC                              	              1	     0.048
+CLINICA ALEMANA                              	              1	     0.048
+CMR INST TECHNOL                             	              1	     0.048
+CNPC DRILLING ENGN RES INST                  	              1	     0.048
+CNRS INSTITUTE OF CHEMISTRY INC              	              1	     0.048
+CNRS NATIONAL INSTITUTE FOR EARTH SCIENCES AS	              1	     0.048
+TRONOMY INSU                                 	               	          
+CNRS NATIONAL INSTITUTE OF NUCLEAR AND PARTIC	              1	     0.048
+LE PHYSICS IN2P3                             	               	          
+COLL CIVIL TRANSPORTAT ENGN                  	              1	     0.048
+COLL ENGN TECHNOL                            	              1	     0.048
+COLLEGE OF TECHNOLOGY ENGINEERING UDAIPUR    	              1	     0.048
+COLLEGIUM MEDICUM JAGIELLONIAN UNIVERSITY    	              1	     0.048
+COMMONWEALTH SCIENTIFIC INDUSTRIAL RESEARCH O	              1	     0.048
+RGANISATION CSIRO                            	               	          
+COMMUNAUTE UNIVERSITE GRENOBLE ALPES         	              1	     0.048
+COMPLUTENSE UNIVERSITY OF MADRID             	              1	     0.048
+CONACYT TECNOL NACL MEXICO IT CHETUMAL       	              1	     0.048
+CONSELHO NACL DESENVOLVIMENTO CIENT TECHNOL  	              1	     0.048
+CONSTRUCT TECHNOL RES CTR                    	              1	     0.048
+COPPE                                        	              1	     0.048
+COPPE UNIV FED RIO JANEIRO                   	              1	     0.048
+CORNELL UNIVERSITY                           	              1	     0.048
+COSTAIN GRP                                  	              1	     0.048
+COSTAIN GRP PLC                              	              1	     0.048
+COWI A S                                     	              1	     0.048
+CS HAND MICROSURG                            	              1	     0.048
+CSIC CENTRO DE INVESTIGACION Y DESARROLLO PAS	              1	     0.048
+CUAL VILA CID CSIC                           	               	          
+CSIC INSTITUTO DE CERAMICA Y VIDRIO ICV      	              1	     0.048
+CSIC INSTITUTO DE DIAGNOSTICO AMBIENTAL Y EST	              1	     0.048
+UDIOS DEL AGUA IDAEA                         	               	          
+CSIC TECNALIA                                	              1	     0.048
+CSIC UCM INSTITUTO DE GEOCIENCIAS IGEO       	              1	     0.048
+CSIC UPV EHU CENTRO DE FISICA DE MATERIALES C	              1	     0.048
+FM                                           	               	          
+CSSC                                         	              1	     0.048
+CTR POLITECN                                 	              1	     0.048
+CTR STANDARDIZAT SUSTAINABLE FOREST MANAGEMEN	              1	     0.048
+T IN                                         	               	          
+CTR TECNOL CONSTRUCC                         	              1	     0.048
+CTR UNIV DESENVOLVIMENTO ALTO VALE ITAJAI    	              1	     0.048
+CTR UNIV UNIMETROCAMP                        	              1	     0.048
+CYPRUS INTERNATIONAL UNIVERSITY              	              1	     0.048
+DAEJIN UNIVERSITY                            	              1	     0.048
+DAEWOO INST CONSTRUCT TECHNOL                	              1	     0.048
+DALIAN JIAOTONG UNIVERSITY                   	              1	     0.048
+DALIAN MARITIME UNIVERSITY                   	              1	     0.048
+DANISH HYDRAULIC INSTITUTE DHI               	              1	     0.048
+DANISH TECHNOLOGICAL INSTITUTE               	              1	     0.048
+DAQING OILFIELD COMPANY LIMITED              	              1	     0.048
+DECCAN COLL POST GRAD RES INST               	              1	     0.048
+DELTA HIGHER INSTITUTE FOR ENGINEERING TECHNO	              1	     0.048
+LOGY                                         	               	          
+DEPT CONSERVAT DENT PERIODONTOL              	              1	     0.048
+DICP                                         	              1	     0.048
+DIPONEGORO UNIVERSITY                        	              1	     0.048
+DIT UNIVERSITY                               	              1	     0.048
+DMAT SRL                                     	              1	     0.048
+DON STATE TECHNICAL UNIVERSITY               	              1	     0.048
+DONGGUAN UNIVERSITY OF TECHNOLOGY            	              1	     0.048
+DONGHUA UNIVERSITY                           	              1	     0.048
+DONOSTIA INT PHYS CTR                        	              1	     0.048
+DR B LAL INST BIOTECHNOL                     	              1	     0.048
+DR B R AMBEDKAR NATIONAL INSTITUTE OF TECHNOL	              1	     0.048
+OGY JALANDHAR                                	               	          
+DR M G R EDUCATIONAL RESEARCH INSTITUTE      	              1	     0.048
+DR MAHALINGAM COLL ENGN TECHNOL              	              1	     0.048
+DTI                                          	              1	     0.048
+DUY TAN UNIVERSITY                           	              1	     0.048
+DWA ENERGY LTD                               	              1	     0.048
+EAST CHINA NORMAL UNIVERSITY                 	              1	     0.048
+EAST CHINA UNIVERSITY OF SCIENCE TECHNOLOGY  	              1	     0.048
+EBERHARD KARLS UNIVERSITY OF TUBINGEN        	              1	     0.048
+ECOLE NATIONALE D INGENIEURS DE TUNIS ENIT   	              1	     0.048
+ECOLE POLYTECHNIQUE FEDERALE DE LAUSANNE     	              1	     0.048
+EKITI STATE UNIV                             	              1	     0.048
+ELEMENTIS GMBH                               	              1	     0.048
+ELMERGIB UNIV                                	              1	     0.048
+EMPRESS CATHERINE II ST PETERSBURG MIN UNIV  	              1	     0.048
+ENEL GREEN POWER EGP INNOVAT SUSTAINABIL I S 	              1	     0.048
+ENGN RES CTR CONSTRUCT 3D PRINTING HEBEI     	              1	     0.048
+ENGN RES CTR CONSTRUCT COAL WASTE UTILIZAT TE	              1	     0.048
+CH                                           	               	          
+ESCUELA SUPER POLITECN CHIMBORAZO            	              1	     0.048
+ESCUELA SUPER POLITECN CHIMBORAZO ESPOCH     	              1	     0.048
+ESCUELA SUPERIOR POLITECNICA DEL LITORAL     	              1	     0.048
+EURO PHYS ACOUST                             	              1	     0.048
+EXXON MOBIL CORPORATION                      	              1	     0.048
+FAC CITG                                     	              1	     0.048
+FAC CIVIL ENGN                               	              1	     0.048
+FAC SCI                                      	              1	     0.048
+FACCA INC                                    	              1	     0.048
+FAHAD BIN SULTAN UNIVERSITY                  	              1	     0.048
+FAHRENHEIT UNIVERSITIES                      	              1	     0.048
+FAYOUM UNIVERSITY                            	              1	     0.048
+FED UNIV SANTA CATARINA UFSC                 	              1	     0.048
+FED UNIV TECHNOL OWERRI                      	              1	     0.048
+FED UNIV UBERLANDIA UFU                      	              1	     0.048
+FIRST TEST MINERALS LTD                      	              1	     0.048
+FLINDERS UNIVERSITY SOUTH AUSTRALIA          	              1	     0.048
+FOSHAN UNIVERSITY                            	              1	     0.048
+FSRC CRYSTALLOGRAPHY PHOTONICS RAS           	              1	     0.048
+FUDAN UNIVERSITY                             	              1	     0.048
+FUJIAN AGRICULTURE FORESTRY UNIVERSITY       	              1	     0.048
+FUTURE HIGH INST ENGN FAYOUM                 	              1	     0.048
+GADJAH MADA UNIVERSITY                       	              1	     0.048
+GALGOTIAS COLLEGE OF ENGINEERING TECHNOLOGY G	              1	     0.048
+CET                                          	               	          
+GDANSK UNIVERSITY OF TECHNOLOGY              	              1	     0.048
+GEGERKALONG HILIR DS CIWARUGA                	              1	     0.048
+GENERAL UNIVERSITY HOSPITAL PRAGUE           	              1	     0.048
+GERMAN ACAD SCI ENGN                         	              1	     0.048
+GHATEH GOSTAR NOVIN CO                       	              1	     0.048
+GLASGOW CALEDONIAN UNIVERSITY                	              1	     0.048
+GOVERNMENT COLLEGE UNIVERSITY LAHORE         	              1	     0.048
+GOVT COLL ENGN                               	              1	     0.048
+GOVT COLL TECHNOL                            	              1	     0.048
+GOVT DEGREE COLL TRAL                        	              1	     0.048
+GOVT POLYTECH AMRAVATI                       	              1	     0.048
+GRAPHIC ERA UNIVERSITY                       	              1	     0.048
+GRP INTERET PUBL ARRONAX                     	              1	     0.048
+GUANGDONG CARPOLY GREENWAY TECHNOL MAT CO LTD	              1	     0.048
+GUANGDONG KEY LAB OCEAN CIVIL ENGN           	              1	     0.048
+GUANGDONG PROV KEY LAB EARTHQUAKE ENGN APPL T	              1	     0.048
+ECH                                          	               	          
+GUANGDONG PROV KEY LAB INTELLIGENT MONITORING	              1	     0.048
+M                                            	               	          
+GUANGDONG RD BRIDGE CONSTRUCT DEV CO LTD     	              1	     0.048
+GUANGDONG RES INST WATER RESOURCES HYDROPOWER	              1	     0.048
+GUANGXI INST BLDG MAT SCI RES DESIGN CO      	              1	     0.048
+GUANGZHOU UNIVERSITY OF CHINESE MEDICINE     	              1	     0.048
+GUIZHOU COMMUN POLYTECH UNIV                 	              1	     0.048
+GUREN NANOMAT                                	              1	     0.048
+GURU KASHI UNIVERSITY                        	              1	     0.048
+GYEONGSANG NATIONAL UNIVERSITY               	              1	     0.048
+HAINAN LANDAO ENVIRONM PROTECT IND CO LTD    	              1	     0.048
+HAINAN TROPICAL OCEAN UNIVERSITY             	              1	     0.048
+HAKIM NEZAMI INST HIGHER EDUC                	              1	     0.048
+HALDIA INSTITUTE OF TECHNOLOGY               	              1	     0.048
+HALLIBURTON                                  	              1	     0.048
+HAMAD BIN KHALIFA UNIVERSITY QATAR           	              1	     0.048
+HAMEDAN UNIV TECHNOL                         	              1	     0.048
+HANOI ARCHITECTURAL UNIVERSITY               	              1	     0.048
+HARBIN UNIVERSITY OF SCIENCE TECHNOLOGY      	              1	     0.048
+HARVARD MEDICAL SCHOOL                       	              1	     0.048
+HAWASSA UNIV INST TECHNOL                    	              1	     0.048
+HEILONGJIANG INST CONSTRUCT TECHNOL          	              1	     0.048
+HEILONGJIANG INST CONSTRUCTION TECHNOL       	              1	     0.048
+HELMHOLTZ ZENTRUM DRESDEN ROSSENDORF HZDR    	              1	     0.048
+HELMUT SCHMIDT UNIVERSITY                    	              1	     0.048
+HENAN UNIVERSITY OF TECHNOLOGY               	              1	     0.048
+HENGTONG CONSTRUCT GRP CO LTD                	              1	     0.048
+HENGTONG CONSTRUCTION GRP CO LTD             	              1	     0.048
+HERITAGE INSTITUTE OF TECHNOLOGY HITK        	              1	     0.048
+HIGHWAY ENGN KEY LAB SICHUAN PROV            	              1	     0.048
+HINDUSTAN INSTITUTE OF TECHNOLOGY SCIENCE    	              1	     0.048
+HIROSHIMA UNIVERSITY                         	              1	     0.048
+HOKUDEN GEN ENGN DESIGN CONSULTING CO INC    	              1	     0.048
+HOKUDEN KOGYO CO LTD                         	              1	     0.048
+HOSEI UNIVERSITY                             	              1	     0.048
+HOSP AGEL KOSICE SACA                        	              1	     0.048
+HOSP CLIN PORTO ALEGRE                       	              1	     0.048
+HSCH MUNCHEN                                 	              1	     0.048
+HUAIYIN INSTITUTE OF TECHNOLOGY              	              1	     0.048
+HUANENG TIBET YARLUNGZANGBO RIVER HYDROPOWER 	              1	     0.048
+DEV                                          	               	          
+HUAZHONG AGRICULTURAL UNIVERSITY             	              1	     0.048
+HUMBOLDT UNIVERSITY OF BERLIN                	              1	     0.048
+HUNAN UNIV SCI ENGN                          	              1	     0.048
+HUNAN UNIVERSITY OF TECHNOLOGY               	              1	     0.048
+ICAR CENTRAL PLANTATION CROPS RESEARCH INSTIT	              1	     0.048
+UTE                                          	               	          
+IMAM KHOMEINI INTERNATIONAL UNIVERSITY       	              1	     0.048
+IMT ATLANTIQUE                               	              1	     0.048
+INCERTRANS SA                                	              1	     0.048
+INCHEON NATIONAL UNIVERSITY                  	              1	     0.048
+INDIAN COUNCIL OF AGRICULTURAL RESEARCH ICAR 	              1	     0.048
+INDIAN INSTITUTE OF SCIENCE IISC BANGALORE   	              1	     0.048
+INDIAN INSTITUTE OF TECHNOLOGY IIT INDORE    	              1	     0.048
+INDIAN INSTITUTE OF TECHNOLOGY IIT PATNA     	              1	     0.048
+INDIAN INSTITUTE OF TECHNOLOGY IIT ROORKEE   	              1	     0.048
+INDIENZ AB                                   	              1	     0.048
+INDIRA GANDHI CENTRE FOR ATOMIC RESEARCH IGCA	              1	     0.048
+R                                            	               	          
+INDONESIAN INSTITUTE OF SCIENCES LIPI        	              1	     0.048
+INHA UNIVERSITY                              	              1	     0.048
+INNCEINNMAT SL                               	              1	     0.048
+INNER MONGOLIA HIGH GRADE HIGHWAY CONSTRUCT D	              1	     0.048
+EV                                           	               	          
+INNOVENT EV                                  	              1	     0.048
+INST AVANCADO TECNOL INOVACAO IATI           	              1	     0.048
+INST ESPANOL CEMENTO APL                     	              1	     0.048
+INST SOLDADURA QUALIDADE                     	              1	     0.048
+INST TECHNOL RES                             	              1	     0.048
+INSTITUT NATIONAL DES SCIENCES APPLIQUEES DE 	              1	     0.048
+TOULOUSE                                     	               	          
+INSTITUT NATIONAL POLYTECHNIQUE DE TOULOUSE  	              1	     0.048
+INSTITUT TEKNOLOGI SEPULUH NOPEMBER          	              1	     0.048
+INSTITUTE OF COMPUTING TECHNOLOGY CAS        	              1	     0.048
+INSTITUTE OF GEONICS OF THE CZECH ACADEMY OF 	              1	     0.048
+SCIENCES                                     	               	          
+INSTITUTE OF KARST GEOLOGY CHINESE ACADEMY OF	              1	     0.048
+GEOLOGICAL SCIENCES                          	               	          
+INSTITUTE OF METAL RESEARCH CAS              	              1	     0.048
+INSTITUTE OF PHYSICAL CHEMISTRY OF THE POLISH	              1	     0.048
+ACADEMY OF SCIENCES                          	               	          
+INSTITUTE OF PHYSICS OF MATERIALS OF THE CZEC	              1	     0.048
+H ACADEMY OF SCIENCES                        	               	          
+INSTITUTE OF PHYSICS OF THE CZECH ACADEMY OF 	              1	     0.048
+SCIENCES                                     	               	          
+INSTITUTE OF THEORETICAL APPLIED MECHANICS OF	              1	     0.048
+THE CZECH ACADEMY OF SCIENCES                	               	          
+INSTITUTE TECHNOLOGY OF BANDUNG              	              1	     0.048
+INSTITUTO FEDERAL DE SANTA CATARINA IFSC     	              1	     0.048
+INSTITUTO TECNOLOGICO VALE DESENVOLVIMENTO SU	              1	     0.048
+STENTAVEL                                    	               	          
+INT INNOVAT CTR GREEN ADV CIVIL ENGN MAT HUNA	              1	     0.048
+N                                            	               	          
+INT INNOVAT CTR GREEN ADV CIVIL ENGN MAT HUNA	              1	     0.048
+N P                                          	               	          
+INTERNATIONAL UNIVERSITY OF BUSINESS AGRICULT	              1	     0.048
+URE TECHNOLOGY IUBAT                         	               	          
+INTERUNIVERSITY MICROELECTRONICS CENTRE      	              1	     0.048
+INTRON FEMMASSE                              	              1	     0.048
+INVERTIS UNIVERSITY                          	              1	     0.048
+IQRA NATL UNIV                               	              1	     0.048
+IRAN UNIVERSITY SCIENCE TECHNOLOGY           	              1	     0.048
+ISLAMIC UNIV SCI TECHNOL                     	              1	     0.048
+ISLAMIC UNIVERSITY GAZA                      	              1	     0.048
+ISRA UNIV                                    	              1	     0.048
+IST MECCAN MAT SA                            	              1	     0.048
+ISTANBUL AYDIN UNIVERSITY                    	              1	     0.048
+ISTANBUL UNIVERSITY                          	              1	     0.048
+ITALCEMENTI HEIDELBERGCEMENT GRP             	              1	     0.048
+JACKSON STATE UNIVERSITY                     	              1	     0.048
+JAGIELLONIAN UNIVERSITY                      	              1	     0.048
+JAMIA MILLIA ISLAMIA                         	              1	     0.048
+JAWAHARLAL NEHRU TECHNOLOGICAL UNIVERSITY KAK	              1	     0.048
+INADA                                        	               	          
+JAYPEE INST INFORMAT TECHNOL                 	              1	     0.048
+JERUSALEM COLL ENGN                          	              1	     0.048
+JIAHUA SCI TECHNOL CO LTD                    	              1	     0.048
+JIANGSU ENGN RES CTR CRACK CONTROL CONCRETE  	              1	     0.048
+JIANGSU HUAMEI CONSTRUCT INVESTMENT GRP CO LT	              1	     0.048
+D                                            	               	          
+JIANGSU PROV BLDG INST                       	              1	     0.048
+JIANGSU RES INST BLDG SCI CO LTD             	              1	     0.048
+JIANGSU SURVEYING DESIGN INST WATER RESOURCES	              1	     0.048
+C                                            	               	          
+JIANGSU SURVEYING DESIGN INST WATER RESOURCES	              1	     0.048
+CO                                           	               	          
+JIANGSU TIANRUN ENVIRONM CONSTRUCT GRP CO LTD	              1	     0.048
+JIANGSU TIANRUN ENVIRONM CONSTRUCTION GRP CO 	              1	     0.048
+LTD                                          	               	          
+JIANGXI BLDG MAT SCI RES DESIGN INST         	              1	     0.048
+JILIN INST ARCHITECTURE CIVIL ENGN           	              1	     0.048
+JIMMA UNIVERSITY                             	              1	     0.048
+JINHUA XINSHENG ZEOLITE DEV CO LTD           	              1	     0.048
+JOHNS HOPKINS UNIVERSITY                     	              1	     0.048
+JSTI GRP                                     	              1	     0.048
+JUNTENDO UNIVERSITY                          	              1	     0.048
+KAMARAJ COLLEGE OF ENGINEERING TECHNOLOGY    	              1	     0.048
+KAMPALA INT UNIV                             	              1	     0.048
+KANAZAWA UNIVERSITY                          	              1	     0.048
+KAUNAS UNIVERSITY OF TECHNOLOGY              	              1	     0.048
+KEY LAB DURABIL CIVIL ENGN                   	              1	     0.048
+KEY LAB GREEN ADV CIVIL ENGN MAT APPLICAT TEC	              1	     0.048
+KEY LAB MICROBIAL BIOMINERALIZAT TECHNOL     	              1	     0.048
+KEY LAB ROCK MECH GEOHAZARDS ZHEJIANG PROV   	              1	     0.048
+KEY LAB SAFE CONSTRUCT INTELLIGENT MAINTENANC	              1	     0.048
+E U                                          	               	          
+KEY TECHNOL R D PROGRAM CNBM                 	              1	     0.048
+KGISL INST TECHNOL                           	              1	     0.048
+KHAWAJA FARID UNIV ENGN INFORMAT TECHNOL KFUE	              1	     0.048
+IT                                           	               	          
+KHWAJA FAREED UNIVERSITY OF ENGINEERING INFOR	              1	     0.048
+MATION TECHNOLOGY PAKISTAN                   	               	          
+KING FAISAL UNIV KFU                         	              1	     0.048
+KING MONGKUTS INSTITUTE OF TECHNOLOGY LADKRAB	              1	     0.048
+ANG                                          	               	          
+KIRSEHIR AHI EVRAN UNIVERSITY                	              1	     0.048
+KITAB UNIV                                   	              1	     0.048
+KLE DR MS SHESGIRI COLL ENGN TECHNOL         	              1	     0.048
+KLE DR MSS SHESGIRI COLL ENGN TECHNOL        	              1	     0.048
+KNAUF SOUTH SALES OFF                        	              1	     0.048
+KOMAR UNIV SCI TECHNOL                       	              1	     0.048
+KONGU ENGINEERING COLLEGE                    	              1	     0.048
+KOREA CONFORM LABS KCL                       	              1	     0.048
+KOREA INSTITUTE OF GEOSCIENCE MINERAL RESOURC	              1	     0.048
+ES KIGAM                                     	               	          
+KOREA INSTITUTE OF SCIENCE TECHNOLOGY KIST   	              1	     0.048
+KOREA LAND HOUSING CORP                      	              1	     0.048
+KOREA LAND HOUSING INST                      	              1	     0.048
+KPMG                                         	              1	     0.048
+KSRM COLL ENGN                               	              1	     0.048
+KUMAMOTO UNIVERSITY                          	              1	     0.048
+KUNSAN NATIONAL UNIVERSITY                   	              1	     0.048
+KURCHATOV GENOME CTR PNPI                    	              1	     0.048
+KURNAKOV INSTITUTE OF GENERAL INORGANIC CHEMI	              1	     0.048
+STRY OF THE RUSSIAN ACADEMY OF SCIENCES      	               	          
+KUT UNIV COLL                                	              1	     0.048
+KYUNG HEE UNIVERSITY                         	              1	     0.048
+KYUNGPOOK NATIONAL UNIVERSITY KNU            	              1	     0.048
+KYUSHU INSTITUTE OF TECHNOLOGY               	              1	     0.048
+LAB MECAN LILLE                              	              1	     0.048
+LAB MICROBIAL ECOL TECHNOL                   	              1	     0.048
+LAB MULTIDISCIPLINARY TRAINING TECHNOL RES   	              1	     0.048
+LABORATOIRE CENTRAL DES PONTS ET CHAUSSEES LC	              1	     0.048
+PC                                           	               	          
+LAKEHEAD UNIVERSITY                          	              1	     0.048
+LAMBSON                                      	              1	     0.048
+LAMBSON LTD                                  	              1	     0.048
+LANDMARK UNIVERSITY                          	              1	     0.048
+LATIN RESOURCES LTD                          	              1	     0.048
+LAWRENCE LIVERMORE NATIONAL LABORATORY       	              1	     0.048
+LEIPZIG UNIV APPL SCI                        	              1	     0.048
+LINYI UNIVERSITY                             	              1	     0.048
+LODZ UNIVERSITY OF TECHNOLOGY                	              1	     0.048
+LONDON SOUTH BANK UNIVERSITY                 	              1	     0.048
+LORDS INST ENGN TECHNOL                      	              1	     0.048
+LOS ALAMOS NATIONAL LABORATORY               	              1	     0.048
+LOUISIANA TECHNICAL UNIVERSITY               	              1	     0.048
+LOUISINA STATE UNIV                          	              1	     0.048
+LUND UNIVERSITY                              	              1	     0.048
+M KUMARASAMY COLLEGE OF ENGINEERING          	              1	     0.048
+MAANSHAN UNIV                                	              1	     0.048
+MACAU UNIVERSITY OF SCIENCE TECHNOLOGY       	              1	     0.048
+MACQUARIE UNIVERSITY                         	              1	     0.048
+MAGNEL LAB CONCRETE RES                      	              1	     0.048
+MAHIDOL UNIVERSITY                           	              1	     0.048
+MANIPAL UNIVERSITY JAIPUR                    	              1	     0.048
+MARCHE POLYTECHNIC UNIVERSITY                	              1	     0.048
+MAREPHRAEM COLL ENGN TECHNOL                 	              1	     0.048
+MARRI LAXMAN REDDY INST TECHNOL MANAGEMENT   	              1	     0.048
+MARWADI UNIVERSITY                           	              1	     0.048
+MATERIALS CENTER LEOBEN FORSCHUNGS GMBH      	              1	     0.048
+MAX PLANCK SOCIETY                           	              1	     0.048
+MC BAUCHEM                                   	              1	     0.048
+MC BAUCHEMIE MFG PLC                         	              1	     0.048
+MCC CONSTRUCT RES INST CO LTD                	              1	     0.048
+MCC GRP CO LTD                               	              1	     0.048
+MCNEELY ENGN                                 	              1	     0.048
+MEDICAL UNIVERSITY OF LUBLIN                 	              1	     0.048
+MEENAKSHI SUNDARARAJAN ENGN COLL             	              1	     0.048
+MERU UNIV SCI TECHNOL                        	              1	     0.048
+MIANYANG HOUSING SAFETY CTR                  	              1	     0.048
+MICHIGAN TECHNOLOGICAL UNIVERSITY            	              1	     0.048
+MIDDLE TECHNICAL UNIVERSITY                  	              1	     0.048
+MIDDLESEX UNIVERSITY                         	              1	     0.048
+MINIA UNIVERSITY                             	              1	     0.048
+MINIST ECOL ENVIRONM CHINA NANJING INST ENVIR	              1	     0.048
+ONM                                          	               	          
+MINIST ENERGY INFRASTRUCT                    	              1	     0.048
+MINIST ENVIRONM URBANIZAT CLIMATE CHANGE     	              1	     0.048
+MINIST HLTH                                  	              1	     0.048
+MINIST IND INFORMAT TECHNOL                  	              1	     0.048
+MIRPUR UNIV SCI TECHNOL MUST                 	              1	     0.048
+MISR HIGHER INST ENG TECH                    	              1	     0.048
+MISR HIGHER INST ENGN TECHNOL                	              1	     0.048
+MISSOURI UNIVERSITY OF SCIENCE TECHNOLOGY    	              1	     0.048
+MNR TIANJIN                                  	              1	     0.048
+MON NATL INST SCI TECHNOL UNIST              	              1	     0.048
+MORGAN STATE UNIVERSITY                      	              1	     0.048
+MOTILAL NEHRU NATIONAL INSTITUTE OF TECHNOLOG	              1	     0.048
+Y                                            	               	          
+MZ PARTNERS ARCHITECTURAL ENGN CONSULTANCY   	              1	     0.048
+NACL LAB CIVIL ENGN LNEC                     	              1	     0.048
+NALLA MALLA REDDY ENGN COLL AUTONOMOUS       	              1	     0.048
+NANCHANG HANGKONG UNIVERSITY                 	              1	     0.048
+NANJING AGRICULTURAL UNIVERSITY              	              1	     0.048
+NANJING CONSTRUCT GRP CO LTD                 	              1	     0.048
+NANJING ENGN RES CTR PREFABRICATED CONSTRUCT 	              1	     0.048
+NANJING HYDRAULIC RESEARCH INSTITUTE         	              1	     0.048
+NANJING INSTITUTE OF TECHNOLOGY              	              1	     0.048
+NANJING UNIVERSITY OF CHINESE MEDICINE       	              1	     0.048
+NANJING YANGTZE RIVER MANAGEMENT OFF         	              1	     0.048
+NANKAI UNIVERSITY                            	              1	     0.048
+NANO ADV MAT INST                            	              1	     0.048
+NATIONAL AGRICULTURAL RESEARCH COUNCIL PAKIST	              1	     0.048
+AN                                           	               	          
+NATIONAL CENTRE FOR PHYSICS PAKISTAN         	              1	     0.048
+NATIONAL CHI NAN UNIVERSITY                  	              1	     0.048
+NATIONAL CIVIL ENGINEERING LABORATORY        	              1	     0.048
+NATIONAL ENGINEERING COLLEGE INDIA           	              1	     0.048
+NATIONAL INSTITUTE OF BIOLOGICAL RESOURCES   	              1	     0.048
+NATIONAL INSTITUTE OF STANDARDS TECHNOLOGY NI	              1	     0.048
+ST USA                                       	               	          
+NATIONAL INSTITUTE OF TECHNOLOGY DURGAPUR    	              1	     0.048
+NATIONAL INSTITUTE OF TECHNOLOGY KURUKSHETRA 	              1	     0.048
+NATIONAL INSTITUTE OF TECHNOLOGY ROURKELA    	              1	     0.048
+NATIONAL INSTITUTE OF TECHNOLOGY SILCHAR     	              1	     0.048
+NATIONAL INSTITUTE RESEARCH DEVELOPMENT IN CH	              1	     0.048
+EMISTRY PETROCHEMISTRY                       	               	          
+NATIONAL KAOHSIUNG UNIVERSITY OF SCIENCE TECH	              1	     0.048
+NOLOGY                                       	               	          
+NATIONAL RESEARCH CENTRE KURCHATOV INSTITUTE 	              1	     0.048
+NATIONAL TAIWAN UNIVERSITY OF SCIENCE TECHNOL	              1	     0.048
+OGY                                          	               	          
+NATIONAL TSING HUA UNIVERSITY                	              1	     0.048
+NATIONAL YANG MING CHIAO TUNG UNIVERSITY     	              1	     0.048
+NATL CTR TRANSPORTAT INFRASTRUCT DURABIL LIFE	              1	     0.048
+EX                                           	               	          
+NATL ENGN RES CTR HIGH SPEED RAILWAY CONSTRUC	              1	     0.048
+T TE                                         	               	          
+NATL ENGN RES CTR HIGH SPEED RAILWAY CONSTRUC	              1	     0.048
+T TEC                                        	               	          
+NATL ENGN RES CTR OIL GAS DRILLING COMPLET TE	              1	     0.048
+C                                            	               	          
+NATL ENGN RES CTR WATER RESOURCES EFFICIENT U	              1	     0.048
+TILI                                         	               	          
+NATL HIGHWAYS                                	              1	     0.048
+NATL INST CONSTRUCT MANAGEMENT RES           	              1	     0.048
+NATL INST RES DEV CONSTRUCT                  	              1	     0.048
+NATL INST TECHNOL                            	              1	     0.048
+NATL LOCAL JOINT ENGN RES CTR INTELLIGENT CON	              1	     0.048
+ST                                           	               	          
+NATL MUSEUM INST                             	              1	     0.048
+NATL MUSEUM INST HIST ART CONSERVAT MUSEOL   	              1	     0.048
+NATL UNIV AUTONOMOUS MEXICO                  	              1	     0.048
+NATL UNIV SCI TECHNOL NUST                   	              1	     0.048
+NATL ZAGAZIG UNIV                            	              1	     0.048
+NAVAJO TECHNICAL UNIVERSITY                  	              1	     0.048
+NAZARBAYEV UNIVERSITY                        	              1	     0.048
+NECMETTIN ERBAKAN UNIVERSITY                 	              1	     0.048
+NEHRU INST TECHNOL                           	              1	     0.048
+NETHERLANDS ORGANIZATION APPLIED SCIENCE RESE	              1	     0.048
+ARCH                                         	               	          
+NETL RUA                                     	              1	     0.048
+NETWORK RAIL                                 	              1	     0.048
+NEW JERSEY INSTITUTE OF TECHNOLOGY           	              1	     0.048
+NEW YORK UNIVERSITY                          	              1	     0.048
+NEW YORK UNIVERSITY ABU DHABI                	              1	     0.048
+NFC INST ENGN TECHNOL                        	              1	     0.048
+NGM                                          	              1	     0.048
+NIHON UNIVERSITY                             	              1	     0.048
+NIKKISO CO LTD                               	              1	     0.048
+NINGBO INSTITUTE OF MATERIALS TECHNOLOGY AND 	              1	     0.048
+ENGINEERING CAS                              	               	          
+NINGBOTECH UNIVERSITY                        	              1	     0.048
+NITTETSU CEMENT CO LTD                       	              1	     0.048
+NORTH CAROLINA STATE UNIVERSITY              	              1	     0.048
+NORTHEAST PETROLEUM UNIVERSITY               	              1	     0.048
+NORTHUMBRIA UNIVERSITY                       	              1	     0.048
+NORTHWEST A F UNIVERSITY CHINA               	              1	     0.048
+NORWEGIAN BLDG RES INST                      	              1	     0.048
+NOVA RES SRL                                 	              1	     0.048
+NRI INST TECHNOL                             	              1	     0.048
+NTPC LTD                                     	              1	     0.048
+NUCES                                        	              1	     0.048
+OHIO STATE UNIVERSITY                        	              1	     0.048
+OILFIELD TECHNOL                             	              1	     0.048
+OLABISI ONABANJO UNIV                        	              1	     0.048
+ONAIZAH COLLEGES                             	              1	     0.048
+ONGC                                         	              1	     0.048
+ORG ENVIRONM                                 	              1	     0.048
+OSAKA MEDICAL PHARMACEUTICAL UNIVERSITY      	              1	     0.048
+OSAKA METROPOLITAN UNIVERSITY                	              1	     0.048
+OSAKA UNIVERSITY                             	              1	     0.048
+PARTHENOPE UNIVERSITY NAPLES                 	              1	     0.048
+PASOFAL ENGN                                 	              1	     0.048
+PC                                           	              1	     0.048
+PENETRON ITALIA LTD                          	              1	     0.048
+PETERSBURG NUCLEAR PHYSICS INSTITUTE         	              1	     0.048
+PETRONAS                                     	              1	     0.048
+PHRANAKHON RAJABHAT UNIVERSITY               	              1	     0.048
+PINGTAN COMPREHENS EXPT ZONE BUR TRANSPORTAT 	              1	     0.048
+CON                                          	               	          
+PK CRACOW UNIV TECHNOL                       	              1	     0.048
+PLANSEE HOLDING AG                           	              1	     0.048
+POHANG UNIVERSITY OF SCIENCE TECHNOLOGY POSTE	              1	     0.048
+CH                                           	               	          
+POLITECNICO DI BARI                          	              1	     0.048
+POLITEKN NEGERI PONTIANAK                    	              1	     0.048
+POLYMER CHEM BIOMAT GRP                      	              1	     0.048
+POLYMER COMPETENCE CTR LEOBEN PCCL           	              1	     0.048
+POLZUNOV ALTAI STATE TECHNICAL UNIVERSITY    	              1	     0.048
+PONTIFICAL XAVIERIAN UNIV CALI               	              1	     0.048
+PONTIFICIA UNIVERSIDADE CATOLICA DO RIO DE JA	              1	     0.048
+NEIRO                                        	               	          
+PONTIFICIA UNIVERSIDADE CATOLICA DO RIO GRAND	              1	     0.048
+E DO SUL                                     	               	          
+PORT AIRPORT RESEARCH INSTITUTE              	              1	     0.048
+POWER CHINA CHENGDU ENGN CORP LTD            	              1	     0.048
+PRINCE OF SONGKLA UNIVERSITY                 	              1	     0.048
+PRINCE SULTAN UNIVERSITY                     	              1	     0.048
+PRINCETON UNIVERSITY                         	              1	     0.048
+PSNA COLLEGE OF ENGINEERING TECHNOLOGY       	              1	     0.048
+PUSAN NATIONAL UNIVERSITY                    	              1	     0.048
+QATAR FOUNDATION QF                          	              1	     0.048
+QIANNAN NORMAL COLL NATL                     	              1	     0.048
+QINGDAO HIGHWAY BRIDGE GRP CO LTD            	              1	     0.048
+QINGDAO MUNICIPAL GRP CO LTD                 	              1	     0.048
+QINGDAO QINGXIN SUNSHINE GRP CO LTD          	              1	     0.048
+QINGHAI PROV DEPT TRANSPORTAT                	              1	     0.048
+QINGHAI TRANSPORTAT PLANNING DESIGN RES INST 	              1	     0.048
+CO                                           	               	          
+QINGHAI UNIVERSITY                           	              1	     0.048
+QINGPU RECYCLE BLDG MAT CO LTD               	              1	     0.048
+QINGZHOU RENHE RESERVOIR ADMINISTRAT         	              1	     0.048
+QUAID E AWAM UNIV ENGN                       	              1	     0.048
+QUAID E AWAM UNIV ENGN SCI TECHNOL           	              1	     0.048
+QUAID I AZAM UNIVERSITY                      	              1	     0.048
+QUEENSLAND UNIVERSITY OF TECHNOLOGY QUT      	              1	     0.048
+QUJING NORMAL UNIVERSITY                     	              1	     0.048
+R V COLLEGE OF ENGINEERING                   	              1	     0.048
+RAYAT BAHRA UNIV                             	              1	     0.048
+RAZI UNIVERSITY                              	              1	     0.048
+RDC RES DEV CONCRETES                        	              1	     0.048
+RECTICEL NV                                  	              1	     0.048
+RENDERS ENGN CONSULTANTS                     	              1	     0.048
+REPUBL INDONESIA DEF UNIV                    	              1	     0.048
+RES DEV CTR TRANSPORT IND NEW MAT TECHNOL APP	              1	     0.048
+LIC                                          	               	          
+RES INST CONSTRUCT DEV                       	              1	     0.048
+RES INST HIGHWAY MINIST TRANSPORT            	              1	     0.048
+REUTLINGEN UNIV                              	              1	     0.048
+REYKJAVIK UNIVERSITY                         	              1	     0.048
+RICE UNIVERSITY                              	              1	     0.048
+RIGA TECH UNIV P VALDENA                     	              1	     0.048
+ROCKET FORCE UNIVERSITY OF ENGINEERING       	              1	     0.048
+ROYAL AGRICULTURAL UNIVERSITY                	              1	     0.048
+RUSSIAN ACAD ENGN                            	              1	     0.048
+RUSSIAN STATE UNIVERSITY OF TOURISM SERVICE  	              1	     0.048
+SAINT PETERSBURG MINING UNIVERSITY           	              1	     0.048
+SAITAMA UNIVERSITY                           	              1	     0.048
+SAM HOUSTON STATE UNIVERSITY                 	              1	     0.048
+SANJAY GANDHI SMRITI GOVT PG AUTO COLL       	              1	     0.048
+SARDAR VALLABHBHAI NATIONAL INSTITUTE OF TECH	              1	     0.048
+NOLOGY                                       	               	          
+SAVEETHA DENTAL COLLEGE HOSPITAL             	              1	     0.048
+SAVITRIBAI PHULE PUNE UNIVERSITY             	              1	     0.048
+SCHLUMBERGER                                 	              1	     0.048
+SCHLUMBERGER OILFIELD UK PLC                 	              1	     0.048
+SEMNAN UNIVERSITY                            	              1	     0.048
+SEMYOUNG UNIV                                	              1	     0.048
+SEOUL NATIONAL UNIVERSITY HOSPITAL           	              1	     0.048
+SEOUL NATL UNIV SNU                          	              1	     0.048
+SERIC CO LTD                                 	              1	     0.048
+SGIDI ENGN CONSULTING GRP CO LTD             	              1	     0.048
+SHAHED UNIVERSITY                            	              1	     0.048
+SHAHEED BHAGAT SINGH STATE UNIV              	              1	     0.048
+SHAHID ASHRAFI ESFAHANI UNIV                 	              1	     0.048
+SHAHID RAJAEE TEACHER TRAINING UNIVERSITY SRT	              1	     0.048
+TU                                           	               	          
+SHANDONG ENGN LAB DENT MAT ORAL TISSUE REGENE	              1	     0.048
+RA                                           	               	          
+SHANDONG HI SPEED CO LTD                     	              1	     0.048
+SHANDONG HISPEED RD BRIDGE TECHNOL CO LTD    	              1	     0.048
+SHANDONG JIANZHU UNIVERSITY                  	              1	     0.048
+SHANDONG KEY LAB ORAL TISSUE REGENERAT       	              1	     0.048
+SHANDONG NORMAL UNIVERSITY                   	              1	     0.048
+SHANDONG PROV KEY LAB PREPARAT MEASUREMENT BL	              1	     0.048
+DG                                           	               	          
+SHANDONG PROV WATER RESOURCES RES INST       	              1	     0.048
+SHANDONG PROVINCIAL WATER RESOURCE RES INST  	              1	     0.048
+SHANDONG RES INST IND TECHNOL                	              1	     0.048
+SHANDONG TRANSPORTAT INST                    	              1	     0.048
+SHANDONG UNIVERSITY OF TECHNOLOGY            	              1	     0.048
+SHANGHAI AEROSP CONTROL TECHNOL INST         	              1	     0.048
+SHANGHAI CONSTRUCT GRP CO LTD                	              1	     0.048
+SHANGHAI INSTITUTE OF APPLIED PHYSICS CAS    	              1	     0.048
+SHANGHAI KEY LAB AEROSP INTELLIGENT CONTROL T	              1	     0.048
+ECHN                                         	               	          
+SHANGHAI KEY LAB ENGN STRUCT SAFETY          	              1	     0.048
+SHANGHAI MUNICIPAL ENGN DESIGN INST GRP CO LT	              1	     0.048
+D                                            	               	          
+SHANGHAI RES INST BLDG SCI CO LTD            	              1	     0.048
+SHANGHAI TIANGU HOUSING INSPECT CO LTD       	              1	     0.048
+SHANGHAI UNIVERSITY                          	              1	     0.048
+SHANGQIU INST TECHNOL                        	              1	     0.048
+SHARP EDGE LABS                              	              1	     0.048
+SHENYANG UNIVERSITY                          	              1	     0.048
+SHENYANG UNIVERSITY OF TECHNOLOGY            	              1	     0.048
+SHENZHEN INSTITUTE OF ADVANCED TECHNOLOGY CAS	              1	     0.048
+SHENZHEN KEY LAB GREEN                       	              1	     0.048
+SHENZHEN KEY LAB GREEN EFFICIENT INTELLIGENT 	              1	     0.048
+CO                                           	               	          
+SHENZHEN MUNICIPAL KEY LAB DURABIL CIVIL ENGN	              1	     0.048
+STR                                          	               	          
+SHIBAURA INSTITUTE OF TECHNOLOGY             	              1	     0.048
+SHRI MATA VAISHNO DEVI UNIVERSITY            	              1	     0.048
+SICHUAN AGRICULTURAL UNIVERSITY              	              1	     0.048
+SICHUAN ENGN TECHNOL RES CTR TRANSPORTAT CIVI	              1	     0.048
+L E                                          	               	          
+SIDDHARTH INSTITUTE OF ENGINEERING TECHNOLOGY	              1	     0.048
+SIKSHA O ANUSANDHAN UNIVERSITY               	              1	     0.048
+SILESIAN UNIVERSITY OF TECHNOLOGY            	              1	     0.048
+SIM                                          	              1	     0.048
+SIM ZW                                       	              1	     0.048
+SINGAPORE CENTRE FOR 3D PRINTING             	              1	     0.048
+SINOHYDRO BUR 11 CO LTD                      	              1	     0.048
+SINOHYDRO BUR 3 CO LTD                       	              1	     0.048
+SINTEE PETR RES                              	              1	     0.048
+SKANSKA AB                                   	              1	     0.048
+SKIT JAIPUR                                  	              1	     0.048
+SLOVAK ACADEMY OF SCIENCES                   	              1	     0.048
+SLOVENIAN NATIONAL BUILDING CIVIL ENGINEERING	              1	     0.048
+INSTITUTE                                    	               	          
+SOBOTE NEW MAT CO LTD                        	              1	     0.048
+SONGWON UNIV                                 	              1	     0.048
+SOONGSIL UNIVERSITY                          	              1	     0.048
+SORAN UNIVERSITY                             	              1	     0.048
+SOUTH CHINA NORMAL UNIVERSITY                	              1	     0.048
+SOUTH CHINA SEA INSTITUTE OF OCEANOLOGY CAS  	              1	     0.048
+SOUTH SOUTHEAST FED UNIV PARA NOVA MARABA    	              1	     0.048
+SOUTHERN FEDERAL UNIVERSITY                  	              1	     0.048
+SOUTHERN MARINE SCI ENGN GUANGDONG LAB       	              1	     0.048
+SOUTHERN UNIVERSITY A M COLLEGE              	              1	     0.048
+SOUTHERN UNIVERSITY SYSTEM                   	              1	     0.048
+SREE CHAITANYA COLL ENGN                     	              1	     0.048
+SRI KRISHNA COLLEGE OF ENGINEERING TECHNOLOGY	              1	     0.048
+SRI SARADA COLL WOMEN                        	              1	     0.048
+SRI VENKATESWARA COLL ENGN                   	              1	     0.048
+SRI VENKATESWARA UNIVERSITY                  	              1	     0.048
+SRIRAM ENGN COLL                             	              1	     0.048
+SSN COLLEGE OF ENGINEERING                   	              1	     0.048
+ST PETERS COLL ENGN TECHNOL                  	              1	     0.048
+ST PETERS ENGN COLL AUTONOMOUS               	              1	     0.048
+STANFORD UNIVERSITY                          	              1	     0.048
+STATE KEY LAB FEATURED MET MAT LIFE CYCLE SAF	              1	     0.048
+ETY                                          	               	          
+STATE KEY LAB HIGH PERFORMANCE CIVIL ENGN MAT	              1	     0.048
+STATE KEY LAB NBC PROTECT CIVILIAN           	              1	     0.048
+STATE KEY LAB PETR RESOURCES ENGN            	              1	     0.048
+STATE OIL COMPANY OF THE AZERBAIJAN REPUBLIC 	              1	     0.048
+SOCAR                                        	               	          
+STATE POLYTECH SRIWIJAYA                     	              1	     0.048
+STEVENS INSTITUTE OF TECHNOLOGY              	              1	     0.048
+STRATEG INITIAT MAT                          	              1	     0.048
+STRATEG INITIAT MAT SIM                      	              1	     0.048
+SUEZ UNIVERSITY                              	              1	     0.048
+SUSTAINABLE CONSTRUCT MAT ASSOC C5LAB        	              1	     0.048
+SUZHOU ION TECH NANO TECHNOL CO LTD          	              1	     0.048
+SW UMWELTTECH ROMANIA                        	              1	     0.048
+TABRIZ UNIVERSITY OF MEDICAL SCIENCE         	              1	     0.048
+TAIHEIYO CONSULTANT CO LTD                   	              1	     0.048
+TAISHAN UNIVERSITY                           	              1	     0.048
+TAKENAKA CORPORATION                         	              1	     0.048
+TALLINN UNIVERSITY OF TECHNOLOGY             	              1	     0.048
+TANTA UNIVERSITY                             	              1	     0.048
+TARBIAT MODARES UNIVERSITY                   	              1	     0.048
+TAYLOR S UNIVERSITY                          	              1	     0.048
+TECH POLYTECH UNIV CARTAGENA                 	              1	     0.048
+TECH SCH MILEVA MARIC AJNSTAJN               	              1	     0.048
+TECH VOCAT UNIV TVU                          	              1	     0.048
+TECHNICAL UNIVERSITY OF CRETE                	              1	     0.048
+TECHNICAL UNIVERSITY OF OSTRAVA              	              1	     0.048
+TECHNISCHE UNIVERSITAT CHEMNITZ              	              1	     0.048
+TECHNOL RES INST STATE SERGIPE               	              1	     0.048
+TECNALIA MAT                                 	              1	     0.048
+TECNOL NACL MEXICO IT CHETUMAL               	              1	     0.048
+TENNESSEE STATE UNIVERSITY                   	              1	     0.048
+TERRACON CONSULTING INC                      	              1	     0.048
+TEXAS DEPT TRANSPORTAT                       	              1	     0.048
+THE INSTITUTE OF MATERIALS RESEARCH SAS      	              1	     0.048
+TIANJIN CHENGJIAN UNIVERSITY                 	              1	     0.048
+TIANJIN KEY LAB CIVIL STRUCT PROTECT REINFORC	              1	     0.048
+EM                                           	               	          
+TIANJIN RESEARCH INSTITUTE FOR WATER TRANSPOR	              1	     0.048
+T ENGINEERING                                	               	          
+TIME INT                                     	              1	     0.048
+TOHOKU INSTITUTE TECHNOLOGY                  	              1	     0.048
+TOKYU CONSTRUCT CO LTD                       	              1	     0.048
+TOMSK POLYTECHNIC UNIVERSITY                 	              1	     0.048
+TOMSK STATE UNIVERSITY ARCHITECTURE BUILDING 	              1	     0.048
+TOSHIBA CORPORATION                          	              1	     0.048
+TOYAMA PREFECTURAL UNIVERSITY                	              1	     0.048
+TRABITS GRP                                  	              1	     0.048
+TRACTEBEL ENGIE                              	              1	     0.048
+TRANSPORT PLANNING RES INST MINIST TRANSPORT 	              1	     0.048
+TREMCO CPG INC                               	              1	     0.048
+TU CLAUSTHAL                                 	              1	     0.048
+TUFIDCO                                      	              1	     0.048
+TUNNELS UNDERGROUND INFRASTRUCT              	              1	     0.048
+UENF STATE UNIV NORTHERN RIO DE JANEIRO      	              1	     0.048
+ULM UNIVERSITY                               	              1	     0.048
+UMM AL QURA UNIVERSITY                       	              1	     0.048
+UNISINOS UNIV                                	              1	     0.048
+UNITED ARAB EMIRATES UNIVERSITY              	              1	     0.048
+UNIV ABULYATAMA                              	              1	     0.048
+UNIV BUSINESS TECHNOL                        	              1	     0.048
+UNIV ENGN TECHNOL UET                        	              1	     0.048
+UNIV EXTREMO CATARINENSE UNESC               	              1	     0.048
+UNIV FED RIO GRANDE UFRGS                    	              1	     0.048
+UNIV FED RIO JANEIRO                         	              1	     0.048
+UNIV FEDERICO SANTA MARIA UTFSM              	              1	     0.048
+UNIV GARMIAN                                 	              1	     0.048
+UNIV HALABJA                                 	              1	     0.048
+UNIV INFORMAT COMMUN TECHNOL                 	              1	     0.048
+UNIV KERALA TRIVANDRUM                       	              1	     0.048
+UNIV NACL CHIMBORAZO                         	              1	     0.048
+UNIV NACL CHIMBORAZO UNACH                   	              1	     0.048
+UNIV PELOPONNESE                             	              1	     0.048
+UNIV RIO DE JANEIRO UFRJ                     	              1	     0.048
+UNIV SEBELEAS MARET                          	              1	     0.048
+UNIV SUMATERA                                	              1	     0.048
+UNIV UTE                                     	              1	     0.048
+UNIV VALE TAQUARI UNIVATES                   	              1	     0.048
+UNIV VISVESVARAYA COLL ENGN                  	              1	     0.048
+UNIV WEST ENGLAND                            	              1	     0.048
+UNIV YOZGAT BOZOK                            	              1	     0.048
+UNIVERSIDAD ANDRES BELLO                     	              1	     0.048
+UNIVERSIDAD AUTONOMA DEL ESTADO DE HIDALGO   	              1	     0.048
+UNIVERSIDAD DE CANTABRIA                     	              1	     0.048
+UNIVERSIDAD DE LA COSTA                      	              1	     0.048
+UNIVERSIDAD DE LEON                          	              1	     0.048
+UNIVERSIDAD DEL BIO BIO                      	              1	     0.048
+UNIVERSIDAD DEL DESARROLLO                   	              1	     0.048
+UNIVERSIDAD INDUSTRIAL DE SANTANDER          	              1	     0.048
+UNIVERSIDAD MICHOACANA DE SAN NICOLAS DE HIDA	              1	     0.048
+LGO                                          	               	          
+UNIVERSIDAD NACIONAL DE COLOMBIA             	              1	     0.048
+UNIVERSIDAD SANTO TOMAS USTA                 	              1	     0.048
+UNIVERSIDADE DA CORUNA                       	              1	     0.048
+UNIVERSIDADE DE COIMBRA                      	              1	     0.048
+UNIVERSIDADE DE PASSO FUNDO                  	              1	     0.048
+UNIVERSIDADE DE RIBEIRAO PRETO               	              1	     0.048
+UNIVERSIDADE DE VIGO                         	              1	     0.048
+UNIVERSIDADE DO ESTADO DE SANTA CATARINA     	              1	     0.048
+UNIVERSIDADE DO EXTREMO SUL CATARINENSE      	              1	     0.048
+UNIVERSIDADE ESTADUAL DE CAMPINAS            	              1	     0.048
+UNIVERSIDADE ESTADUAL DE LONDRINA            	              1	     0.048
+UNIVERSIDADE ESTADUAL DO NORTE DO PARANA UENP	              1	     0.048
+UNIVERSIDADE ESTADUAL DO NORTE FLUMINENSE    	              1	     0.048
+UNIVERSIDADE FEDERAL DE GOIAS                	              1	     0.048
+UNIVERSIDADE FEDERAL DE JUIZ DE FORA         	              1	     0.048
+UNIVERSIDADE FEDERAL DE MINAS GERAIS         	              1	     0.048
+UNIVERSIDADE FEDERAL DE PELOTAS              	              1	     0.048
+UNIVERSIDADE FEDERAL DE SERGIPE              	              1	     0.048
+UNIVERSIDADE FEDERAL DE UBERLANDIA           	              1	     0.048
+UNIVERSIDADE FEDERAL DO PAMPA                	              1	     0.048
+UNIVERSIDADE NOVA DE LISBOA                  	              1	     0.048
+UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA   	              1	     0.048
+UNIVERSIDADE TIRADENTES                      	              1	     0.048
+UNIVERSITA MEDITERRANEA DI REGGIO CALABRIA   	              1	     0.048
+UNIVERSITAS MULAWARMAN                       	              1	     0.048
+UNIVERSITAS NEGERI JAKARTA                   	              1	     0.048
+UNIVERSITAS NEGERI MALANG                    	              1	     0.048
+UNIVERSITAS TANJUNGPURA                      	              1	     0.048
+UNIVERSITAT POLITECNICA DE CATALUNYA         	              1	     0.048
+UNIVERSITE ABOU BEKR BELKAID                 	              1	     0.048
+UNIVERSITE CATHOLIQUE LOUVAIN                	              1	     0.048
+UNIVERSITE DE LORRAINE                       	              1	     0.048
+UNIVERSITE DE MONTPELLIER                    	              1	     0.048
+UNIVERSITE DE PAU ET DES PAYS DE L ADOUR     	              1	     0.048
+UNIVERSITE DE PICARDIE JULES VERNE UPJV      	              1	     0.048
+UNIVERSITE DE SOUSSE                         	              1	     0.048
+UNIVERSITE DE STRASBOURG                     	              1	     0.048
+UNIVERSITE DE TOULOUSE                       	              1	     0.048
+UNIVERSITE DE TUNIS EL MANAR                 	              1	     0.048
+UNIVERSITE FEDERALE TOULOUSE MIDI PYRENEES CO	              1	     0.048
+MUE                                          	               	          
+UNIVERSITE GRENOBLE ALPES UGA                	              1	     0.048
+UNIVERSITE PARIS CITE                        	              1	     0.048
+UNIVERSITE TOULOUSE III PAUL SABATIER        	              1	     0.048
+UNIVERSITES DE STRASBOURG ETABLISSEMENTS ASSO	              1	     0.048
+CIES                                         	               	          
+UNIVERSITETI I PRISHTINES                    	              1	     0.048
+UNIVERSITI MALAYSIA PAHANG AL SULTAN ABDULLAH	              1	     0.048
+UMPSA                                        	               	          
+UNIVERSITY COLLEGE OF SOUTHEAST NORWAY       	              1	     0.048
+UNIVERSITY MORATUWA                          	              1	     0.048
+UNIVERSITY OF AGRICULTURAL SCIENCES VETERINAR	              1	     0.048
+Y MEDICINE CLUJ NAPOCA                       	               	          
+UNIVERSITY OF AKRON                          	              1	     0.048
+UNIVERSITY OF ALABAMA SYSTEM                 	              1	     0.048
+UNIVERSITY OF ALABAMA TUSCALOOSA             	              1	     0.048
+UNIVERSITY OF AUCKLAND                       	              1	     0.048
+UNIVERSITY OF BAGHDAD                        	              1	     0.048
+UNIVERSITY OF BAHRAIN                        	              1	     0.048
+UNIVERSITY OF BASILICATA                     	              1	     0.048
+UNIVERSITY OF BELGRADE                       	              1	     0.048
+UNIVERSITY OF BERGAMO                        	              1	     0.048
+UNIVERSITY OF BIRJAND                        	              1	     0.048
+UNIVERSITY OF BOLOGNA                        	              1	     0.048
+UNIVERSITY OF CALABRIA                       	              1	     0.048
+UNIVERSITY OF CANTERBURY                     	              1	     0.048
+UNIVERSITY OF CYPRUS                         	              1	     0.048
+UNIVERSITY OF DAR ES SALAAM                  	              1	     0.048
+UNIVERSITY OF DUHOK                          	              1	     0.048
+UNIVERSITY OF EAST ANGLIA                    	              1	     0.048
+UNIVERSITY OF EDINBURGH                      	              1	     0.048
+UNIVERSITY OF GREENWICH                      	              1	     0.048
+UNIVERSITY OF HAWAII SYSTEM                  	              1	     0.048
+UNIVERSITY OF INDONESIA                      	              1	     0.048
+UNIVERSITY OF INNSBRUCK                      	              1	     0.048
+UNIVERSITY OF ISFAHAN                        	              1	     0.048
+UNIVERSITY OF KENTUCKY                       	              1	     0.048
+UNIVERSITY OF KITAKYUSHU                     	              1	     0.048
+UNIVERSITY OF LA REUNION                     	              1	     0.048
+UNIVERSITY OF LEOBEN                         	              1	     0.048
+UNIVERSITY OF LIVERPOOL                      	              1	     0.048
+UNIVERSITY OF LJUBLJANA                      	              1	     0.048
+UNIVERSITY OF LOUISIANA SYSTEM               	              1	     0.048
+UNIVERSITY OF MANCHESTER                     	              1	     0.048
+UNIVERSITY OF MARAGHEH                       	              1	     0.048
+UNIVERSITY OF MASSACHUSETTS LOWELL           	              1	     0.048
+UNIVERSITY OF MASSACHUSETTS SYSTEM           	              1	     0.048
+UNIVERSITY OF MEMPHIS                        	              1	     0.048
+UNIVERSITY OF MINNESOTA SYSTEM               	              1	     0.048
+UNIVERSITY OF MINNESOTA TWIN CITIES          	              1	     0.048
+UNIVERSITY OF MOHAGHEGH ARDABILI             	              1	     0.048
+UNIVERSITY OF NEBRASKA SYSTEM                	              1	     0.048
+UNIVERSITY OF NEW MEXICO                     	              1	     0.048
+UNIVERSITY OF NIGERIA                        	              1	     0.048
+UNIVERSITY OF NORTH TEXAS DENTON             	              1	     0.048
+UNIVERSITY OF NORTH TEXAS SYSTEM             	              1	     0.048
+UNIVERSITY OF NOTTINGHAM                     	              1	     0.048
+UNIVERSITY OF NOTTINGHAM NINGBO CHINA        	              1	     0.048
+UNIVERSITY OF OULU                           	              1	     0.048
+UNIVERSITY OF PAVOL JOZEF SAFARIK KOSICE     	              1	     0.048
+UNIVERSITY OF PECS                           	              1	     0.048
+UNIVERSITY OF PHAYAO                         	              1	     0.048
+UNIVERSITY OF POTSDAM                        	              1	     0.048
+UNIVERSITY OF PRETORIA                       	              1	     0.048
+UNIVERSITY OF SEOUL                          	              1	     0.048
+UNIVERSITY OF SEVILLA                        	              1	     0.048
+UNIVERSITY OF SOUTH AFRICA                   	              1	     0.048
+UNIVERSITY OF SOUTH CAROLINA COLUMBIA        	              1	     0.048
+UNIVERSITY OF SOUTH CAROLINA SYSTEM          	              1	     0.048
+UNIVERSITY OF SOUTH FLORIDA                  	              1	     0.048
+UNIVERSITY OF SOUTH WALES                    	              1	     0.048
+UNIVERSITY OF STRATHCLYDE                    	              1	     0.048
+UNIVERSITY OF SULIMANYAH                     	              1	     0.048
+UNIVERSITY OF TEXAS RIO GRANDE VALLEY        	              1	     0.048
+UNIVERSITY OF VETERINARY ANIMAL SCIENCE PAKIS	              1	     0.048
+TAN                                          	               	          
+UNIVERSITY OF VETERINARY MEDICINE KOSICE     	              1	     0.048
+UNIVERSITY OF WASHINGTON                     	              1	     0.048
+UNIVERSITY OF WASHINGTON SEATTLE             	              1	     0.048
+UNIVERSITY OF WATERLOO                       	              1	     0.048
+UNIVERSITY OF WINDSOR                        	              1	     0.048
+UNIVERSITY OF WISCONSIN MILWAUKEE            	              1	     0.048
+UNIVERSITY OF WURZBURG                       	              1	     0.048
+UNIVERSITY OF YAZD                           	              1	     0.048
+UNIVERSITY OF ZARAGOZA                       	              1	     0.048
+UNIVERSITY SCIENCE TECHNOLOGY HOUARI BOUMEDIE	              1	     0.048
+NE                                           	               	          
+URBAN INCERC                                 	              1	     0.048
+URBAN INCERC NATL RES INST                   	              1	     0.048
+USHA MARTIN UNIV                             	              1	     0.048
+UTSUNOMIYA UNIVERSITY                        	              1	     0.048
+VAIGAI COLL ENGN                             	              1	     0.048
+VARUVAN VADIVELAN INST TECHNOL               	              1	     0.048
+VEERAMMAL ENGN COLL                          	              1	     0.048
+VEL TECH RANGARAJAN DR SAGUNTHALA R D INSTITU	              1	     0.048
+TE OF SCIENCE TECHNOLOGY                     	               	          
+VELAGAPUDI RAMAKRISHNA SIDDHARTHA ENGINEERING	              1	     0.048
+COLLEGE                                      	               	          
+VELS INSTITUTE OF SCIENCE TECHNOLOGY ADVANCED	              1	     0.048
+STUDIES                                      	               	          
+VELTECH INST SCI TECHNOL                     	              1	     0.048
+VIA UNIVERSITY COLLEGE                       	              1	     0.048
+VIGNANA BHARATHI INST TECHNOL                	              1	     0.048
+VILNIUS GEDIMINAS TECH UNIV VILNIUS TECH     	              1	     0.048
+VILNIUSTECH                                  	              1	     0.048
+VINAYAKA MISSION S RESEARCH FOUNDATION       	              1	     0.048
+VIRGINIA TRANSPORTAT RES COUNCIL             	              1	     0.048
+VISVA BHARATI UNIVERSITY                     	              1	     0.048
+VISVESVARAYA NATIONAL INSTITUTE OF TECHNOLOGY	              1	     0.048
+NAGPUR                                       	               	          
+VIT AP UNIVERSITY                            	              1	     0.048
+VIT CHENNAI                                  	              1	     0.048
+VTT TECHNOL RES CTR FINLAND LTD              	              1	     0.048
+WASKITA BETON PRECAST                        	              1	     0.048
+WELL INTEGR CONSULTANT                       	              1	     0.048
+WESTEN SYDNEY UNIV                           	              1	     0.048
+WILHELM DYCKERHOFF INST BAUSTOFFTECHNOL      	              1	     0.048
+WILLY NAESSENS CONSTRUCT                     	              1	     0.048
+WROCLAW UNIVERSITY OF SCIENCE TECHNOLOGY     	              1	     0.048
+WUHAN COLLEGE ARTS SCI                       	              1	     0.048
+WUHAN UNIVERSITY OF SCIENCE TECHNOLOGY       	              1	     0.048
+XIAN SIYUAN UNIV                             	              1	     0.048
+XIAN UNIV PETR                               	              1	     0.048
+XIANGTAN UNIVERSITY                          	              1	     0.048
+XIHUA UNIVERSITY                             	              1	     0.048
+YALE UNIVERSITY                              	              1	     0.048
+YAMAGATA UNIVERSITY                          	              1	     0.048
+YANGTZE RIVER WATER RESOURCES PROTECTION BURE	              1	     0.048
+AU                                           	               	          
+YANSHAN UNIVERSITY                           	              1	     0.048
+YASOUJ UNIVERSITY                            	              1	     0.048
+YESHWANTRAO CHAVAN COLLEGE OF ENGINEERING    	              1	     0.048
+YILDIZ TECHNICAL UNIVERSITY                  	              1	     0.048
+YUNNAN ACAD BLDG RES                         	              1	     0.048
+YUNNAN RES INST BLDG SCI                     	              1	     0.048
+ZAKIR HUSAIN ENGN COLL                       	              1	     0.048
+ZHEJIANG A F UNIVERSITY                      	              1	     0.048
+ZHEJIANG HEXIN SCI TECHNOL CO LTD            	              1	     0.048
+ZHEJIANG INST TIANJIN UNIV SHAOXING          	              1	     0.048
+ZHEJIANG LUBAN BLDG WATERPROOF MAT CO LTD    	              1	     0.048
+ZHEJIANG OCEAN UNIVERSITY                    	              1	     0.048
+ZHENGZHOU UNIVERSITY OF AERONAUTICS          	              1	     0.048
+ZHENJIANG HIGHWAY DEV CTR                    	              1	     0.048
+ZHONG DIAN JIAN JI JIAO EXPRESSWAY INVESTMENT	              1	     0.048
+DEV                                          	               	          
+
+9 record(s) (0.430%) do not contain data in the field being analyzed
