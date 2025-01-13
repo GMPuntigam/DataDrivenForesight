@@ -815,5 +815,3 @@ YONSEI UNIVERSITY HEALTH SYSTEM              	              1	     0.157
 ZHEJIANG A F UNIVERSITY                      	              1	     0.157
 ZHEJIANG SCI TECH UNIVERSITY                 	              1	     0.157
 ZHENGZHOU UNIVERSITY                         	              1	     0.157
-
-2 record(s) (0.314%) do not contain data in the field being analyzed

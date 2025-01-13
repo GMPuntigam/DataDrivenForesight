@@ -1762,5 +1762,3 @@ ZHENGZHOU UNIVERSITY OF AERONAUTICS          	              1	     0.048
 ZHENJIANG HIGHWAY DEV CTR                    	              1	     0.048
 ZHONG DIAN JIAN JI JIAO EXPRESSWAY INVESTMENT	              1	     0.048
 DEV                                          	               	          
-
-9 record(s) (0.430%) do not contain data in the field being analyzed

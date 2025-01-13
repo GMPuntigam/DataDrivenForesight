@@ -2910,5 +2910,3 @@ ZR RES INST ADV MAT                          	              1	     0.027
 ZSW ZENTRUM SONNENENERGIE WASSERSTOFF FORSCH 	              1	     0.027
 BA                                           	               	          
 ZUNYI MEDICAL UNIVERSITY                     	              1	     0.027
-
-12 record(s) (0.330%) do not contain data in the field being analyzed

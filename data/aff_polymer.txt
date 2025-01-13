@@ -4689,5 +4689,3 @@ ZHUJI PEOPLES HOSP                           	              1	     0.010
 ZOOLOGICAL INSTITUTE OF THE RUSSIAN ACADEMY O	              1	     0.010
 F SCIENCES                                   	               	          
 ZUNYI MEDICAL UNIVERSITY                     	              1	     0.010
-
-44 record(s) (0.419%) do not contain data in the field being analyzed

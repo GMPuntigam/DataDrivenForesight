@@ -18,6 +18,39 @@ def color_bar_by_label(bars, labels, label_to_color, color="coral"):
         if label == label_to_color:
             bar.set_color(color)
 
+def read_wos_txt(file_path):
+    #  Read the file into a DataFrame
+    df = pd.read_csv(file_path, sep="\t", engine="python", header=0)
+    df.columns = [colname.strip() for colname in df.columns]
+    
+    # Drop the "% of 10,494" column
+    df.drop(columns=df.columns[2], inplace=True)
+
+    # df["Record Count"] = df["Record Count"].fillna(0)
+    # df["Record Count"] = pd.to_numeric(df["Record Count"], errors="coerce")
+    # df["Record Count"] = df["Record Count"].fillna(0)
+    # df = df.astype({"Record Count":'int'})
+
+    # Reset index for ease of processing
+    df.reset_index(drop=True, inplace=True)
+
+    # Identify rows where "Record Count" is empty and handle affiliation merging
+    rows_to_drop = []
+    for i in range(1, len(df)):
+        df.loc[i, "Record Count"] = df.loc[i, "Record Count"].strip()
+        if df.loc[i, "Record Count"] == "":
+            # Append the "Affiliations" of the current row to the previous row
+            df.loc[i - 1, "Affiliations"] += f" {df.loc[i, 'Affiliations']}"
+            rows_to_drop.append(i)
+    
+    # Drop the rows identified earlier
+    df.drop(index=rows_to_drop, inplace=True)
+    df = df.astype({"Record Count":'int'})
+    # Reset the index again
+    df.reset_index(drop=True, inplace=True)
+    df.rename(columns={"Record Count": "Count"}, inplace=True)
+    return df
+
 
 populations_file = os.path.join(dirname, r'data/populations.xlsx')  # data from https://www.census.gov/data-tools/demo/idb/#/table?dashboard_page=country&COUNTRY_YR_ANIM=2025&menu=tableViz, January 2025
 data_populations = pd.read_excel(populations_file, header=1)
@@ -40,7 +73,7 @@ cutoffs_dict_lower = {"cement": 6,
                       "metal": 8}
 
 for materialstring in materialstrings:
-    affiliations_file = os.path.join(dirname, r'data/affiliations_' + materialstring +'_wos.xlsx')  
+    affiliations_file = os.path.join(dirname, r'data/aff_' + materialstring +'.txt') 
     countries_file = os.path.join(dirname, r'data/countries_' + materialstring +'_wos.xlsx')  
     countries_population_plot_path = os.path.join(dirname, r'graphs/countries_population_' + materialstring)  # Replace with your local file path
     affiliations_plot_path = os.path.join(dirname, r'graphs/affiliation_' + materialstring +'')  # Replace with your local file path
@@ -51,7 +84,8 @@ for materialstring in materialstrings:
     butterfly_plot_path = os.path.join(dirname, r'graphs/butterfly_' + materialstring) 
 
     # Load the data into DataFrames
-    data_affiliations = pd.read_excel(affiliations_file)
+    
+    data_affiliations = read_wos_txt(affiliations_file)
     data_countries = pd.read_excel(countries_file)
     uk_country_list = ["SCOTLAND", "NORTH IRELAND", "ENGLAND", "WALES"]
     for country in uk_country_list:
@@ -140,18 +174,18 @@ for materialstring in materialstrings:
     #-------------------------------
     # Plot affiliations bar chart low numbers
     #-------------------------------
-    plt.figure(figsize=(10, 6))
-    plt.barh(data_affiliations_filtered_low['Affiliations'], data_affiliations_filtered_low['Count'])
-    plt.title(f'Affiliations and Their Counts (Excluding Counts above {cutoffs_dict_lower[materialstring]})')
-    plt.ylabel('Affiliations')
-    plt.xlabel('Count')
+    # plt.figure(figsize=(10, 6))
+    # plt.barh(data_affiliations_filtered_low['Affiliations'], data_affiliations_filtered_low['Count'])
+    # plt.title(f'Affiliations and Their Counts (Excluding Counts above {cutoffs_dict_lower[materialstring]})')
+    # plt.ylabel('Affiliations')
+    # plt.xlabel('Count')
 
-    ax = plt.gca()
-    ax.grid(which='major', axis='x', linestyle='-')
-    ax.set_axisbelow(True)
-    plt.tight_layout()
-    plt.savefig(affiliations_low_plot_path)
-    plt.close()
+    # ax = plt.gca()
+    # ax.grid(which='major', axis='x', linestyle='-')
+    # ax.set_axisbelow(True)
+    # plt.tight_layout()
+    # plt.savefig(affiliations_low_plot_path)
+    # plt.close()
 
     #-------------------------------
     # Plot affiliations histogram chart just numbers
@@ -169,6 +203,7 @@ for materialstring in materialstrings:
     ax.xaxis.set_major_locator(MaxNLocator(integer=True))
     ax.tick_params(axis='y', which='major', color='black', width=1.5, length=0)
     ax.tick_params(axis='y', which='minor', color='black', width=1.5, length=0)
+    ax.set_yscale('log')
     current_ticks = ax.get_xticks()
     current_labels = [tick.get_text() for tick in ax.get_xticklabels()]  # Retrieve the current labels
 
@@ -435,8 +470,9 @@ plt.close()
 
 hist_data = []
 for materialstring in materialstrings:
-    affiliations_file = os.path.join(dirname, r'data/affiliations_' + materialstring +'_wos.xlsx')  
-    data_affiliations = pd.read_excel(affiliations_file)
+    affiliations_file = os.path.join(dirname, r'data/aff_' + materialstring +'.txt') 
+    data_affiliations = read_wos_txt(affiliations_file) 
+    # data_affiliations = pd.read_excel(affiliations_file)
     # counts_of_counts = data_affiliations["Count"].value_counts()
     hist_data.append(data_affiliations["Count"])
 #-------------------------------
@@ -456,6 +492,7 @@ ax.yaxis.set_major_locator(MaxNLocator(integer=True))
 ax.xaxis.set_major_locator(MaxNLocator(integer=True))
 ax.tick_params(axis='y', which='major', color='black', width=1.5, length=0)
 ax.tick_params(axis='y', which='minor', color='black', width=1.5, length=0)
+ax.set_yscale('log')
 current_ticks = ax.get_xticks()
 current_labels = [tick.get_text() for tick in ax.get_xticklabels()]  # Retrieve the current labels
 
