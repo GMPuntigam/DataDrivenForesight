@@ -442,8 +442,8 @@ for materialstring in materialstrings:
 #-------------------------------
 plt.figure(figsize=(10, 6))
 bins = range(min([hist_data[i].min() for i in range(len(hist_data))]), max([hist_data[i].max() for i in range(len(hist_data))]) + 1, 1)
-
-p = plt.hist(hist_data, bins=bins, edgecolor='none', color=colors, alpha=0.7, stacked=True, label=materialstrings)
+for i, materialstring in zip(range(len(hist_data)), materialstrings):
+    p = plt.hist(hist_data[i], bins=bins, edgecolor='none', color=materialstring_to_color[materialstring], alpha=0.5, stacked=False, label=materialstring)
 plt.title(f'Stacked histogram for number of publications per Institute for all material types')
 plt.legend(title="Materials")
 plt.ylabel('Number of Institues with Count')
@@ -451,6 +451,7 @@ plt.xlabel('Publication Count')
 ax = plt.gca()
 ax.grid(which='major', axis='both', linestyle='-')
 ax.set_axisbelow(True)
+ax.set_xlim(1, 100)
 ax.yaxis.set_major_locator(MaxNLocator(integer=True))
 ax.xaxis.set_major_locator(MaxNLocator(integer=True))
 ax.tick_params(axis='y', which='major', color='black', width=1.5, length=0)
@@ -458,10 +459,14 @@ ax.tick_params(axis='y', which='minor', color='black', width=1.5, length=0)
 current_ticks = ax.get_xticks()
 current_labels = [tick.get_text() for tick in ax.get_xticklabels()]  # Retrieve the current labels
 
+#remove 0
+current_ticks = current_ticks[1:]
+current_labels = current_labels[1:]
+
 # Adjust tick positions by adding 0.5
 new_ticks = [tick + 0.5 for tick in current_ticks]
 plt.xticks([1.5] + new_ticks, ["1"] + current_labels)
-ax.set_xlim(1, ax.get_xlim()[1])
+
 plt.tight_layout()
 affiliations_histogram_stacked_plot_path = os.path.join(dirname, r'graphs/affiliation_histogram_stacked')
 plt.savefig(affiliations_histogram_stacked_plot_path)
